@@ -1,0 +1,12 @@
+{
+    "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+    "connection.url": "jdbc:postgresql://your-pagila-database-url.us-east-1.rds.amazonaws.com:5432/pagila",
+    "connection.user": "your-username",
+    "connection.password": "your-password",
+    "topic.prefix": "pagila.public.",
+    "poll.interval.ms": 5000,
+    "mode": "timestamp",
+    "catalog.pattern": "public",
+    "table.whitelist": "address, city, country",
+    "timestamp.column.name": "last_update"
+}

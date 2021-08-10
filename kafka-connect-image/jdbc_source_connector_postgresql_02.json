@@ -1,0 +1,20 @@
+{
+    "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+    "connection.url": "jdbc:postgresql://your-pagila-database-url.us-east-1.rds.amazonaws.com:5432/pagila",
+    "connection.user": "your-username",
+    "connection.password": "your-password",
+    "topic.prefix": "pagila.query",
+    "poll.interval.ms": 5000,
+    "mode": "timestamp",
+    "timestamp.column.name": "last_update",
+    "query": "SELECT * FROM (SELECT a.address_id, a.address, a.address2, city.city, a.district, a.postal_code, country.country, a.phone, a.last_update FROM address AS a INNER JOIN city ON a.city_id = city.city_id INNER JOIN country ON country.country_id = city.country_id ORDER BY address_id) AS subquery",
+    "incrementing.column.name": "address_id",
+    "transforms": "createKey,extractInt,InsertTopic",
+    "transforms.createKey.type": "org.apache.kafka.connect.transforms.ValueToKey",
+    "transforms.createKey.fields": "address_id",
+    "transforms.extractInt.type": "org.apache.kafka.connect.transforms.ExtractField$Key",
+    "transforms.extractInt.field": "address_id",
+    "validate.non.null": "false",
+    "transforms.InsertTopic.type": "org.apache.kafka.connect.transforms.InsertField$Value",
+    "transforms.InsertTopic.topic.field": "message_topic"
+}

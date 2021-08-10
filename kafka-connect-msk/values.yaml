@@ -1,0 +1,5 @@
+serviceAccountName: kafka-connect-msk-iam-serviceaccount
+replicaCount: 1
+image:
+  image: garystafford/kafka-connect-msk:1.0.0
+  pullPolicy: IfNotPresent

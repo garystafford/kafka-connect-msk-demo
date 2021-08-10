@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafka-connect-msk
+  labels:
+    app: kafka-connect-msk
+    component: service
+spec:
+  replicas: {{ .Values.replicaCount }}
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: kafka-connect-msk
+      component: service
+  template:
+    metadata:
+      labels:
+        app: kafka-connect-msk
+        component: service
+    spec:
+      serviceAccountName: {{ .Values.serviceAccountName }}
+      containers:
+        - image: {{ .Values.image.image }}
+          name: kafka-connect-msk
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
