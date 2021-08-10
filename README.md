@@ -1,13 +1,13 @@
 # CDC with Amazon EKS, Amazon MSK, and Apache Kafka Connect
 
-Source code pproject for the post: [Hydrating a Data Lake using Change Data Capture (CDC), Apache Kafka, and Kubernetes on AWS
-Import data from an Amazon RDS database into an Amazon S3-based data lake using Amazon EKS, Amazon MSK, and Apache Kafka Connect](#)
+Source code for the
+post, [Hydrating a Data Lake using Change Data Capture (CDC), Apache Kafka, and Kubernetes on AWS Import data from an Amazon RDS database into an Amazon S3-based data lake using Amazon EKS, Amazon MSK, and Apache Kafka Connect](#)
 
 ## Architecture
 
 ![Architecture](diagrams/architecture.png)
 
-## Create K8s Service Account (IRSA)
+## Create the K8s Service Account (IRSA)
 
 ```shell
 export AWS_ACCOUNT=$(aws sts get-caller-identity --output text --query 'Account')
@@ -25,7 +25,7 @@ eksctl create iamserviceaccount \
   --override-existing-serviceaccounts
 ```
 
-# Connect to Kafka Connect Container on EKS
+## Exec into the Kafka Connect Container on EKS
 
 ```shell
 export KAFKA_CONTAINER=$(
@@ -45,7 +45,7 @@ tail -f logs/connect.log
 curl -X GET http://localhost:8083
 ```
 
-# Kafka Connect REST API Cheat Sheet
+## Kafka Connect REST API Cheat Sheet
 
 ```shell
 # get plugins
@@ -88,7 +88,7 @@ curl -s -X PUT -H "Content-Type:application/json" \
     -d '{"level": "TRACE"}' | jq '.'
 ```
 
-# Kafka / Kafka Connect API Cheat Sheet
+## Kafka / Kafka Connect API Cheat Sheet
 
 ```shell
 # list consumer groups
