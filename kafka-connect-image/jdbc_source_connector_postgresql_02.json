@@ -7,7 +7,7 @@
     "poll.interval.ms": 5000,
     "mode": "timestamp",
     "timestamp.column.name": "last_update",
-    "query": "SELECT * FROM (SELECT a.address_id, a.address, a.address2, city.city, a.district, a.postal_code, country.country, a.phone, a.last_update FROM address AS a INNER JOIN city ON a.city_id = city.city_id INNER JOIN country ON country.country_id = city.country_id ORDER BY address_id) AS subquery",
+    "query": "SELECT * FROM (SELECT a.address_id, a.address, a.address2, city.city, a.district, a.postal_code, country.country, a.phone, a.last_update FROM address AS a INNER JOIN city ON a.city_id = city.city_id INNER JOIN country ON country.country_id = city.country_id ORDER BY address_id) AS addresses",
     "incrementing.column.name": "address_id",
     "transforms": "createKey,extractInt,InsertTopic",
     "transforms.createKey.type": "org.apache.kafka.connect.transforms.ValueToKey",
