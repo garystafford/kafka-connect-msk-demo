@@ -1,7 +1,7 @@
 # CDC with Amazon EKS, Amazon MSK, and Apache Kafka Connect
 
 Source code for the
-post, [Hydrating a Data Lake using Change Data Capture (CDC), Apache Kafka, and Kubernetes on AWS Import data from an Amazon RDS database into an Amazon S3-based data lake using Amazon EKS, Amazon MSK, and Apache Kafka Connect](#)
+post, [Hydrating a Data Lake using Change Data Capture (CDC), Apache Kafka, and Kubernetes on AWS Import data from an Amazon RDS database into an Amazon S3-based data lake using Amazon EKS, Amazon MSK, and Apache Kafka Connect](https://itnext.io/hydrating-a-data-lake-using-query-based-cdc-with-apache-kafka-connect-and-kubernetes-on-aws-cd4725b58c2e)
 
 ## Architecture
 
@@ -12,7 +12,7 @@ post, [Hydrating a Data Lake using Change Data Capture (CDC), Apache Kafka, and 
 ```shell
 export AWS_ACCOUNT=$(aws sts get-caller-identity --output text --query 'Account')
 export EKS_REGION="us-east-1"
-export CLUSTER_NAME="your-eks-cluster"
+export CLUSTER_NAME="<your-eks-cluster>"
 export NAMESPACE="kafka"
 
 eksctl create iamserviceaccount \
