@@ -25,7 +25,7 @@ eksctl create iamserviceaccount \
   --override-existing-serviceaccounts
 ```
 
-## Exec into the Kafka Connect Container on EKS
+## Get a Shell to the Running Kafka Connect Container on EKS
 
 ```shell
 export KAFKA_CONTAINER=$(
