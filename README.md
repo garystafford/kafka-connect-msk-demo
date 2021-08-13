@@ -90,7 +90,7 @@ curl -s -X PUT -H "Content-Type:application/json" \
     -d '{"level": "TRACE"}' | jq '.'
 ```
 
-## Kafka / Kafka Connect API Cheat Sheet
+## Kafka Command-line Cheat Sheet
 
 ```shell
 # list consumer groups
@@ -112,6 +112,18 @@ bin/kafka-consumer-groups.sh --delete \
 
 # list topics
 bin/kafka-topics.sh --list \
+  --bootstrap-server $BBROKERS \
+  --command-config config/client-iam.properties
+
+# describe topic
+bin/kafka-topics.sh --describe \
+  --topic pagila.public.address \
+  --bootstrap-server $BBROKERS \
+  --command-config config/client-iam.properties
+
+# delete topic
+bin/kafka-topics.sh --delete \
+  --topic pagila.public.address \
   --bootstrap-server $BBROKERS \
   --command-config config/client-iam.properties
 
@@ -149,18 +161,6 @@ bin/kafka-configs.sh \
   --entity-type topics --alter \
   --entity-name pagila.public.address \
   --delete-config retention.ms \
-  --bootstrap-server $BBROKERS \
-  --command-config config/client-iam.properties
-
-# describe topic
-bin/kafka-topics.sh --describe \
-  --topic pagila.public.address \
-  --bootstrap-server $BBROKERS \
-  --command-config config/client-iam.properties
-
-# delete topic
-bin/kafka-topics.sh --delete \
-  --topic pagila.public.address \
   --bootstrap-server $BBROKERS \
   --command-config config/client-iam.properties
 
