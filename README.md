@@ -167,8 +167,9 @@ bin/kafka-configs.sh \
 # read messages from topic
 bin/kafka-console-consumer.sh \
   --topic pagila.public.alt.address --from-beginning --max-messages 10 \
-  --property print.key=true --property print.value=true --property print.offset=true \
-  --property print.partition=true --property print.headers=true --property print.timestamp=true \
+  --property print.key=true --property print.value=true \
+  --property print.offset=true --property print.partition=true \
+  --property print.headers=true --property print.timestamp=true \
   --bootstrap-server $BBROKERS \
   --consumer.config config/client-iam.properties
 
