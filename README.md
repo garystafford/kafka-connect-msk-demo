@@ -1,7 +1,7 @@
-# CDC with Amazon EKS, Amazon MSK, and Apache Kafka Connect
+# Hydrating a Data Lake using Query-based CDC with Apache Kafka Connect and Kubernetes on AWS
 
 Source code for the
-post, [Hydrating a Data Lake using Change Data Capture (CDC), Apache Kafka, and Kubernetes on AWS](https://itnext.io/hydrating-a-data-lake-using-query-based-cdc-with-apache-kafka-connect-and-kubernetes-on-aws-cd4725b58c2e)
+post, [Hydrating a Data Lake using Query-based CDC with Apache Kafka Connect and Kubernetes on AWS](https://itnext.io/hydrating-a-data-lake-using-query-based-cdc-with-apache-kafka-connect-and-kubernetes-on-aws-cd4725b58c2e)
 
 ## Architecture
 
