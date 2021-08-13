@@ -2,7 +2,7 @@
 
 ```shell
 # build
-export TAG="1.0.0"
+export TAG="1.1.0"
 
 # ***** CHANGE ME! *****
 #export BBROKERS=$(aws ssm get-parameter --name /msk/iam/brokers --query 'Parameter.Value' --output text)

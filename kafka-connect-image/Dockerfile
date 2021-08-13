@@ -52,7 +52,7 @@ RUN rm -rf *.zip
 RUN wget https://repo1.maven.org/maven2/io/debezium/debezium-connector-postgres/$CONNECT_DEBEZIUM.Final/debezium-connector-postgres-$CONNECT_DEBEZIUM.Final-plugin.tar.gz \
     && tar -xzf debezium-connector-postgres-$CONNECT_DEBEZIUM.Final-plugin.tar.gz \
     && rm -rf debezium-connector-postgres-$CONNECT_DEBEZIUM.Final-plugin.tar.gz \
-    && mv debezium-connector-postgres-$CONNECT_DEBEZIUM.Final-plugin $KAFKA_PLUGINS/
+    && mv debezium-connector-postgres $KAFKA_PLUGINS/
 
 # fixes dependency issues/errors with source connector
 RUN wget https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar \
@@ -67,8 +67,8 @@ RUN ls $KAFKA_PLUGINS/
 WORKDIR /$KAFKA_PACKAGE
 
 ## copy client props and connect config file(s)
-COPY *.properties config/
-COPY *.json config/
+COPY config/*.properties config/
+COPY config/*.json config/
 
 ENTRYPOINT ["/bin/bash", "-l", "-c"]
 
