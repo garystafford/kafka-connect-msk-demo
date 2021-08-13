@@ -41,13 +41,14 @@ kubectl exec -it $KAFKA_CONTAINER -n kafka -- bash
 bin/connect-distributed.sh config/connect-distributed.properties > /dev/null 2>&1 &
 
 tail -f logs/connect.log
-
-curl -X GET http://localhost:8083
 ```
 
 ## Kafka Connect REST API Cheat Sheet
 
 ```shell
+# check kafka connect status
+curl -X GET http://localhost:8083
+
 # get plugins
 curl -X GET http://localhost:8083/connector-plugins | jq
 
@@ -56,21 +57,22 @@ curl -s -d @"config/jdbc_source_connector_postgresql_00.json" \
     -H "Content-Type: application/json" \
     -X POST http://localhost:8083/connectors | jq
 
-# add source config with put (better!)
+# add source config with post
 curl -s -d @"config/s3_sink_connector_00.json" \
     -H "Content-Type: application/json" \
     -X POST http://localhost:8083/connectors | jq
 
-# add source config with put (better!)
+# add/update source config with put (better!)
 curl -s -d @"config/jdbc_source_connector_postgresql_00.json" \
     -H "Content-Type: application/json" \
     -X PUT http://localhost:8083/connectors/jdbc_source_connector_postgresql_00/config | jq
 
-# add sink config with put (better!)
+# add/update sink config with put (better!)
 curl -s -d @"config/s3_sink_connector_00.json" \
     -H "Content-Type: application/json" \
     -X PUT http://localhost:8083/connectors/s3_sink_connector_00/config | jq
 
+# get connectors
 curl -s -X GET http://localhost:8083/connectors | jq
 
 curl -s -H "Content-Type: application/json" \
@@ -82,7 +84,7 @@ curl -s -H "Content-Type: application/json" \
 curl -s -H "Content-Type: application/json" \
     -X DELETE http://localhost:8083/connectors/jdbc_source_connector_postgresql_00
 
-# logging
+# change log level
 curl -s -X PUT -H "Content-Type:application/json" \
     http://localhost:8083/admin/loggers/org.apache.kafka.connect.runtime.WorkerSourceTask \
     -d '{"level": "TRACE"}' | jq '.'
