@@ -15,6 +15,7 @@ ENV AWS_MSK_IAM_AUTH="1.1.0"
 ENV CONNECT_JDBC="10.2.1"
 ENV CONNECT_S3="10.0.1"
 ENV CONNECT_SOURCE_S3="1.4.6"
+ENV CONNECT_DEBEZIUM="1.6.1"
 #################
 
 RUN apk add --no-cache curl wget tar bash jq vim
@@ -46,6 +47,12 @@ RUN wget https://d1i4a15mxbxib1.cloudfront.net/api/plugins/confluentinc/kafka-co
     && mv confluentinc-kafka-connect-s3-$CONNECT_S3 $KAFKA_PLUGINS/
 
 RUN rm -rf *.zip
+
+# https://debezium.io/documentation/reference/1.6/connectors/postgresql.html
+RUN wget https://repo1.maven.org/maven2/io/debezium/debezium-connector-postgres/$CONNECT_DEBEZIUM.Final/debezium-connector-postgres-$CONNECT_DEBEZIUM.Final-plugin.tar.gz \
+    && tar -xzf debezium-connector-postgres-$CONNECT_DEBEZIUM.Final-plugin.tar.gz \
+    && rm -rf debezium-connector-postgres-$CONNECT_DEBEZIUM.Final-plugin.tar.gz \
+    && mv debezium-connector-postgres-$CONNECT_DEBEZIUM.Final-plugin $KAFKA_PLUGINS/
 
 # fixes dependency issues/errors with source connector
 RUN wget https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar \

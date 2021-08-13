@@ -1,0 +1,11 @@
+{
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "database.hostname": "your-pagila-database-url.us-east-1.rds.amazonaws.com",
+    "database.port": "5432",
+    "database.user": "your-username",
+    "database.password": "your-password",
+    "database.dbname": "pagila",
+    "database.server.name": "pagila",
+    "table.whitelist": "public.actor",
+    "plugin.name": "pgoutput"
+}
