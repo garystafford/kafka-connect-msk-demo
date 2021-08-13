@@ -25,7 +25,7 @@ eksctl create iamserviceaccount \
   --override-existing-serviceaccounts
 ```
 
-## Get a Shell to the Running Kafka Connect Container on EKS
+## Get a Shell into the Running Kafka Connect Container on EKS
 
 ```shell
 export KAFKA_CONTAINER=$(
@@ -35,7 +35,7 @@ export KAFKA_CONTAINER=$(
 kubectl exec -it $KAFKA_CONTAINER -n kafka -- bash
 ```
 
-## Start Kafka Connect
+## Start Kafka Connect as Background Process
 
 ```shell
 bin/connect-distributed.sh config/connect-distributed.properties > /dev/null 2>&1 &
