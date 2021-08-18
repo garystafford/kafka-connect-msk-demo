@@ -1,0 +1,6 @@
+serviceAccountName: kafka-connect-msk-iam-serviceaccount
+replicaCount: 1
+image:
+  imageKafka: garystafford/kafka-connect-msk:1.1.0
+  imageApicurio: apicurio/apicurio-registry-mem:2.0.1.Final
+  pullPolicy: IfNotPresent

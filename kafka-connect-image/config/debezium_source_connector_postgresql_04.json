@@ -6,6 +6,6 @@
     "database.password": "your-password",
     "database.dbname": "pagila",
     "database.server.name": "pagila",
-    "table.whitelist": "public.actor",
+    "table.include.list": "public.actor",
     "plugin.name": "pgoutput"
 }

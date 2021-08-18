@@ -7,6 +7,6 @@
     "poll.interval.ms": 5000,
     "mode": "timestamp",
     "catalog.pattern": "public",
-    "table.whitelist": "address, city, country",
+    "table.whitelist": "address,city,country",
     "timestamp.column.name": "last_update"
 }
