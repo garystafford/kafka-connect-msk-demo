@@ -1,11 +1,11 @@
 # Hydrating a Data Lake using Query-based CDC with Apache Kafka Connect and Kubernetes on AWS
 
 Source code for the
-post, [Hydrating a Data Lake using Query-based CDC with Apache Kafka Connect and Kubernetes on AWS](https://itnext.io/hydrating-a-data-lake-using-query-based-cdc-with-apache-kafka-connect-and-kubernetes-on-aws-cd4725b58c2e)
+posts, [Hydrating a Data Lake using Query-based CDC with Apache Kafka Connect and Kubernetes on AWS](https://itnext.io/hydrating-a-data-lake-using-query-based-cdc-with-apache-kafka-connect-and-kubernetes-on-aws-cd4725b58c2e) and [Hydrating a Data Lake using Log-based Change Data Capture (CDC) with Debezium, Apicurio, and Kafka Connect on AWS](https://garystafford.medium.com/hydrating-a-data-lake-using-log-based-change-data-capture-cdc-with-debezium-apicurio-and-kafka-799671e0012f).
 
 ## Architecture
 
-![Architecture](diagrams/architecture.png)
+![Architecture](diagrams/Kafka Connect Diagram v8.png)
 
 ## Create the K8s Service Account (IRSA)
 
