@@ -38,3 +38,10 @@ spec:
         - image: {{ .Values.image.imageApicurio }}
           name: apicurio-registry-mem
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - name: REGISTRY_DATASOURCE_URL
+              value: {{ .Values.image.registryDatasourceUrl }}
+            - name: REGISTRY_DATASOURCE_USERNAME
+              value: {{ .Values.image.registryDatasourceUsername }}
+            - name: REGISTRY_DATASOURCE_PASSWORD
+              value: {{ .Values.image.registryDatasourcePassword }}
