@@ -79,7 +79,7 @@ def summarize_sales(df_sales):
         .orderBy(F.col("sum(amount)").desc()) \
         .select("country",
                 (F.format_number(F.col("sum(amount)"), 2)).alias("sales"),
-                (F.col("count(amount)")).alias("orders")) \
+                F.col("count(amount)").alias("orders")) \
         .coalesce(1) \
         .writeStream \
         .queryName("streaming_to_console") \

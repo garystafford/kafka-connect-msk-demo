@@ -82,7 +82,7 @@ def summarize_sales(df_sales):
                  F.col("sum(amount)").desc()) \
         .select("country",
                 (F.format_number(F.col("sum(amount)"), 2)).alias("sales"),
-                (F.col("count(amount)")).alias("orders"),
+                F.col("count(amount)").alias("orders"),
                 "window.start", "window.end") \
         .coalesce(1) \
         .writeStream \

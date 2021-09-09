@@ -98,7 +98,7 @@ def summarize_sales(params, df_sales):
         .select(F.sha1("country").alias("id"),
                 "country",
                 (F.format_number(F.col("sum(amount)"), 2)).alias("sales"),
-                (F.col("count(amount)")).alias("orders")) \
+                F.col("count(amount)").alias("orders")) \
         .coalesce(1) \
         .selectExpr("CAST(id AS STRING) AS key",
                     "to_json(struct(*)) AS value") \
