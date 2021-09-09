@@ -8,7 +8,7 @@ posts:
 
 ## Architecture
 
-![Architecture](diagrams/Kafka Connect Diagram v8.png)
+![Architecture](diagrams/Kafka%20Connect%20Diagram%20v8.png)
 
 ## Create the K8s Service Account (IRSA)
 
