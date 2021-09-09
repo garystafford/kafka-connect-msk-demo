@@ -8,7 +8,6 @@ import time
 
 import boto3
 from ec2_metadata import ec2_metadata
-from pyspark import StorageLevel
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructField, StructType, IntegerType, StringType, FloatType
 
