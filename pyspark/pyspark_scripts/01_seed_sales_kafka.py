@@ -7,7 +7,8 @@ import os
 import boto3
 from ec2_metadata import ec2_metadata
 from pyspark.sql import SparkSession
-from pyspark.sql.types import StructField, StructType, IntegerType, StringType, FloatType
+from pyspark.sql.types import StructField, StructType, IntegerType, \
+    StringType, FloatType
 
 sales_data = "sales_seed.csv"
 topic_output = "pagila.sales.spark.streaming"
@@ -66,7 +67,8 @@ def write_to_kafka(params, df_sales):
     }
 
     df_sales \
-        .selectExpr("CAST(payment_id AS STRING) AS key", "to_json(struct(*)) AS value") \
+        .selectExpr("CAST(payment_id AS STRING) AS key",
+                    "to_json(struct(*)) AS value") \
         .write \
         .format("kafka") \
         .options(**options_write) \
