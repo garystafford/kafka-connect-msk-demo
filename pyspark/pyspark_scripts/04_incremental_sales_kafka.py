@@ -49,7 +49,7 @@ def read_from_csv(spark, params, schema):
         .csv(path=f"s3a://{params['kafka_demo_bucket']}/spark/{sales_data}",
              schema=schema, header=True, sep="|")
 
-    return df_sales.persist(StorageLevel.MEMORY_ONLY)
+    return df_sales
 
 
 def write_to_kafka(spark, params, df_sales, schema):
