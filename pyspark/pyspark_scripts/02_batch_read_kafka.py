@@ -1,5 +1,5 @@
-# Purpose: Batch read Kafka topic and aggregate sales and orders by country,
-#          to console and Amazon S3 as CSV
+# Purpose: Batch read Kafka topic, aggregate sales and orders by country,
+#          and output to console and Amazon S3 as CSV
 # Author:  Gary A. Stafford
 # Date: 2021-09-09
 
