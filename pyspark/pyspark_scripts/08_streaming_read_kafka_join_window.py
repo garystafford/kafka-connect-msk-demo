@@ -13,7 +13,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.types import StructField, StructType, IntegerType, \
     StringType, FloatType, TimestampType
 
-topic_input = "pagila.sales.spark.streaming.55"
+topic_input = "pagila.sales.spark.streaming.region"
 regions_data = "sales_regions.csv"
 
 os.environ['AWS_DEFAULT_REGION'] = ec2_metadata.region

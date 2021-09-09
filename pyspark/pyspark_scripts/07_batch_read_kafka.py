@@ -11,7 +11,7 @@ from ec2_metadata import ec2_metadata
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructField, StructType, IntegerType, StringType, TimestampType
 
-topic_input = "pagila.sales.spark.streaming.out.55"
+topic_input = "pagila.sales.spark.streaming.out"
 
 os.environ['AWS_DEFAULT_REGION'] = ec2_metadata.region
 ssm_client = boto3.client("ssm")

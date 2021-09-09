@@ -1,4 +1,4 @@
-# Purpose: Batch read Kafka topic and summarize by country and by total sales,
+# Purpose: Batch read Kafka topic and summarize sales and orders by country,
 #          to console and Amazon S3 as CSV
 # Author:  Gary A. Stafford
 # Date: 2021-09-04
@@ -13,7 +13,7 @@ from pyspark.sql.types import StructField, StructType, IntegerType, \
     StringType, FloatType, TimestampType
 from pyspark.sql.window import Window
 
-topic_input = "pagila.sales.spark.streaming.55"
+topic_input = "pagila.sales.spark.streaming"
 csv_output = "sales_by_country.csv"
 
 os.environ['AWS_DEFAULT_REGION'] = ec2_metadata.region

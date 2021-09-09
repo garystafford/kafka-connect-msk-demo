@@ -13,7 +13,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.types import StructField, StructType, IntegerType, StringType, FloatType
 
 sales_data = "sales_incremental_large.csv"
-topic_output = "pagila.sales.spark.streaming.55"
+topic_output = "pagila.sales.spark.streaming"
 time_between_messages = .5  # 1800 messages * .5 seconds = ~15 minutes
 
 os.environ['AWS_DEFAULT_REGION'] = ec2_metadata.region
