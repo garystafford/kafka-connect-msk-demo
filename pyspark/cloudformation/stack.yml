@@ -53,10 +53,6 @@ Resources:
             Path: !Join [ '', [ 's3://', !Ref ProjectBucketName, '/spark/bootstrap_actions.sh' ] ]
             Args:
               - !Ref ProjectBucketName
-      Configurations:
-        - Classification: spark-hive-site
-          ConfigurationProperties:
-            hive.metastore.client.factory.class: 'com.amazonaws.glue.catalog.metastore.AWSGlueDataCatalogHiveClientFactory'
       EbsRootVolumeSize: !Ref EbsRootVolumeSize
       Instances:
         Ec2KeyName: !Ref EC2SSHKey
