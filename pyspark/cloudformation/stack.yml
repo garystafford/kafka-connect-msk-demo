@@ -1,0 +1,86 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  Stack for Spark Structured Streaming with Kafka on EMR Demo. Deploys an EMR cluster.
+Parameters:
+  ProjectName:
+    Description: Project name that is prefixed to resource names
+    Type: String
+  EnvironmentName:
+    Description: Environment name (e.g., Development, Test, Production)
+    Type: String
+  PublicSubnet:
+    Description: The public subnet
+    Type: String
+  TerminationProtected:
+    Description: Set auto-termination on or off
+    Type: String
+  EC2SSHKey:
+    Description: EMR Master node SSH Keypair name
+    Type: String
+  MasterInstanceCount:
+    Description: Number of Master nodes
+    Type: Number
+  MasterInstanceType:
+    Description: EC2 instance type for Master nodes
+    Type: String
+  CoreInstanceCount:
+    Description: Number of Core nodes
+    Type: Number
+  CoreInstanceType:
+    Description: EC2 instance type for Core nodes
+    Type: String
+  ReleaseLabel:
+    Description: Version of EMR to deploy to cluster
+    Type: String
+  EbsRootVolumeSize:
+    Description: Size in GBs of EBS root volume
+    Type: String
+  ProjectBucketName:
+    Description: S3 bucket where EMR assets are located
+    Type: String
+Resources:
+  Cluster:
+    Type: AWS::EMR::Cluster
+    Properties:
+      Applications:
+        - Name: 'Hadoop'
+        - Name: 'Spark'
+        - Name: 'JupyterEnterpriseGateway'
+        - Name: 'Livy'
+      BootstrapActions:
+        - Name: bootstrap-script
+          ScriptBootstrapAction:
+            Path: !Join [ '', [ 's3://', !Ref ProjectBucketName, '/spark/bootstrap_actions.sh' ] ]
+            Args:
+              - !Ref ProjectBucketName
+      Configurations:
+        - Classification: spark-hive-site
+          ConfigurationProperties:
+            hive.metastore.client.factory.class: 'com.amazonaws.glue.catalog.metastore.AWSGlueDataCatalogHiveClientFactory'
+      EbsRootVolumeSize: !Ref EbsRootVolumeSize
+      Instances:
+        Ec2KeyName: !Ref EC2SSHKey
+        MasterInstanceGroup:
+          InstanceCount: !Ref MasterInstanceCount
+          InstanceType: !Ref MasterInstanceType
+          Market: ON_DEMAND
+          Name: MASTER
+        CoreInstanceGroup:
+          InstanceCount: !Ref CoreInstanceCount
+          InstanceType: !Ref CoreInstanceType
+          Market: ON_DEMAND
+          Name: CORE
+        TerminationProtected: !Ref TerminationProtected
+        Ec2SubnetId: !Ref PublicSubnet
+      Name: 'demo-cluster-cloudformation'
+      JobFlowRole: EMR_EC2_DefaultRole
+      ServiceRole: EMR_DefaultRole
+      ReleaseLabel: !Ref ReleaseLabel
+      StepConcurrencyLevel: 5
+      VisibleToAllUsers: true
+      LogUri: !Sub s3n://${ProjectBucketName}/emr/logs/
+      Tags:
+        - Key: Name
+          Value: !Sub ${ProjectName} Cluster
+        - Key: Environment
+          Value: !Ref EnvironmentName

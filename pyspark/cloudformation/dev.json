@@ -1,0 +1,50 @@
+[
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "Spark Structured Streaming with Kafka"
+  },
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "Development"
+  },
+  {
+    "ParameterKey": "EC2SSHKey",
+    "ParameterValue": "<your-ssk-key>"
+  },
+  {
+    "ParameterKey": "ProjectBucketName",
+    "ParameterValue": "<your-bucket-111222333444-us-east-1>"
+  },
+  {
+    "ParameterKey": "PublicSubnet",
+    "ParameterValue": "<your-subnet>"
+  },
+  {
+    "ParameterKey": "TerminationProtected",
+    "ParameterValue": "false"
+  },
+  {
+    "ParameterKey": "MasterInstanceCount",
+    "ParameterValue": "1"
+  },
+  {
+    "ParameterKey": "MasterInstanceType",
+    "ParameterValue": "m5.xlarge"
+  },
+  {
+    "ParameterKey": "CoreInstanceCount",
+    "ParameterValue": "2"
+  },
+  {
+    "ParameterKey": "CoreInstanceType",
+    "ParameterValue": "r5.2xlarge"
+  },
+  {
+    "ParameterKey": "ReleaseLabel",
+    "ParameterValue": "emr-6.3.0"
+  },
+  {
+    "ParameterKey": "EbsRootVolumeSize",
+    "ParameterValue": "32"
+  }
+]

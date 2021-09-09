@@ -1,0 +1,1801 @@
+payment_id|customer_id|amount|payment_date|city|district|country
+16666|204|3.99|2021-05-10 13:04:06.996577+00|Usak|Usak|Turkey
+17044|187|10.99|2021-05-10 13:08:19.996577+00|Sumy|Sumy|Ukraine
+16330|416|3.99|2021-05-10 13:11:40.996577+00|Dadu|Sind|Pakistan
+16283|390|7.99|2021-05-10 13:12:14.996577+00|Nakhon Sawan|Nakhon Sawan|Thailand
+16910|114|7.99|2021-05-10 13:20:41.996577+00|Duisburg|Nordrhein-Westfalen|Germany
+16363|436|6.99|2021-05-10 13:49:24.996577+00|Vancouver|British Colombia|Canada
+16249|373|7.99|2021-05-10 13:55:31.996577+00|Tanauan|Southern Tagalog|Philippines
+16485|502|5.99|2021-05-10 13:56:40.996577+00|Siliguri (Shiliguri)|West Bengali|India
+16451|482|11.99|2021-05-10 14:01:12.996577+00|Coatzacoalcos|Veracruz|Mexico
+16725|21|6.99|2021-05-10 14:10:46.996577+00|Tangail|Dhaka|Bangladesh
+16328|414|6.99|2021-05-10 14:12:49.996577+00|Allende|Guanajuato|Mexico
+17119|236|5.99|2021-05-10 14:15:22.996577+00|Tanza|Southern Tagalog|Philippines
+16391|449|7.99|2021-05-10 14:16:06.996577+00|Sirjan|Kerman|Iran
+17168|251|5.99|2021-05-10 14:29:15.996577+00|Halle/Saale|Anhalt Sachsen|Germany
+16122|303|3.99|2021-05-10 14:36:04.996577+00|Sanaa|Sanaa|Yemen
+17199|263|3.99|2021-05-10 14:36:31.996577+00|Mandaluyong|National Capital Reg|Philippines
+16333|417|7.99|2021-05-10 14:44:47.996577+00|al-Qatif|al-Sharqiya|Saudi Arabia
+16836|75|3.99|2021-05-10 14:47:34.996577+00|Changhwa|Changhwa|Taiwan
+16168|322|7.99|2021-05-10 14:48:12.996577+00|Baha Blanca|Buenos Aires|Argentina
+17073|200|12.99|2021-05-10 14:49:22.996577+00|Ashgabat|Ahal|Turkmenistan
+16866|92|8.99|2021-05-10 14:50:27.996577+00|Goinia|Gois|Brazil
+16828|71|12.99|2021-05-10 14:55:37.996577+00|Baybay|Eastern Visayas|Philippines
+17051|193|5.99|2021-05-10 14:58:02.996577+00|Kisumu|Nyanza|Kenya
+16139|311|8.99|2021-05-10 15:17:17.996577+00|Kursk|Kursk|Russian Federation
+16945|133|9.99|2021-05-10 15:38:19.996577+00|Torren|Coahuila de Zaragoza|Mexico
+16805|58|10.99|2021-05-10 15:44:33.996577+00|Kuching|Sarawak|Malaysia
+16763|45|5.99|2021-05-10 16:00:37.996577+00|Antofagasta|Antofagasta|Chile
+17084|214|6.99|2021-05-10 16:09:24.996577+00|Sunnyvale|California|United States
+16270|384|5.99|2021-05-10 16:31:16.996577+00|Huaian|Jiangsu|China
+17005|167|5.99|2021-05-10 17:05:24.996577+00|Chandrapur|Maharashtra|India
+16635|582|3.99|2021-05-10 17:18:01.996577+00|Huejutla de Reyes|Hidalgo|Mexico
+16082|282|9.99|2021-05-10 17:24:52.996577+00|Ponce|Ponce|Puerto Rico
+17138|242|6.99|2021-05-10 17:33:31.996577+00|Qinhuangdao|Hebei|China
+16218|359|11.99|2021-05-10 17:50:10.996577+00|Almirante Brown|Buenos Aires|Argentina
+16999|162|4.99|2021-05-10 18:10:06.996577+00|Le Mans|Pays de la Loire|France
+16242|371|9.99|2021-05-10 18:13:17.996577+00|Cabuyao|Southern Tagalog|Philippines
+16710|17|5.99|2021-05-10 18:13:20.996577+00|Elista|Kalmykia|Russian Federation
+16849|82|11.99|2021-05-10 18:16:15.996577+00|Simferopol|Krim|Ukraine
+16847|81|3.99|2021-05-10 18:29:35.996577+00|Mahajanga|Mahajanga|Madagascar
+16347|429|5.99|2021-05-10 18:36:59.996577+00|Tsuyama|Okayama|Japan
+16630|577|8.99|2021-05-10 18:49:13.996577+00|Tanshui|Taipei|Taiwan
+16519|515|9.99|2021-05-10 18:50:38.996577+00|Coquimbo|Coquimbo|Chile
+16988|158|8.99|2021-05-10 18:55:28.996577+00|Greensboro|North Carolina|United States
+16238|369|7.99|2021-05-10 18:58:23.996577+00|Jurez|Chihuahua|Mexico
+16819|65|7.99|2021-05-10 19:01:46.996577+00|Cayenne|Cayenne|French Guiana
+16422|468|9.99|2021-05-10 19:03:45.996577+00|Bijapur|Karnataka|India
+16771|48|5.99|2021-05-10 19:17:14.996577+00|Niznekamsk|Tatarstan|Russian Federation
+16408|460|3.99|2021-05-10 19:20:52.996577+00|Florencia|Caquet|Colombia
+16389|448|7.99|2021-05-10 19:24:02.996577+00|Erlangen|Baijeri|Germany
+16769|47|9.99|2021-05-10 19:25:26.996577+00|Juazeiro do Norte|Cear|Brazil
+16067|274|5.99|2021-05-10 19:34:40.996577+00|Karnal|Haryana|India
+16276|387|7.99|2021-05-10 19:42:12.996577+00|Lubumbashi|Shaba|Congo, The Democratic Republic of the
+16656|596|7.99|2021-05-10 19:45:18.996577+00|Patras|West Greece|Greece
+16548|534|8.99|2021-05-10 19:49:54.996577+00|Amroha|Uttar Pradesh|India
+16415|464|6.99|2021-05-10 19:50:33.996577+00|Rancagua|OHiggins|Chile
+16573|547|3.99|2021-05-10 20:00:23.996577+00|Kanazawa|Ishikawa|Japan
+16253|375|11.99|2021-05-10 20:16:39.996577+00|Mwene-Ditu|East Kasai|Congo, The Democratic Republic of the
+16074|277|9.99|2021-05-10 20:30:05.996577+00|Ogbomosho|Oyo & Osun|Nigeria
+17169|251|4.99|2021-05-10 21:06:36.996577+00|Halle/Saale|Anhalt Sachsen|Germany
+16318|409|9.99|2021-05-10 21:09:33.996577+00|Deba Habe|Bauchi & Gombe|Nigeria
+17074|201|6.99|2021-05-10 21:20:03.996577+00|Witten|Nordrhein-Westfalen|Germany
+16962|143|5.99|2021-05-10 21:20:45.996577+00|Kilis|Kilis|Turkey
+16651|594|7.99|2021-05-10 21:24:45.996577+00|Jining|Inner Mongolia|China
+16665|203|3.99|2021-05-10 21:38:07.996577+00|Gorontalo|Sulawesi Utara|Indonesia
+17124|238|7.99|2021-05-10 21:41:21.996577+00|Shimoga|Karnataka|India
+17159|249|7.99|2021-05-10 21:51:21.996577+00|Tianjin|Tianjin|China
+16287|391|8.99|2021-05-10 21:52:22.996577+00|Izumisano|Osaka|Japan
+16810|60|7.99|2021-05-10 22:06:05.996577+00|Jaipur|Rajasthan|India
+16839|77|5.99|2021-05-10 22:20:39.996577+00|Araatuba|So Paulo|Brazil
+16679|2|7.99|2021-05-10 22:37:50.996577+00|San Bernardino|California|United States
+17206|577|3.99|2021-05-10 23:15:05.996577+00|Tanshui|Taipei|Taiwan
+16473|496|7.99|2021-05-10 23:16:01.996577+00|Rizhao|Shandong|China
+16963|144|5.99|2021-05-10 23:17:53.996577+00|Molodetno|Minsk|Belarus
+16099|292|3.99|2021-05-10 23:28:30.996577+00|Sharja|Sharja|United Arab Emirates
+16392|449|8.99|2021-05-10 23:38:21.996577+00|Sirjan|Kerman|Iran
+16354|432|10.99|2021-05-10 23:38:37.996577+00|Newcastle|KwaZulu-Natal|South Africa
+16885|105|11.99|2021-05-10 23:47:23.996577+00|Funafuti|Funafuti|Tuvalu
+16396|451|5.99|2021-05-10 23:57:57.996577+00|El Fuerte|Sinaloa|Mexico
+17111|231|8.99|2021-05-11 00:25:40.996577+00|Uttarpara-Kotrung|West Bengali|India
+17157|248|10.99|2021-05-11 00:43:56.996577+00|Tallahassee|Florida|United States
+16822|67|12.99|2021-05-11 00:50:52.996577+00|Xiangtan|Hunan|China
+16112|299|8.99|2021-05-11 00:55:36.996577+00|Hiroshima|Hiroshima|Japan
+16322|412|7.99|2021-05-11 01:20:47.996577+00|Hoshiarpur|Punjab|India
+17053|194|7.99|2021-05-11 01:31:33.996577+00|Hino|Tokyo-to|Japan
+16706|16|6.99|2021-05-11 01:35:36.996577+00|Southend-on-Sea|England|United Kingdom
+16071|275|5.99|2021-05-11 01:43:49.996577+00|Peoria|Illinois|United States
+16719|19|5.99|2021-05-11 01:50:56.996577+00|Kimberley|Northern Cape|South Africa
+17003|165|7.99|2021-05-11 02:11:18.996577+00|Hami|Xinxiang|China
+16520|516|6.99|2021-05-11 02:15:44.996577+00|Battambang|Battambang|Cambodia
+17077|209|12.99|2021-05-11 02:23:51.996577+00|Bhilwara|Rajasthan|India
+16799|56|8.99|2021-05-11 02:30:08.996577+00|Papeete|Tahiti|French Polynesia
+16560|539|3.99|2021-05-11 02:39:30.996577+00|Valencia|Carabobo|Venezuela
+16403|455|3.99|2021-05-11 02:42:07.996577+00|El Alto|La Paz|Bolivia
+17120|236|5.99|2021-05-11 02:58:48.996577+00|Tanza|Southern Tagalog|Philippines
+16964|144|5.99|2021-05-11 03:00:51.996577+00|Molodetno|Minsk|Belarus
+16702|14|12.99|2021-05-11 03:03:07.996577+00|Citrus Heights|California|United States
+16258|378|3.99|2021-05-11 03:08:59.996577+00|Shenzhen|Guangdong|China
+16436|473|7.99|2021-05-11 03:19:22.996577+00|Lhokseumawe|Aceh|Indonesia
+16750|36|3.99|2021-05-11 03:21:37.996577+00|Arak|Markazi|Iran
+16694|9|7.99|2021-05-11 03:29:54.996577+00|Masqat|Masqat|Oman
+16918|118|8.99|2021-05-11 04:07:29.996577+00|Grand Prairie|Texas|United States
+16985|157|3.99|2021-05-11 04:16:45.996577+00|Pyongyang|Pyongyang-si|North Korea
+16490|503|8.99|2021-05-11 04:32:05.996577+00|Ueda|Nagano|Japan
+16398|452|5.99|2021-05-11 04:40:52.996577+00|Abu Dhabi|Abu Dhabi|United Arab Emirates
+16386|446|7.99|2021-05-11 04:43:59.996577+00|Uluberia|West Bengali|India
+16265|382|5.99|2021-05-11 05:00:56.996577+00|Manchester|New Hampshire|United States
+17067|198|3.99|2021-05-11 05:05:41.996577+00|Ikerre|Ondo & Ekiti|Nigeria
+16879|102|3.99|2021-05-11 05:12:25.996577+00|Ashdod|Ha Darom|Israel
+16977|152|7.99|2021-05-11 05:16:59.996577+00|Nagaon|Assam|India
+16652|594|11.99|2021-05-11 05:19:40.996577+00|Jining|Inner Mongolia|China
+16642|587|3.99|2021-05-11 05:31:54.996577+00|Celaya|Guanajuato|Mexico
+16968|147|3.99|2021-05-11 05:38:51.996577+00|Urawa|Saitama|Japan
+16198|345|3.99|2021-05-11 05:42:26.996577+00|San Lorenzo|Central|Paraguay
+16352|430|7.99|2021-05-11 05:48:38.996577+00|Dzerzinsk|Nizni Novgorod|Russian Federation
+17006|167|5.99|2021-05-11 05:59:46.996577+00|Chandrapur|Maharashtra|India
+16947|134|6.99|2021-05-11 06:02:20.996577+00|Qalyub|al-Qalyubiya|Egypt
+16372|439|3.99|2021-05-11 06:05:28.996577+00|Bergamo|Lombardia|Italy
+16223|361|8.99|2021-05-11 06:10:55.996577+00|Yaound|Centre|Cameroon
+16507|508|5.99|2021-05-11 06:15:15.996577+00|Vijayawada|Andhra Pradesh|India
+16728|22|7.99|2021-05-11 06:18:09.996577+00|Sal|Rabat-Sal-Zammour-Z|Morocco
+16104|295|6.99|2021-05-11 06:36:44.996577+00|Kolpino|Pietari|Russian Federation
+16512|510|8.99|2021-05-11 06:42:24.996577+00|Kamyin|Volgograd|Russian Federation
+16416|464|4.99|2021-05-11 06:44:51.996577+00|Rancagua|OHiggins|Chile
+16188|337|9.99|2021-05-11 06:54:56.996577+00|Onomichi|Hiroshima|Japan
+16129|306|6.99|2021-05-11 07:17:47.996577+00|Sungai Petani|Kedah|Malaysia
+16564|542|7.99|2021-05-11 07:26:41.996577+00|Pangkal Pinang|Sumatera Selatan|Indonesia
+17013|170|8.99|2021-05-11 07:32:31.996577+00|Udaipur|Rajasthan|India
+16787|53|5.99|2021-05-11 07:51:48.996577+00|Nagareyama|Chiba|Japan
+16636|584|7.99|2021-05-11 07:53:58.996577+00|Banjul|Banjul|Gambia
+17024|176|9.99|2021-05-11 08:03:05.996577+00|Skikda|Skikda|Algeria
+16243|371|7.99|2021-05-11 08:11:51.996577+00|Cabuyao|Southern Tagalog|Philippines
+17035|183|3.99|2021-05-11 08:40:26.996577+00|Luzinia|Gois|Brazil
+16111|298|6.99|2021-05-11 08:40:46.996577+00|Oulu|Pohjois-Pohjanmaa|Finland
+16244|371|8.99|2021-05-11 08:46:46.996577+00|Cabuyao|Southern Tagalog|Philippines
+17082|213|3.99|2021-05-11 08:51:51.996577+00|Taizz|Taizz|Yemen
+16896|109|3.99|2021-05-11 08:54:57.996577+00|Klerksdorp|North West|South Africa
+16499|506|5.99|2021-05-11 09:03:53.996577+00|Pontianak|Kalimantan Barat|Indonesia
+16741|28|5.99|2021-05-11 09:05:53.996577+00|Munger (Monghyr)|Bihar|India
+16481|500|11.99|2021-05-11 09:14:07.996577+00|Madiun|East Java|Indonesia
+16772|48|7.99|2021-05-11 09:30:52.996577+00|Niznekamsk|Tatarstan|Russian Federation
+17061|197|5.99|2021-05-11 09:32:21.996577+00|Changzhou|Jiangsu|China
+16219|359|5.99|2021-05-11 09:43:08.996577+00|Almirante Brown|Buenos Aires|Argentina
+17170|251|5.99|2021-05-11 09:46:51.996577+00|Halle/Saale|Anhalt Sachsen|Germany
+16068|274|8.99|2021-05-11 09:54:37.996577+00|Karnal|Haryana|India
+16624|575|3.99|2021-05-11 10:14:15.996577+00|Cuernavaca|Morelos|Mexico
+16905|112|3.99|2021-05-11 10:15:30.996577+00|Lancaster|California|United States
+16567|544|5.99|2021-05-11 10:57:28.996577+00|So Bernardo do Campo|So Paulo|Brazil
+16340|422|3.99|2021-05-11 11:12:29.996577+00|Laohekou|Hubei|China
+16667|204|7.99|2021-05-11 11:17:04.996577+00|Usak|Usak|Turkey
+17160|249|5.99|2021-05-11 11:20:10.996577+00|Tianjin|Tianjin|China
+16764|46|5.99|2021-05-11 11:26:21.996577+00|Moscow|Moscow (City)|Russian Federation
+16211|354|3.99|2021-05-11 11:45:44.996577+00|Santo Andr|So Paulo|Brazil
+16341|424|3.99|2021-05-11 11:57:18.996577+00|Shanwei|Guangdong|China
+17008|168|3.99|2021-05-11 12:00:17.996577+00|Jinchang|Gansu|China
+16060|272|9.99|2021-05-11 12:01:05.996577+00|Yantai|Shandong|China
+16263|381|5.99|2021-05-11 12:15:12.996577+00|South Hill||Anguilla
+16760|44|5.99|2021-05-11 12:26:04.996577+00|Lipetsk|Lipetsk|Russian Federation
+16853|84|3.99|2021-05-11 12:26:05.996577+00|Atlixco|Puebla|Mexico
+17094|220|3.99|2021-05-11 12:39:24.996577+00|Zanzibar|Zanzibar West|Tanzania
+16500|506|6.99|2021-05-11 12:39:48.996577+00|Pontianak|Kalimantan Barat|Indonesia
+16281|388|7.99|2021-05-11 12:42:40.996577+00|Cavite|Southern Tagalog|Philippines
+16254|375|7.99|2021-05-11 12:45:49.996577+00|Mwene-Ditu|East Kasai|Congo, The Democratic Republic of the
+16131|307|7.99|2021-05-11 13:14:03.996577+00|Angra dos Reis|Rio de Janeiro|Brazil
+17093|219|3.99|2021-05-11 13:16:46.996577+00|Vicente Lpez|Buenos Aires|Argentina
+16126|304|3.99|2021-05-11 13:20:11.996577+00|Callao|Callao|Peru
+17099|222|3.99|2021-05-11 13:30:36.996577+00|Jaroslavl|Jaroslavl|Russian Federation
+16440|475|7.99|2021-05-11 13:35:53.996577+00|ostka|Sumy|Ukraine
+16976|151|8.99|2021-05-11 13:41:43.996577+00|Laiwu|Shandong|China
+16840|77|4.99|2021-05-11 13:43:37.996577+00|Araatuba|So Paulo|Brazil
+16869|93|9.99|2021-05-11 13:48:04.996577+00|Zalantun|Inner Mongolia|China
+17150|246|11.99|2021-05-11 13:58:39.996577+00|Maring|Paran|Brazil
+16972|150|6.99|2021-05-11 14:00:21.996577+00|Hidalgo|Michoacn de Ocampo|Mexico
+16084|284|3.99|2021-05-11 14:01:23.996577+00|Benin City|Edo & Delta|Nigeria
+16749|35|9.99|2021-05-11 14:02:27.996577+00|Toulouse|Midi-Pyrnes|France
+17034|182|6.99|2021-05-11 14:19:56.996577+00|Compton|California|United States
+16526|522|8.99|2021-05-11 14:25:23.996577+00|Santa Rosa|Southern Tagalog|Philippines
+16092|288|9.99|2021-05-11 14:38:30.996577+00|Valle de Santiago|Guanajuato|Mexico
+16993|161|5.99|2021-05-11 14:39:24.996577+00|Tel Aviv-Jaffa|Tel Aviv|Israel
+16477|498|11.99|2021-05-11 14:49:52.996577+00|Salala|Zufar|Oman
+17046|190|7.99|2021-05-11 14:50:36.996577+00|Tabora|Tabora|Tanzania
+16187|334|11.99|2021-05-11 14:59:31.996577+00|Sumqayit|Sumqayit|Azerbaijan
+16765|46|7.99|2021-05-11 15:08:55.996577+00|Moscow|Moscow (City)|Russian Federation
+16622|574|3.99|2021-05-11 15:09:06.996577+00|Akishima|Tokyo-to|Japan
+17151|246|8.99|2021-05-11 15:22:53.996577+00|Maring|Paran|Brazil
+16680|3|4.99|2021-05-11 15:45:35.996577+00|Athenai|Attika|Greece
+17204|267|7.99|2021-05-11 15:49:30.996577+00|Lengshuijiang|Hunan|China
+16531|525|8.99|2021-05-11 16:15:48.996577+00|Udine|Friuli-Venezia Giuli|Italy
+17161|249|9.99|2021-05-11 16:21:00.996577+00|Tianjin|Tianjin|China
+16163|319|5.99|2021-05-11 16:23:14.996577+00|San Felipe del Progreso|Mxico|Mexico
+16153|314|7.99|2021-05-11 16:29:01.996577+00|Sorocaba|So Paulo|Brazil
+16793|54|7.99|2021-05-11 16:39:31.996577+00|Iwakuni|Yamaguchi|Japan
+16308|403|5.99|2021-05-11 16:40:39.996577+00|Valparai|Tamil Nadu|India
+16574|547|11.99|2021-05-11 17:03:46.996577+00|Kanazawa|Ishikawa|Japan
+17127|239|5.99|2021-05-11 17:07:41.996577+00|Ciomas|West Java|Indonesia
+16100|293|3.99|2021-05-11 17:11:23.996577+00|Donostia-San Sebastin|Baskimaa|Spain
+16305|401|7.99|2021-05-11 17:17:07.996577+00|Koriyama|Fukushima|Japan
+16946|133|5.99|2021-05-11 17:25:28.996577+00|Torren|Coahuila de Zaragoza|Mexico
+17155|247|6.99|2021-05-11 17:31:34.996577+00|Coacalco de Berriozbal|Mxico|Mexico
+17016|172|6.99|2021-05-11 17:41:41.996577+00|Batman|Batman|Turkey
+17156|247|9.99|2021-05-11 17:47:20.996577+00|Coacalco de Berriozbal|Mxico|Mexico
+16859|87|7.99|2021-05-11 17:56:20.996577+00|Sincelejo|Sucre|Colombia
+16936|127|3.99|2021-05-11 17:58:59.996577+00|Smolensk|Smolensk|Russian Federation
+16540|529|5.99|2021-05-11 17:59:42.996577+00|Bhimavaram|Andhra Pradesh|India
+16625|575|7.99|2021-05-11 18:00:02.996577+00|Cuernavaca|Morelos|Mexico
+16194|343|6.99|2021-05-11 18:11:55.996577+00|Mexicali|Baja California|Mexico
+16867|92|7.99|2021-05-11 18:18:32.996577+00|Goinia|Gois|Brazil
+16114|300|3.99|2021-05-11 18:20:55.996577+00|Parbhani|Maharashtra|India
+16608|565|9.99|2021-05-11 18:27:02.996577+00|Hunuco|Huanuco|Peru
+16423|468|3.99|2021-05-11 18:28:30.996577+00|Bijapur|Karnataka|India
+17133|240|5.99|2021-05-11 18:30:29.996577+00|Iwaki|Fukushima|Japan
+16387|447|5.99|2021-05-11 18:37:21.996577+00|Nabereznyje Telny|Tatarstan|Russian Federation
+16227|364|8.99|2021-05-11 18:39:02.996577+00|Guadalajara|Jalisco|Mexico
+16726|21|6.99|2021-05-11 18:40:13.996577+00|Tangail|Dhaka|Bangladesh
+17052|193|3.99|2021-05-11 19:11:10.996577+00|Kisumu|Nyanza|Kenya
+17194|261|6.99|2021-05-11 19:13:02.996577+00|Tuguegarao|Cagayan Valley|Philippines
+16376|442|3.99|2021-05-11 19:25:33.996577+00|Tongliao|Inner Mongolia|China
+16596|557|7.99|2021-05-11 19:38:29.996577+00|Vilnius|Vilna|Lithuania
+16877|101|12.99|2021-05-11 19:41:36.996577+00|Abha|Asir|Saudi Arabia
+16979|154|8.99|2021-05-11 19:42:52.996577+00|Yuncheng|Shanxi|China
+16494|504|7.99|2021-05-11 19:45:34.996577+00|Joliet|Illinois|United States
+17078|209|3.99|2021-05-11 20:01:08.996577+00|Bhilwara|Rajasthan|India
+16536|528|3.99|2021-05-11 20:04:41.996577+00|Benguela|Benguela|Angola
+16886|105|10.99|2021-05-11 20:05:00.996577+00|Funafuti|Funafuti|Tuvalu
+16069|274|5.99|2021-05-11 20:40:22.996577+00|Karnal|Haryana|India
+16989|159|5.99|2021-05-11 20:44:52.996577+00|Linz|North Austria|Austria
+16566|543|4.99|2021-05-11 21:00:02.996577+00|Beni-Mellal|Tadla-Azilal|Morocco
+16994|161|6.99|2021-05-11 21:01:59.996577+00|Tel Aviv-Jaffa|Tel Aviv|Israel
+16597|557|7.99|2021-05-11 21:06:46.996577+00|Vilnius|Vilna|Lithuania
+17112|231|9.99|2021-05-11 21:07:36.996577+00|Uttarpara-Kotrung|West Bengali|India
+17095|220|6.99|2021-05-11 21:16:05.996577+00|Zanzibar|Zanzibar West|Tanzania
+16382|445|5.99|2021-05-11 21:17:53.996577+00|Escobar|Buenos Aires|Argentina
+16572|546|9.99|2021-05-11 21:21:28.996577+00|Sanya|Hainan|China
+16744|32|7.99|2021-05-11 21:28:51.996577+00|Jhansi|Uttar Pradesh|India
+16466|491|5.99|2021-05-11 21:55:11.996577+00|Mit Ghamr|al-Daqahliya|Egypt
+16887|105|5.99|2021-05-11 22:09:18.996577+00|Funafuti|Funafuti|Tuvalu
+16296|398|7.99|2021-05-11 22:19:38.996577+00|Bag|Rio Grande do Sul|Brazil
+16613|569|7.99|2021-05-11 22:28:56.996577+00|Leshan|Sichuan|China
+17009|168|7.99|2021-05-11 22:36:16.996577+00|Jinchang|Gansu|China
+16442|476|7.99|2021-05-11 22:37:38.996577+00|Gatineau|Qubec|Canada
+16873|95|7.99|2021-05-11 22:38:22.996577+00|Pathankot|Punjab|India
+17057|196|5.99|2021-05-11 22:42:01.996577+00|Mannheim|Baden-Wrttemberg|Germany
+17107|228|7.99|2021-05-11 22:53:24.996577+00|Phnom Penh|Phnom Penh|Cambodia
+16483|501|3.99|2021-05-11 23:02:37.996577+00|Lublin|Lubelskie|Poland
+16816|64|7.99|2021-05-11 23:07:57.996577+00|Daxian|Sichuan|China
+16532|526|7.99|2021-05-11 23:09:14.996577+00|Cape Coral|Florida|United States
+16800|56|5.99|2021-05-11 23:12:07.996577+00|Papeete|Tahiti|French Polynesia
+16723|20|9.99|2021-05-11 23:23:05.996577+00|Mardan|Nothwest Border Prov|Pakistan
+16088|287|3.99|2021-05-11 23:29:47.996577+00|Tambaram|Tamil Nadu|India
+17072|199|10.99|2021-05-11 23:33:33.996577+00|Haiphong|Haiphong|Vietnam
+16965|145|3.99|2021-05-11 23:33:51.996577+00|Soshanguve|Gauteng|South Africa
+17000|162|7.99|2021-05-11 23:38:02.996577+00|Le Mans|Pays de la Loire|France
+17028|179|3.99|2021-05-12 00:03:09.996577+00|Kirovo-Tepetsk|Kirov|Russian Federation
+16093|288|7.99|2021-05-12 00:03:51.996577+00|Valle de Santiago|Guanajuato|Mexico
+17014|170|3.99|2021-05-12 00:34:00.996577+00|Udaipur|Rajasthan|India
+16904|111|5.99|2021-05-12 00:35:03.996577+00|Caracas|Distrito Federal|Venezuela
+16426|469|10.99|2021-05-12 00:37:45.996577+00|Ourense (Orense)|Galicia|Spain
+16338|421|3.99|2021-05-12 00:59:45.996577+00|Pudukkottai|Tamil Nadu|India
+16359|434|8.99|2021-05-12 01:09:16.996577+00|Ozamis|Northern Mindanao|Philippines
+16969|147|3.99|2021-05-12 01:19:38.996577+00|Urawa|Saitama|Japan
+16907|113|3.99|2021-05-12 01:20:40.996577+00|Cuman|Sucre|Venezuela
+16106|296|8.99|2021-05-12 01:32:30.996577+00|Patiala|Punjab|India
+17113|231|11.99|2021-05-12 01:36:16.996577+00|Uttarpara-Kotrung|West Bengali|India
+16463|489|5.99|2021-05-12 01:36:36.996577+00|Okayama|Okayama|Japan
+16663|597|11.99|2021-05-12 01:37:54.996577+00|Sullana|Piura|Peru
+16902|110|10.99|2021-05-12 01:38:36.996577+00|Enshi|Hubei|China
+16302|400|4.99|2021-05-12 01:40:13.996577+00|Dallas|Texas|United States
+16309|403|3.99|2021-05-12 01:46:23.996577+00|Valparai|Tamil Nadu|India
+16447|480|3.99|2021-05-12 01:46:28.996577+00|Gaziantep|Gaziantep|Turkey
+17145|245|10.99|2021-05-12 01:50:59.996577+00|Uijongbu|Kyonggi|South Korea
+16995|161|8.99|2021-05-12 01:56:03.996577+00|Tel Aviv-Jaffa|Tel Aviv|Israel
+16250|374|3.99|2021-05-12 02:00:48.996577+00|Vitria de Santo Anto|Pernambuco|Brazil
+16266|382|5.99|2021-05-12 02:01:46.996577+00|Manchester|New Hampshire|United States
+16955|138|5.99|2021-05-12 02:21:52.996577+00|Hohhot|Inner Mongolia|China
+17102|223|5.99|2021-05-12 02:25:54.996577+00|Mandi Bahauddin|Punjab|Pakistan
+16703|14|8.99|2021-05-12 02:53:59.996577+00|Citrus Heights|California|United States
+16317|408|5.99|2021-05-12 02:56:03.996577+00|Jaffna|Northern|Sri Lanka
+17010|169|6.99|2021-05-12 02:57:04.996577+00|Pingxiang|Jiangxi|China
+16220|359|6.99|2021-05-12 02:58:31.996577+00|Almirante Brown|Buenos Aires|Argentina
+16427|469|7.99|2021-05-12 03:02:43.996577+00|Ourense (Orense)|Galicia|Spain
+16145|312|3.99|2021-05-12 03:41:27.996577+00|Tabuk|Tabuk|Saudi Arabia
+16645|589|3.99|2021-05-12 03:52:04.996577+00|Loja|Loja|Ecuador
+16923|120|3.99|2021-05-12 04:05:24.996577+00|Dos Quebradas|Risaralda|Colombia
+16537|528|8.99|2021-05-12 04:43:12.996577+00|Benguela|Benguela|Angola
+17037|184|7.99|2021-05-12 04:43:51.996577+00|s-Hertogenbosch|Noord-Brabant|Netherlands
+16132|307|7.99|2021-05-12 04:44:58.996577+00|Angra dos Reis|Rio de Janeiro|Brazil
+16517|514|7.99|2021-05-12 04:45:59.996577+00|Zaoyang|Hubei|China
+16154|315|11.99|2021-05-12 04:49:21.996577+00|Bat Yam|Tel Aviv|Israel
+16903|110|4.99|2021-05-12 04:49:31.996577+00|Enshi|Hubei|China
+16996|161|3.99|2021-05-12 04:54:42.996577+00|Tel Aviv-Jaffa|Tel Aviv|Israel
+16921|119|9.99|2021-05-12 05:08:51.996577+00|Shubra al-Khayma|al-Qalyubiya|Egypt
+16551|535|5.99|2021-05-12 05:10:24.996577+00|NDjamna|Chari-Baguirmi|Chad
+17195|261|9.99|2021-05-12 05:10:39.996577+00|Tuguegarao|Cagayan Valley|Philippines
+16469|493|10.99|2021-05-12 05:12:00.996577+00|Sultanbeyli|Istanbul|Turkey
+16140|311|9.99|2021-05-12 05:31:26.996577+00|Kursk|Kursk|Russian Federation
+16794|54|6.99|2021-05-12 05:38:46.996577+00|Iwakuni|Yamaguchi|Japan
+16724|20|4.99|2021-05-12 05:44:51.996577+00|Mardan|Nothwest Border Prov|Pakistan
+16501|506|11.99|2021-05-12 05:52:54.996577+00|Pontianak|Kalimantan Barat|Indonesia
+16394|450|6.99|2021-05-12 06:03:22.996577+00|Surakarta|Central Java|Indonesia
+16990|159|4.99|2021-05-12 06:04:03.996577+00|Linz|North Austria|Austria
+16355|432|8.99|2021-05-12 06:07:42.996577+00|Newcastle|KwaZulu-Natal|South Africa
+16155|315|7.99|2021-05-12 06:12:44.996577+00|Bat Yam|Tel Aviv|Israel
+16889|106|6.99|2021-05-12 06:22:04.996577+00|Ivanovo|Ivanovo|Russian Federation
+17025|176|6.99|2021-05-12 06:43:10.996577+00|Skikda|Skikda|Algeria
+16257|376|3.99|2021-05-12 06:51:42.996577+00|Kurgan|Kurgan|Russian Federation
+16795|55|7.99|2021-05-12 06:59:40.996577+00|Balaiha|Moskova|Russian Federation
+16729|22|7.99|2021-05-12 07:00:02.996577+00|Sal|Rabat-Sal-Zammour-Z|Morocco
+16381|444|3.99|2021-05-12 07:04:48.996577+00|Tartu|Tartumaa|Estonia
+16377|442|9.99|2021-05-12 07:07:09.996577+00|Tongliao|Inner Mongolia|China
+16620|572|10.99|2021-05-12 07:07:28.996577+00|Czestochowa|Slaskie|Poland
+16414|463|4.99|2021-05-12 07:21:28.996577+00|Halifax|Nova Scotia|Canada
+16841|77|5.99|2021-05-12 07:22:32.996577+00|Araatuba|So Paulo|Brazil
+16880|102|4.99|2021-05-12 07:29:47.996577+00|Ashdod|Ha Darom|Israel
+16172|324|6.99|2021-05-12 07:39:15.996577+00|Yuzhou|Henan|China
+16083|282|3.99|2021-05-12 07:40:35.996577+00|Ponce|Ponce|Puerto Rico
+16094|288|8.99|2021-05-12 07:54:57.996577+00|Valle de Santiago|Guanajuato|Mexico
+17176|253|9.99|2021-05-12 08:20:05.996577+00|Miyakonojo|Miyazaki|Japan
+17038|184|4.99|2021-05-12 08:24:46.996577+00|s-Hertogenbosch|Noord-Brabant|Netherlands
+16982|155|5.99|2021-05-12 08:26:02.996577+00|Bern|Bern|Switzerland
+16801|56|9.99|2021-05-12 08:41:07.996577+00|Papeete|Tahiti|French Polynesia
+16727|21|3.99|2021-05-12 08:43:30.996577+00|Tangail|Dhaka|Bangladesh
+16521|516|4.99|2021-05-12 08:46:07.996577+00|Battambang|Battambang|Cambodia
+16189|337|7.99|2021-05-12 08:58:39.996577+00|Onomichi|Hiroshima|Japan
+16678|1|3.99|2021-05-12 09:03:49.996577+00|Sasebo|Nagasaki|Japan
+16837|76|4.99|2021-05-12 09:12:54.996577+00|Pavlodar|Pavlodar|Kazakstan
+16960|142|12.99|2021-05-12 09:24:35.996577+00|Dundee|Scotland|United Kingdom
+16643|588|5.99|2021-05-12 09:24:36.996577+00|Weifang|Shandong|China
+16686|6|5.99|2021-05-12 09:37:40.996577+00|Laredo|Texas|United States
+17019|173|5.99|2021-05-12 09:44:14.996577+00|Graz|Steiermark|Austria
+17032|181|9.99|2021-05-12 09:47:49.996577+00|Memphis|Tennessee|United States
+16711|17|5.99|2021-05-12 09:48:19.996577+00|Elista|Kalmykia|Russian Federation
+17042|186|4.99|2021-05-12 09:48:55.996577+00|Haldia|West Bengali|India
+17068|198|7.99|2021-05-12 10:02:12.996577+00|Ikerre|Ondo & Ekiti|Nigeria
+16275|386|10.99|2021-05-12 10:17:21.996577+00|Kamjanets-Podilskyi|Hmelnytskyi|Ukraine
+16824|69|7.99|2021-05-12 10:17:26.996577+00|Bchar|Bchar|Algeria
+16464|490|9.99|2021-05-12 10:19:11.996577+00|Sogamoso|Boyac|Colombia
+16842|77|3.99|2021-05-12 10:31:26.996577+00|Araatuba|So Paulo|Brazil
+16817|64|3.99|2021-05-12 10:33:59.996577+00|Daxian|Sichuan|China
+16863|89|3.99|2021-05-12 10:37:03.996577+00|La Plata|Buenos Aires|Argentina
+16135|308|6.99|2021-05-12 10:56:16.996577+00|Kansas City|Missouri|United States
+16413|462|6.99|2021-05-12 11:35:16.996577+00|Usolje-Sibirskoje|Irkutsk|Russian Federation
+16720|19|5.99|2021-05-12 11:39:30.996577+00|Kimberley|Northern Cape|South Africa
+17141|244|7.99|2021-05-12 11:49:34.996577+00|Lapu-Lapu|Central Visayas|Philippines
+16707|16|5.99|2021-05-12 12:01:49.996577+00|Southend-on-Sea|England|United Kingdom
+16557|538|5.99|2021-05-12 12:10:22.996577+00|Baicheng|Jilin|China
+16103|294|4.99|2021-05-12 12:28:20.996577+00|Dayton|Ohio|United States
+16646|589|7.99|2021-05-12 12:28:29.996577+00|Loja|Loja|Ecuador
+17162|249|6.99|2021-05-12 12:29:28.996577+00|Tianjin|Tianjin|China
+16991|159|3.99|2021-05-12 12:33:16.996577+00|Linz|North Austria|Austria
+16290|393|7.99|2021-05-12 12:34:23.996577+00|Korolev|Moskova|Russian Federation
+16183|332|6.99|2021-05-12 12:36:45.996577+00|Dhaka|Dhaka|Bangladesh
+16348|429|10.99|2021-05-12 12:36:48.996577+00|Tsuyama|Okayama|Japan
+16648|590|6.99|2021-05-12 12:44:20.996577+00|al-Manama|al-Manama|Bahrain
+16556|537|7.99|2021-05-12 12:56:17.996577+00|Aurora|Colorado|United States
+16343|426|3.99|2021-05-12 13:05:33.996577+00|Purnea (Purnia)|Jharkhand|India
+16484|501|4.99|2021-05-12 13:07:36.996577+00|Lublin|Lubelskie|Poland
+16113|299|11.99|2021-05-12 13:17:05.996577+00|Hiroshima|Hiroshima|Japan
+16591|554|5.99|2021-05-12 13:31:07.996577+00|Rajkot|Gujarat|India
+16470|494|7.99|2021-05-12 13:32:10.996577+00|Robamba|Chimborazo|Ecuador
+16973|150|5.99|2021-05-12 13:32:28.996577+00|Hidalgo|Michoacn de Ocampo|Mexico
+16482|500|3.99|2021-05-12 13:43:51.996577+00|Madiun|East Java|Indonesia
+16632|580|3.99|2021-05-12 13:46:44.996577+00|Iligan|Central Mindanao|Philippines
+16997|161|5.99|2021-05-12 13:53:20.996577+00|Tel Aviv-Jaffa|Tel Aviv|Israel
+16655|595|9.99|2021-05-12 13:55:48.996577+00|Jinzhou|Liaoning|China
+16133|307|4.99|2021-05-12 14:01:54.996577+00|Angra dos Reis|Rio de Janeiro|Brazil
+16547|533|8.99|2021-05-12 14:04:18.996577+00|Binzhou|Shandong|China
+16431|471|5.99|2021-05-12 14:14:05.996577+00|Johannesburg|Gauteng|South Africa
+16247|372|5.99|2021-05-12 14:17:40.996577+00|Probolinggo|East Java|Indonesia
+17158|248|7.99|2021-05-12 14:18:33.996577+00|Tallahassee|Florida|United States
+16314|407|10.99|2021-05-12 14:20:52.996577+00|Rustenburg|North West|South Africa
+16165|321|8.99|2021-05-12 14:23:11.996577+00|Birgunj|Central|Nepal
+17128|239|7.99|2021-05-12 14:26:38.996577+00|Ciomas|West Java|Indonesia
+16897|109|6.99|2021-05-12 14:26:48.996577+00|Klerksdorp|North West|South Africa
+16471|495|7.99|2021-05-12 14:29:54.996577+00|Baiyin|Gansu|China
+16614|569|7.99|2021-05-12 14:41:48.996577+00|Leshan|Sichuan|China
+16657|596|3.99|2021-05-12 15:04:12.996577+00|Patras|West Greece|Greece
+16637|584|7.99|2021-05-12 15:26:35.996577+00|Banjul|Banjul|Gambia
+17135|241|10.99|2021-05-12 15:33:09.996577+00|Xiangfan|Hubei|China
+17020|173|7.99|2021-05-12 15:34:12.996577+00|Graz|Steiermark|Austria
+16872|94|7.99|2021-05-12 15:47:41.996577+00|Bislig|Caraga|Philippines
+16334|417|11.99|2021-05-12 15:53:17.996577+00|al-Qatif|al-Sharqiya|Saudi Arabia
+16491|503|5.99|2021-05-12 16:04:58.996577+00|Ueda|Nagano|Japan
+16378|442|8.99|2021-05-12 16:06:16.996577+00|Tongliao|Inner Mongolia|China
+16221|360|3.99|2021-05-12 16:06:25.996577+00|Arecibo|Arecibo|Puerto Rico
+16345|428|7.99|2021-05-12 16:09:01.996577+00|Syktyvkar|Komi|Russian Federation
+16755|42|8.99|2021-05-12 16:15:23.996577+00|Pak Kret|Nonthaburi|Thailand
+17129|239|9.99|2021-05-12 16:16:24.996577+00|Ciomas|West Java|Indonesia
+17165|250|7.99|2021-05-12 16:42:55.996577+00|Oyo|Oyo & Osun|Nigeria
+16248|372|5.99|2021-05-12 16:53:09.996577+00|Probolinggo|East Java|Indonesia
+17069|198|5.99|2021-05-12 16:53:28.996577+00|Ikerre|Ondo & Ekiti|Nigeria
+16417|465|3.99|2021-05-12 17:11:52.996577+00|Zapopan|Jalisco|Mexico
+16294|396|8.99|2021-05-12 17:14:13.996577+00|Iwatsuki|Saitama|Japan
+16986|157|7.99|2021-05-12 17:17:38.996577+00|Pyongyang|Pyongyang-si|North Korea
+17134|240|7.99|2021-05-12 17:20:37.996577+00|Iwaki|Fukushima|Japan
+16157|316|11.99|2021-05-12 17:27:38.996577+00|Miraj|Maharashtra|India
+16497|505|5.99|2021-05-12 17:42:35.996577+00|Talavera|Central Luzon|Philippines
+17041|185|3.99|2021-05-12 17:44:40.996577+00|Shahr-e Kord|Chaharmahal va Bakht|Iran
+16615|569|4.99|2021-05-12 17:51:18.996577+00|Leshan|Sichuan|China
+17177|253|3.99|2021-05-12 17:54:20.996577+00|Miyakonojo|Miyazaki|Japan
+17062|197|4.99|2021-05-12 18:04:11.996577+00|Changzhou|Jiangsu|China
+16079|281|5.99|2021-05-12 18:14:06.996577+00|Fuzhou|Fujian|China
+17202|266|5.99|2021-05-12 18:15:16.996577+00|Salzburg|Salzburg|Austria
+16757|43|7.99|2021-05-12 18:37:13.996577+00|Faaa|Tahiti|French Polynesia
+16177|327|9.99|2021-05-12 18:40:46.996577+00|Adana|Adana|Turkey
+16732|23|5.99|2021-05-12 18:43:56.996577+00|Liepaja|Liepaja|Latvia
+16089|287|5.99|2021-05-12 18:44:46.996577+00|Tambaram|Tamil Nadu|India
+16366|437|7.99|2021-05-12 18:46:50.996577+00|La Romana|La Romana|Dominican Republic
+16820|65|3.99|2021-05-12 18:51:35.996577+00|Cayenne|Cayenne|French Guiana
+16882|103|12.99|2021-05-12 18:51:49.996577+00|Ilorin|Kwara & Kogi|Nigeria
+16672|207|3.99|2021-05-12 18:56:19.996577+00|Nuuk|Kitaa|Greenland
+16631|578|3.99|2021-05-12 19:21:57.996577+00|Carmen|Campeche|Mexico
+16783|51|7.99|2021-05-12 19:29:51.996577+00|Fontana|California|United States
+17004|166|4.99|2021-05-12 19:37:57.996577+00|Lilongwe|Lilongwe|Malawi
+17026|176|4.99|2021-05-12 19:51:28.996577+00|Skikda|Skikda|Algeria
+16528|523|3.99|2021-05-12 19:59:34.996577+00|Vinh|Nghe An|Vietnam
+16329|415|7.99|2021-05-12 20:07:05.996577+00|Amersfoort|Utrecht|Netherlands
+16367|437|8.99|2021-05-12 20:17:17.996577+00|La Romana|La Romana|Dominican Republic
+16658|596|7.99|2021-05-12 20:17:28.996577+00|Patras|West Greece|Greece
+16456|484|5.99|2021-05-12 20:23:11.996577+00|Yinchuan|Ningxia|China
+16148|313|7.99|2021-05-12 20:31:51.996577+00|Ezhou|Hubei|China
+17075|201|9.99|2021-05-12 20:32:29.996577+00|Witten|Nordrhein-Westfalen|Germany
+16704|14|5.99|2021-05-12 20:32:56.996577+00|Citrus Heights|California|United States
+16130|306|9.99|2021-05-12 20:33:55.996577+00|Sungai Petani|Kedah|Malaysia
+16424|468|3.99|2021-05-12 20:35:56.996577+00|Bijapur|Karnataka|India
+16860|87|5.99|2021-05-12 20:40:01.996577+00|Sincelejo|Sucre|Colombia
+16191|338|3.99|2021-05-12 20:51:10.996577+00|Paarl|Western Cape|South Africa
+16465|490|7.99|2021-05-12 20:56:17.996577+00|Sogamoso|Boyac|Colombia
+17054|194|10.99|2021-05-12 21:28:34.996577+00|Hino|Tokyo-to|Japan
+16052|269|9.99|2021-05-12 21:44:14.996577+00|Salinas|California|United States
+16533|526|7.99|2021-05-12 21:53:23.996577+00|Cape Coral|Florida|United States
+16452|482|5.99|2021-05-12 21:55:52.996577+00|Coatzacoalcos|Veracruz|Mexico
+16543|531|5.99|2021-05-12 22:08:10.996577+00|Kuwana|Mie|Japan
+16970|148|7.99|2021-05-12 22:21:44.996577+00|Saint-Denis|Saint-Denis|Runion
+17063|197|5.99|2021-05-12 22:38:14.996577+00|Changzhou|Jiangsu|China
+16411|461|9.99|2021-05-12 22:41:41.996577+00|Gingoog|Northern Mindanao|Philippines
+17017|172|9.99|2021-05-12 22:46:17.996577+00|Batman|Batman|Turkey
+16319|411|7.99|2021-05-12 22:55:36.996577+00|Cianjur|West Java|Indonesia
+17166|250|3.99|2021-05-12 23:00:35.996577+00|Oyo|Oyo & Osun|Nigeria
+17001|162|7.99|2021-05-12 23:13:50.996577+00|Le Mans|Pays de la Loire|France
+16619|571|6.99|2021-05-12 23:15:19.996577+00|Plock|Mazowieckie|Poland
+16856|85|12.99|2021-05-12 23:23:19.996577+00|Bradford|England|United Kingdom
+16358|433|13.99|2021-05-12 23:29:52.996577+00|Naala-Porto|Nampula|Mozambique
+16715|18|7.99|2021-05-13 00:00:36.996577+00|Kaduna|Kaduna|Nigeria
+17047|190|5.99|2021-05-13 00:10:57.996577+00|Tabora|Tabora|Tanzania
+16298|399|9.99|2021-05-13 00:18:09.996577+00|Okara|Punjab|Pakistan
+16538|528|6.99|2021-05-13 00:19:19.996577+00|Benguela|Benguela|Angola
+16721|19|5.99|2021-05-13 00:27:36.996577+00|Kimberley|Northern Cape|South Africa
+16277|387|10.99|2021-05-13 00:32:30.996577+00|Lubumbashi|Shaba|Congo, The Democratic Republic of the
+16898|109|3.99|2021-05-13 00:39:18.996577+00|Klerksdorp|North West|South Africa
+17152|246|6.99|2021-05-13 00:40:10.996577+00|Maring|Paran|Brazil
+16916|117|3.99|2021-05-13 00:47:20.996577+00|Gandhinagar|Gujarat|India
+16906|112|5.99|2021-05-13 00:54:53.996577+00|Lancaster|California|United States
+16441|475|3.99|2021-05-13 00:55:56.996577+00|ostka|Sumy|Ukraine
+16053|269|3.99|2021-05-13 00:58:02.996577+00|Salinas|California|United States
+16179|330|6.99|2021-05-13 01:13:09.996577+00|Aurora|Illinois|United States
+17188|257|5.99|2021-05-13 01:17:18.996577+00|Beira|Sofala|Mozambique
+16811|60|4.99|2021-05-13 01:34:15.996577+00|Jaipur|Rajasthan|India
+17174|252|7.99|2021-05-13 01:46:45.996577+00|London|England|United Kingdom
+16937|127|3.99|2021-05-13 01:52:13.996577+00|Smolensk|Smolensk|Russian Federation
+16446|479|10.99|2021-05-13 02:16:27.996577+00|Akron|Ohio|United States
+16523|518|5.99|2021-05-13 02:17:02.996577+00|Sivas|Sivas|Turkey
+17088|215|7.99|2021-05-13 02:17:29.996577+00|Stara Zagora|Haskovo|Bulgaria
+16149|313|5.99|2021-05-13 02:30:50.996577+00|Ezhou|Hubei|China
+16506|507|7.99|2021-05-13 02:38:43.996577+00|Eskisehir|Eskisehir|Turkey
+16399|452|5.99|2021-05-13 02:43:47.996577+00|Abu Dhabi|Abu Dhabi|United Arab Emirates
+16570|545|6.99|2021-05-13 02:51:07.996577+00|Konotop|Sumy|Ukraine
+16751|36|3.99|2021-05-13 03:03:55.996577+00|Arak|Markazi|Iran
+16323|412|3.99|2021-05-13 03:06:10.996577+00|Hoshiarpur|Punjab|India
+16478|498|5.99|2021-05-13 03:20:49.996577+00|Salala|Zufar|Oman
+17146|245|5.99|2021-05-13 03:44:31.996577+00|Uijongbu|Kyonggi|South Korea
+16448|480|9.99|2021-05-13 03:45:56.996577+00|Gaziantep|Gaziantep|Turkey
+16761|44|3.99|2021-05-13 03:57:13.996577+00|Lipetsk|Lipetsk|Russian Federation
+17189|259|9.99|2021-05-13 03:58:57.996577+00|Halisahar|West Bengali|India
+16137|309|3.99|2021-05-13 04:03:10.996577+00|Brescia|Lombardia|Italy
+16331|416|6.99|2021-05-13 04:21:49.996577+00|Dadu|Sind|Pakistan
+17147|245|5.99|2021-05-13 04:32:07.996577+00|Uijongbu|Kyonggi|South Korea
+16400|452|4.99|2021-05-13 04:33:55.996577+00|Abu Dhabi|Abu Dhabi|United Arab Emirates
+16457|484|5.99|2021-05-13 04:36:41.996577+00|Yinchuan|Ningxia|China
+16585|551|5.99|2021-05-13 04:41:04.996577+00|Alvorada|Rio Grande do Sul|Brazil
+16170|323|5.99|2021-05-13 05:03:39.996577+00|Cuautla|Morelos|Mexico
+17064|197|6.99|2021-05-13 05:29:25.996577+00|Changzhou|Jiangsu|China
+16682|5|3.99|2021-05-13 05:53:42.996577+00|Nantou|Nantou|Taiwan
+16388|447|3.99|2021-05-13 06:01:17.996577+00|Nabereznyje Telny|Tatarstan|Russian Federation
+16226|363|6.99|2021-05-13 06:03:47.996577+00|Nyeri|Central|Kenya
+16558|538|7.99|2021-05-13 06:07:18.996577+00|Baicheng|Jilin|China
+16401|454|10.99|2021-05-13 06:36:39.996577+00|Uruapan|Michoacn de Ocampo|Mexico
+16072|276|6.99|2021-05-13 06:38:33.996577+00|Warren|Michigan|United States
+16647|589|7.99|2021-05-13 06:39:57.996577+00|Loja|Loja|Ecuador
+17183|256|7.99|2021-05-13 06:48:34.996577+00|Monywa|Sagaing|Myanmar
+16854|84|9.99|2021-05-13 06:56:44.996577+00|Atlixco|Puebla|Mexico
+16864|89|8.99|2021-05-13 06:59:02.996577+00|La Plata|Buenos Aires|Argentina
+16472|495|7.99|2021-05-13 07:04:15.996577+00|Baiyin|Gansu|China
+16454|483|9.99|2021-05-13 07:04:56.996577+00|Denizli|Denizli|Turkey
+16577|548|7.99|2021-05-13 07:07:28.996577+00|Tarlac|Central Luzon|Philippines
+16337|420|7.99|2021-05-13 07:41:34.996577+00|El Monte|California|United States
+16978|152|7.99|2021-05-13 07:51:23.996577+00|Nagaon|Assam|India
+16941|130|5.99|2021-05-13 07:53:36.996577+00|guas Lindas de Gois|Gois|Brazil
+16097|291|7.99|2021-05-13 07:55:00.996577+00|Roanoke|Virginia|United States
+16690|7|5.99|2021-05-13 07:55:26.996577+00|Kragujevac|Central Serbia|Yugoslavia
+16255|375|7.99|2021-05-13 08:01:59.996577+00|Mwene-Ditu|East Kasai|Congo, The Democratic Republic of the
+16054|269|7.99|2021-05-13 08:10:06.996577+00|Salinas|California|United States
+16788|53|3.99|2021-05-13 08:24:09.996577+00|Nagareyama|Chiba|Japan
+16934|126|7.99|2021-05-13 08:42:41.996577+00|Po|So Paulo|Brazil
+16952|135|6.99|2021-05-13 08:45:08.996577+00|Pune|Maharashtra|India
+16080|281|5.99|2021-05-13 08:47:25.996577+00|Fuzhou|Fujian|China
+16628|576|5.99|2021-05-13 08:54:55.996577+00|Fengshan|Kaohsiung|Taiwan
+17076|201|8.99|2021-05-13 08:57:11.996577+00|Witten|Nordrhein-Westfalen|Germany
+16360|435|10.99|2021-05-13 08:58:13.996577+00|Junan|Shandong|China
+16604|563|7.99|2021-05-13 09:00:22.996577+00|Bucuresti|Bukarest|Romania
+17029|179|9.99|2021-05-13 09:26:23.996577+00|Kirovo-Tepetsk|Kirov|Russian Federation
+16843|77|8.99|2021-05-13 09:35:51.996577+00|Araatuba|So Paulo|Brazil
+16806|58|3.99|2021-05-13 09:37:27.996577+00|Kuching|Sarawak|Malaysia
+16966|146|10.99|2021-05-13 09:44:17.996577+00|Sterling Heights|Michigan|United States
+16777|50|7.99|2021-05-13 10:00:41.996577+00|Omdurman|Khartum|Sudan
+16971|149|7.99|2021-05-13 10:06:01.996577+00|Brockton|Massachusetts|United States
+16825|69|4.99|2021-05-13 10:07:00.996577+00|Bchar|Bchar|Algeria
+16268|383|11.99|2021-05-13 10:15:28.996577+00|Namibe|Namibe|Angola
+16823|67|5.99|2021-05-13 10:48:45.996577+00|Xiangtan|Hunan|China
+16611|566|7.99|2021-05-13 10:59:12.996577+00|Tokat|Tokat|Turkey
+16626|575|5.99|2021-05-13 11:20:10.996577+00|Cuernavaca|Morelos|Mexico
+16312|405|7.99|2021-05-13 11:25:16.996577+00|Tandil|Buenos Aires|Argentina
+16443|476|5.99|2021-05-13 11:27:40.996577+00|Gatineau|Qubec|Canada
+16594|556|8.99|2021-05-13 11:36:32.996577+00|Southport|England|United Kingdom
+16605|563|8.99|2021-05-13 11:46:31.996577+00|Bucuresti|Bukarest|Romania
+16627|575|7.99|2021-05-13 11:48:09.996577+00|Cuernavaca|Morelos|Mexico
+16928|124|3.99|2021-05-13 11:51:52.996577+00|Ktahya|Ktahya|Turkey
+16908|113|3.99|2021-05-13 12:04:01.996577+00|Cuman|Sucre|Venezuela
+16222|360|7.99|2021-05-13 12:36:24.996577+00|Arecibo|Arecibo|Puerto Rico
+16552|535|6.99|2021-05-13 12:38:19.996577+00|NDjamna|Chari-Baguirmi|Chad
+16888|105|9.99|2021-05-13 12:45:43.996577+00|Funafuti|Funafuti|Tuvalu
+16115|300|6.99|2021-05-13 12:46:58.996577+00|Parbhani|Maharashtra|India
+16150|313|3.99|2021-05-13 12:52:24.996577+00|Ezhou|Hubei|China
+16659|596|4.99|2021-05-13 13:07:23.996577+00|Patras|West Greece|Greece
+16789|53|8.99|2021-05-13 13:09:44.996577+00|Nagareyama|Chiba|Japan
+16207|352|5.99|2021-05-13 13:12:48.996577+00|Bamenda|Nord-Ouest|Cameroon
+16829|72|7.99|2021-05-13 13:37:07.996577+00|Taguig|National Capital Reg|Philippines
+16373|439|12.99|2021-05-13 13:45:54.996577+00|Bergamo|Lombardia|Italy
+16740|27|5.99|2021-05-13 14:31:29.996577+00|Davao|Southern Mindanao|Philippines
+16601|562|5.99|2021-05-13 14:42:21.996577+00|Sokoto|Sokoto & Kebbi & Zam|Nigeria
+16590|553|7.99|2021-05-13 14:45:33.996577+00|Novi Sad|Vojvodina|Yugoslavia
+16649|593|5.99|2021-05-13 14:47:55.996577+00|Garden Grove|California|United States
+16085|284|3.99|2021-05-13 14:59:08.996577+00|Benin City|Edo & Delta|Nigeria
+17196|261|3.99|2021-05-13 15:00:36.996577+00|Tuguegarao|Cagayan Valley|Philippines
+16539|528|8.99|2021-05-13 15:12:34.996577+00|Benguela|Benguela|Angola
+16778|50|7.99|2021-05-13 15:12:37.996577+00|Omdurman|Khartum|Sudan
+16586|551|3.99|2021-05-13 15:26:05.996577+00|Alvorada|Rio Grande do Sul|Brazil
+16738|26|5.99|2021-05-13 15:28:10.996577+00|Citt del Vaticano||Holy See (Vatican City State)
+17142|244|4.99|2021-05-13 15:40:43.996577+00|Lapu-Lapu|Central Visayas|Philippines
+16948|134|3.99|2021-05-13 15:52:09.996577+00|Qalyub|al-Qalyubiya|Egypt
+16349|429|7.99|2021-05-13 15:53:14.996577+00|Tsuyama|Okayama|Japan
+16434|472|3.99|2021-05-13 15:56:38.996577+00|Nam Dinh|Nam Ha|Vietnam
+16307|402|4.99|2021-05-13 16:04:16.996577+00|Brest|Bretagne|France
+16205|350|7.99|2021-05-13 16:07:25.996577+00|Teboksary|Tuvassia|Russian Federation
+16745|32|7.99|2021-05-13 16:20:56.996577+00|Jhansi|Uttar Pradesh|India
+17015|171|12.99|2021-05-13 16:38:50.996577+00|Ipoh|Perak|Malaysia
+17115|232|6.99|2021-05-13 16:46:44.996577+00|Zaria|Kaduna|Nigeria
+16361|435|7.99|2021-05-13 16:59:56.996577+00|Junan|Shandong|China
+17117|235|5.99|2021-05-13 17:19:16.996577+00|Buenaventura|Valle|Colombia
+16884|104|6.99|2021-05-13 17:36:46.996577+00|Toulon|Provence-Alpes-Cte|France
+17100|222|6.99|2021-05-13 17:38:46.996577+00|Jaroslavl|Jaroslavl|Russian Federation
+16200|346|7.99|2021-05-13 17:40:30.996577+00|Maikop|Adygea|Russian Federation
+16306|401|4.99|2021-05-13 17:59:08.996577+00|Koriyama|Fukushima|Japan
+17103|225|7.99|2021-05-13 18:28:56.996577+00|Ambattur|Tamil Nadu|India
+16196|344|8.99|2021-05-13 18:43:00.996577+00|Nukualofa|Tongatapu|Tonga
+16949|134|9.99|2021-05-13 18:44:38.996577+00|Qalyub|al-Qalyubiya|Egypt
+16705|14|3.99|2021-05-13 18:52:54.996577+00|Citrus Heights|California|United States
+16439|474|10.99|2021-05-13 18:55:05.996577+00|Emmen|Drenthe|Netherlands
+16592|554|5.99|2021-05-13 19:07:40.996577+00|Rajkot|Gujarat|India
+16166|321|7.99|2021-05-13 19:16:19.996577+00|Birgunj|Central|Nepal
+16515|511|6.99|2021-05-13 19:28:58.996577+00|Suihua|Heilongjiang|China
+16730|22|11.99|2021-05-13 19:35:48.996577+00|Sal|Rabat-Sal-Zammour-Z|Morocco
+16202|348|3.99|2021-05-13 19:59:38.996577+00|Hsichuh|Taipei|Taiwan
+16449|480|12.99|2021-05-13 20:04:26.996577+00|Gaziantep|Gaziantep|Turkey
+16375|441|7.99|2021-05-13 20:08:03.996577+00|Batna|Batna|Algeria
+16215|357|7.99|2021-05-13 20:13:58.996577+00|Bratislava|Bratislava|Slovakia
+16245|371|3.99|2021-05-13 20:18:07.996577+00|Cabuyao|Southern Tagalog|Philippines
+16673|207|9.99|2021-05-13 20:24:41.996577+00|Nuuk|Kitaa|Greenland
+16621|573|5.99|2021-05-13 20:27:09.996577+00|Zhezqazghan|Qaraghandy|Kazakstan
+17091|217|5.99|2021-05-13 20:43:21.996577+00|Sambhal|Uttar Pradesh|India
+16246|371|5.99|2021-05-13 20:45:08.996577+00|Cabuyao|Southern Tagalog|Philippines
+16681|3|5.99|2021-05-13 21:12:21.996577+00|Athenai|Attika|Greece
+16510|509|11.99|2021-05-13 21:18:51.996577+00|Chapra|Bihar|India
+16992|159|6.99|2021-05-13 21:19:46.996577+00|Linz|North Austria|Austria
+16335|417|7.99|2021-05-13 21:50:22.996577+00|al-Qatif|al-Sharqiya|Saudi Arabia
+16855|84|7.99|2021-05-13 21:52:56.996577+00|Atlixco|Puebla|Mexico
+16264|381|5.99|2021-05-13 22:05:26.996577+00|South Hill||Anguilla
+16235|368|5.99|2021-05-13 22:25:08.996577+00|Najafabad|Esfahan|Iran
+17018|172|3.99|2021-05-13 22:30:34.996577+00|Batman|Batman|Turkey
+16495|504|7.99|2021-05-13 22:56:23.996577+00|Joliet|Illinois|United States
+16190|337|11.99|2021-05-13 22:56:38.996577+00|Onomichi|Hiroshima|Japan
+16844|79|7.99|2021-05-13 22:57:07.996577+00|Kamakura|Kanagawa|Japan
+16278|387|7.99|2021-05-13 22:59:43.996577+00|Lubumbashi|Shaba|Congo, The Democratic Republic of the
+17125|238|5.99|2021-05-13 23:00:30.996577+00|Shimoga|Karnataka|India
+16151|313|3.99|2021-05-13 23:12:50.996577+00|Ezhou|Hubei|China
+16350|429|7.99|2021-05-13 23:26:46.996577+00|Tsuyama|Okayama|Japan
+16830|72|7.99|2021-05-13 23:45:51.996577+00|Taguig|National Capital Reg|Philippines
+16775|49|5.99|2021-05-13 23:46:11.996577+00|Jedda|Mekka|Saudi Arabia
+16261|380|6.99|2021-05-13 23:46:41.996577+00|Tychy|Slaskie|Poland
+16364|436|8.99|2021-05-13 23:48:19.996577+00|Vancouver|British Colombia|Canada
+16393|449|10.99|2021-05-13 23:51:33.996577+00|Sirjan|Kerman|Iran
+16522|517|7.99|2021-05-14 00:03:38.996577+00|Chungho|Taipei|Taiwan
+16541|530|3.99|2021-05-14 00:03:41.996577+00|Ezeiza|Buenos Aires|Argentina
+16580|549|7.99|2021-05-14 00:05:23.996577+00|Santiago de Compostela|Galicia|Spain
+16925|122|3.99|2021-05-14 00:11:57.996577+00|Lima|Lima|Peru
+16239|369|3.99|2021-05-14 00:24:37.996577+00|Jurez|Chihuahua|Mexico
+16313|406|3.99|2021-05-14 00:28:54.996577+00|Charlotte Amalie|St Thomas|Virgin Islands, U.S.
+16790|53|12.99|2021-05-14 00:29:47.996577+00|Nagareyama|Chiba|Japan
+16668|204|7.99|2021-05-14 00:29:49.996577+00|Usak|Usak|Turkey
+16217|358|7.99|2021-05-14 00:38:58.996577+00|Ranchi|Jharkhand|India
+16845|79|5.99|2021-05-14 01:04:46.996577+00|Kamakura|Kanagawa|Japan
+16073|276|13.99|2021-05-14 01:13:42.996577+00|Warren|Michigan|United States
+16486|502|3.99|2021-05-14 01:16:58.996577+00|Siliguri (Shiliguri)|West Bengali|India
+16178|328|5.99|2021-05-14 01:37:37.996577+00|Ciparay|West Java|Indonesia
+16260|379|7.99|2021-05-14 01:43:25.996577+00|Bhavnagar|Gujarat|India
+16568|544|5.99|2021-05-14 01:55:43.996577+00|So Bernardo do Campo|So Paulo|Brazil
+16980|154|10.99|2021-05-14 02:08:10.996577+00|Yuncheng|Shanxi|China
+16693|8|9.99|2021-05-14 02:12:20.996577+00|Hamilton|Hamilton|New Zealand
+16875|99|3.99|2021-05-14 02:23:09.996577+00|Kimchon|Kyongsangbuk|South Korea
+16742|28|5.99|2021-05-14 02:48:21.996577+00|Munger (Monghyr)|Bihar|India
+16107|296|7.99|2021-05-14 02:50:32.996577+00|Patiala|Punjab|India
+16288|391|5.99|2021-05-14 02:54:13.996577+00|Izumisano|Osaka|Japan
+16123|303|5.99|2021-05-14 03:29:56.996577+00|Sanaa|Sanaa|Yemen
+16578|548|6.99|2021-05-14 03:31:30.996577+00|Tarlac|Central Luzon|Philippines
+16256|375|5.99|2021-05-14 03:43:46.996577+00|Mwene-Ditu|East Kasai|Congo, The Democratic Republic of the
+16785|52|3.99|2021-05-14 04:04:47.996577+00|A Corua (La Corua)|Galicia|Spain
+16174|326|9.99|2021-05-14 04:06:50.996577+00|Kingstown|St George|Saint Vincent and the Grenadines
+16192|339|8.99|2021-05-14 04:09:48.996577+00|Xinxiang|Henan|China
+16695|9|3.99|2021-05-14 04:17:25.996577+00|Masqat|Masqat|Oman
+16171|323|8.99|2021-05-14 04:17:39.996577+00|Cuautla|Morelos|Mexico
+16453|482|3.99|2021-05-14 04:18:08.996577+00|Coatzacoalcos|Veracruz|Mexico
+16409|460|3.99|2021-05-14 04:40:59.996577+00|Florencia|Caquet|Colombia
+17139|242|7.99|2021-05-14 04:44:02.996577+00|Qinhuangdao|Hebei|China
+16444|477|5.99|2021-05-14 04:44:32.996577+00|Stockport|England|United Kingdom
+16299|399|7.99|2021-05-14 04:49:31.996577+00|Okara|Punjab|Pakistan
+16712|17|7.99|2021-05-14 05:09:58.996577+00|Elista|Kalmykia|Russian Federation
+16814|62|3.99|2021-05-14 05:22:54.996577+00|Saint Louis|Missouri|United States
+16291|393|3.99|2021-05-14 05:23:17.996577+00|Korolev|Moskova|Russian Federation
+16708|16|3.99|2021-05-14 05:38:26.996577+00|Southend-on-Sea|England|United Kingdom
+16938|128|8.99|2021-05-14 05:41:40.996577+00|Jastrzebie-Zdrj|Slaskie|Poland
+16911|114|5.99|2021-05-14 05:43:19.996577+00|Duisburg|Nordrhein-Westfalen|Germany
+16203|349|7.99|2021-05-14 06:11:30.996577+00|Imus|Southern Tagalog|Philippines
+16289|391|10.99|2021-05-14 06:11:38.996577+00|Izumisano|Osaka|Japan
+16070|274|7.99|2021-05-14 06:31:22.996577+00|Karnal|Haryana|India
+16487|502|5.99|2021-05-14 06:35:25.996577+00|Siliguri (Shiliguri)|West Bengali|India
+16303|400|8.99|2021-05-14 06:59:57.996577+00|Dallas|Texas|United States
+17050|192|4.99|2021-05-14 07:19:09.996577+00|Firozabad|Uttar Pradesh|India
+16674|207|6.99|2021-05-14 07:32:18.996577+00|Nuuk|Kitaa|Greenland
+16356|432|11.99|2021-05-14 07:38:27.996577+00|Newcastle|KwaZulu-Natal|South Africa
+16271|384|3.99|2021-05-14 07:54:45.996577+00|Huaian|Jiangsu|China
+16983|156|9.99|2021-05-14 07:57:56.996577+00|Ondo|Ondo & Ekiti|Nigeria
+16640|586|11.99|2021-05-14 08:07:07.996577+00|Tsaotun|Nantou|Taiwan
+17190|259|5.99|2021-05-14 08:09:06.996577+00|Halisahar|West Bengali|India
+16599|561|7.99|2021-05-14 08:22:02.996577+00|Garland|Texas|United States
+17065|197|6.99|2021-05-14 08:39:55.996577+00|Changzhou|Jiangsu|China
+16762|44|5.99|2021-05-14 08:48:08.996577+00|Lipetsk|Lipetsk|Russian Federation
+16779|50|7.99|2021-05-14 08:53:26.996577+00|Omdurman|Khartum|Sudan
+16581|549|6.99|2021-05-14 08:59:04.996577+00|Santiago de Compostela|Galicia|Spain
+16502|506|3.99|2021-05-14 09:05:53.996577+00|Pontianak|Kalimantan Barat|Indonesia
+16857|85|7.99|2021-05-14 09:07:03.996577+00|Bradford|England|United Kingdom
+16459|486|11.99|2021-05-14 09:12:04.996577+00|Acua|Coahuila de Zaragoza|Mexico
+16251|374|5.99|2021-05-14 09:14:42.996577+00|Vitria de Santo Anto|Pernambuco|Brazil
+16230|366|9.99|2021-05-14 09:18:48.996577+00|Balikesir|Balikesir|Turkey
+16284|390|7.99|2021-05-14 09:26:59.996577+00|Nakhon Sawan|Nakhon Sawan|Thailand
+16240|369|10.99|2021-05-14 09:33:24.996577+00|Jurez|Chihuahua|Mexico
+16660|596|5.99|2021-05-14 09:34:26.996577+00|Patras|West Greece|Greece
+16912|115|3.99|2021-05-14 09:48:53.996577+00|Nezahualcyotl|Mxico|Mexico
+16687|6|3.99|2021-05-14 09:53:27.996577+00|Laredo|Texas|United States
+16273|385|5.99|2021-05-14 09:55:32.996577+00|Tama|Ibaragi|Japan
+17066|197|3.99|2021-05-14 10:00:50.996577+00|Changzhou|Jiangsu|China
+16252|374|3.99|2021-05-14 10:03:32.996577+00|Vitria de Santo Anto|Pernambuco|Brazil
+16638|584|7.99|2021-05-14 10:12:27.996577+00|Banjul|Banjul|Gambia
+16508|508|5.99|2021-05-14 10:21:35.996577+00|Vijayawada|Andhra Pradesh|India
+16583|550|10.99|2021-05-14 10:24:21.996577+00|Zhoushan|Zhejiang|China
+16753|37|5.99|2021-05-14 10:27:16.996577+00|Nanyang|Henan|China
+16101|293|7.99|2021-05-14 10:39:25.996577+00|Donostia-San Sebastin|Baskimaa|Spain
+16954|137|5.99|2021-05-14 10:42:18.996577+00|Apeldoorn|Gelderland|Netherlands
+16838|76|3.99|2021-05-14 10:44:20.996577+00|Pavlodar|Pavlodar|Kazakstan
+17007|167|7.99|2021-05-14 10:45:06.996577+00|Chandrapur|Maharashtra|India
+16846|79|5.99|2021-05-14 10:55:40.996577+00|Kamakura|Kanagawa|Japan
+16555|536|9.99|2021-05-14 11:01:05.996577+00|Tonghae|Kang-won|South Korea
+16957|141|5.99|2021-05-14 11:13:23.996577+00|Fukuyama|Hiroshima|Japan
+16339|421|3.99|2021-05-14 11:21:27.996577+00|Pudukkottai|Tamil Nadu|India
+17070|198|5.99|2021-05-14 11:24:02.996577+00|Ikerre|Ondo & Ekiti|Nigeria
+16821|66|7.99|2021-05-14 11:37:11.996577+00|Malm|Skne ln|Sweden
+16812|60|5.99|2021-05-14 11:53:12.996577+00|Jaipur|Rajasthan|India
+17184|256|5.99|2021-05-14 11:58:02.996577+00|Monywa|Sagaing|Myanmar
+16428|469|4.99|2021-05-14 12:21:15.996577+00|Ourense (Orense)|Galicia|Spain
+16766|46|5.99|2021-05-14 13:15:57.996577+00|Moscow|Moscow (City)|Russian Federation
+16127|304|5.99|2021-05-14 13:15:57.996577+00|Callao|Callao|Peru
+16231|367|3.99|2021-05-14 13:18:00.996577+00|Adoni|Andhra Pradesh|India
+16549|534|3.99|2021-05-14 13:29:28.996577+00|Amroha|Uttar Pradesh|India
+16602|562|5.99|2021-05-14 13:30:51.996577+00|Sokoto|Sokoto & Kebbi & Zam|Nigeria
+16437|473|5.99|2021-05-14 13:34:13.996577+00|Lhokseumawe|Aceh|Indonesia
+16803|57|7.99|2021-05-14 13:48:45.996577+00|Vaduz|Vaduz|Liechtenstein
+16944|131|10.99|2021-05-14 13:54:50.996577+00|Mukateve|Taka-Karpatia|Ukraine
+16216|357|3.99|2021-05-14 14:01:43.996577+00|Bratislava|Bratislava|Slovakia
+16460|486|5.99|2021-05-14 14:03:34.996577+00|Acua|Coahuila de Zaragoza|Mexico
+16815|62|7.99|2021-05-14 14:05:23.996577+00|Saint Louis|Missouri|United States
+17148|245|11.99|2021-05-14 14:12:53.996577+00|Uijongbu|Kyonggi|South Korea
+16236|368|5.99|2021-05-14 14:19:05.996577+00|Najafabad|Esfahan|Iran
+16851|83|3.99|2021-05-14 14:34:34.996577+00|Springs|Gauteng|South Africa
+16808|59|5.99|2021-05-14 14:39:01.996577+00|Mysore|Karnataka|India
+16141|311|5.99|2021-05-14 14:56:33.996577+00|Kursk|Kursk|Russian Federation
+17080|210|5.99|2021-05-14 15:02:28.996577+00|Aden|Aden|Yemen
+16110|297|6.99|2021-05-14 15:25:55.996577+00|Ahmadnagar|Maharashtra|India
+16119|301|3.99|2021-05-14 15:27:29.996577+00|Kaliningrad|Kaliningrad|Russian Federation
+16108|296|5.99|2021-05-14 15:58:54.996577+00|Patiala|Punjab|India
+16374|440|7.99|2021-05-14 16:21:55.996577+00|Dhule (Dhulia)|Maharashtra|India
+17043|186|3.99|2021-05-14 16:26:29.996577+00|Haldia|West Bengali|India
+16553|535|7.99|2021-05-14 16:35:26.996577+00|NDjamna|Chari-Baguirmi|Chad
+16383|445|5.99|2021-05-14 16:41:49.996577+00|Escobar|Buenos Aires|Argentina
+16644|588|7.99|2021-05-14 16:45:10.996577+00|Weifang|Shandong|China
+16525|520|9.99|2021-05-14 17:13:43.996577+00|Nha Trang|Khanh Hoa|Vietnam
+17104|225|6.99|2021-05-14 17:21:19.996577+00|Ambattur|Tamil Nadu|India
+16090|287|5.99|2021-05-14 17:21:47.996577+00|Tambaram|Tamil Nadu|India
+16488|502|3.99|2021-05-14 17:28:40.996577+00|Siliguri (Shiliguri)|West Bengali|India
+16474|496|3.99|2021-05-14 17:29:03.996577+00|Rizhao|Shandong|China
+16180|330|10.99|2021-05-14 17:40:32.996577+00|Aurora|Illinois|United States
+16629|576|3.99|2021-05-14 17:48:29.996577+00|Fengshan|Kaohsiung|Taiwan
+16587|551|7.99|2021-05-14 17:52:14.996577+00|Alvorada|Rio Grande do Sul|Brazil
+16134|307|9.99|2021-05-14 18:18:54.996577+00|Angra dos Reis|Rio de Janeiro|Brazil
+16600|561|7.99|2021-05-14 18:39:18.996577+00|Garland|Texas|United States
+16320|411|4.99|2021-05-14 18:49:33.996577+00|Cianjur|West Java|Indonesia
+16438|473|6.99|2021-05-14 18:56:11.996577+00|Lhokseumawe|Aceh|Indonesia
+16661|596|9.99|2021-05-14 18:57:08.996577+00|Patras|West Greece|Greece
+16691|7|7.99|2021-05-14 19:35:41.996577+00|Kragujevac|Central Serbia|Yugoslavia
+16633|581|7.99|2021-05-14 19:39:45.996577+00|Jos Azueta|Guerrero|Mexico
+16293|394|5.99|2021-05-14 19:50:52.996577+00|Gijn|Asturia|Spain
+16981|154|8.99|2021-05-14 19:59:18.996577+00|Yuncheng|Shanxi|China
+16076|279|5.99|2021-05-14 20:05:37.996577+00|Tabriz|East Azerbaidzan|Iran
+16064|273|3.99|2021-05-14 20:13:45.996577+00|Salamanca|Guanajuato|Mexico
+16175|326|7.99|2021-05-14 20:21:08.996577+00|Kingstown|St George|Saint Vincent and the Grenadines
+16530|524|7.99|2021-05-14 20:43:50.996577+00|Purwakarta|West Java|Indonesia
+16913|115|3.99|2021-05-14 20:44:17.996577+00|Nezahualcyotl|Mxico|Mexico
+17197|262|7.99|2021-05-14 20:45:43.996577+00|Portoviejo|Manab|Ecuador
+16607|564|5.99|2021-05-14 20:47:01.996577+00|Xintai|Shandong|China
+17178|253|5.99|2021-05-14 20:51:18.996577+00|Miyakonojo|Miyazaki|Japan
+16698|11|9.99|2021-05-14 21:27:38.996577+00|Sagamihara|Kanagawa|Japan
+16699|12|7.99|2021-05-14 21:36:29.996577+00|Yamuna Nagar|Haryana|India
+16852|83|5.99|2021-05-14 21:40:17.996577+00|Springs|Gauteng|South Africa
+16142|311|6.99|2021-05-14 21:53:40.996577+00|Kursk|Kursk|Russian Federation
+16650|593|11.99|2021-05-14 21:57:48.996577+00|Garden Grove|California|United States
+16927|123|5.99|2021-05-14 22:16:22.996577+00|Varanasi (Benares)|Uttar Pradesh|India
+16516|513|7.99|2021-05-14 22:22:45.996577+00|Yangor||Nauru
+16435|472|7.99|2021-05-14 22:24:02.996577+00|Nam Dinh|Nam Ha|Vietnam
+16974|150|6.99|2021-05-14 22:34:28.996577+00|Hidalgo|Michoacn de Ocampo|Mexico
+16182|331|5.99|2021-05-14 22:34:46.996577+00|Santa F|Santa F|Argentina
+17090|216|7.99|2021-05-14 22:36:51.996577+00|Aparecida de Goinia|Gois|Brazil
+16282|389|7.99|2021-05-14 22:45:23.996577+00|Emeishan|Sichuan|China
+16326|413|7.99|2021-05-14 22:53:36.996577+00|Berhampore (Baharampur)|West Bengali|India
+16184|332|9.99|2021-05-14 22:54:22.996577+00|Dhaka|Dhaka|Bangladesh
+16818|64|5.99|2021-05-14 23:14:57.996577+00|Daxian|Sichuan|China
+16295|397|3.99|2021-05-14 23:16:22.996577+00|Atinsk|Krasnojarsk|Russian Federation
+16998|161|3.99|2021-05-14 23:16:46.996577+00|Tel Aviv-Jaffa|Tel Aviv|Israel
+16609|565|3.99|2021-05-14 23:17:02.996577+00|Hunuco|Huanuco|Peru
+16588|551|6.99|2021-05-14 23:21:51.996577+00|Alvorada|Rio Grande do Sul|Brazil
+17101|222|5.99|2021-05-14 23:25:34.996577+00|Jaroslavl|Jaroslavl|Russian Federation
+16734|24|9.99|2021-05-14 23:30:54.996577+00|Crdoba|Crdoba|Argentina
+16664|599|7.99|2021-05-14 23:47:22.996577+00|Tieli|Heilongjiang|China
+16458|485|5.99|2021-05-15 00:16:01.996577+00|Shaoguan|Guangdong|China
+16776|49|7.99|2021-05-15 00:25:58.996577+00|Jedda|Mekka|Saudi Arabia
+17002|164|4.99|2021-05-15 00:34:05.996577+00|Tarsus|Adana|Turkey
+16098|291|5.99|2021-05-15 00:46:31.996577+00|Roanoke|Virginia|United States
+16272|384|5.99|2021-05-15 01:05:26.996577+00|Huaian|Jiangsu|China
+16078|280|7.99|2021-05-15 01:07:42.996577+00|Owo|Ondo & Ekiti|Nigeria
+16534|526|5.99|2021-05-15 01:13:23.996577+00|Cape Coral|Florida|United States
+16669|204|4.99|2021-05-15 01:18:09.996577+00|Usak|Usak|Turkey
+16709|16|5.99|2021-05-15 01:22:02.996577+00|Southend-on-Sea|England|United Kingdom
+16653|594|3.99|2021-05-15 01:22:08.996577+00|Jining|Inner Mongolia|China
+16077|279|3.99|2021-05-15 01:33:33.996577+00|Tabriz|East Azerbaidzan|Iran
+16956|138|3.99|2021-05-15 01:34:34.996577+00|Hohhot|Inner Mongolia|China
+16561|541|10.99|2021-05-15 01:44:41.996577+00|Livorno|Toscana|Italy
+17130|239|10.99|2021-05-15 01:45:11.996577+00|Ciomas|West Java|Indonesia
+17106|227|6.99|2021-05-15 01:55:16.996577+00|Saarbrcken|Saarland|Germany
+16405|457|10.99|2021-05-15 01:58:45.996577+00|Rockford|Illinois|United States
+16870|93|7.99|2021-05-15 02:10:03.996577+00|Zalantun|Inner Mongolia|China
+16892|107|8.99|2021-05-15 02:13:52.996577+00|Merlo|Buenos Aires|Argentina
+16796|55|12.99|2021-05-15 02:14:45.996577+00|Balaiha|Moskova|Russian Federation
+16784|51|7.99|2021-05-15 02:16:31.996577+00|Fontana|California|United States
+16780|50|7.99|2021-05-15 02:20:28.996577+00|Omdurman|Khartum|Sudan
+17205|267|7.99|2021-05-15 02:35:13.996577+00|Lengshuijiang|Hunan|China
+16332|416|5.99|2021-05-15 02:51:27.996577+00|Dadu|Sind|Pakistan
+17121|236|5.99|2021-05-15 02:57:09.996577+00|Tanza|Southern Tagalog|Philippines
+16737|25|5.99|2021-05-15 03:18:33.996577+00|Shikarpur|Sind|Pakistan
+16102|293|11.99|2021-05-15 03:22:06.996577+00|Donostia-San Sebastin|Baskimaa|Spain
+16225|362|7.99|2021-05-15 03:29:35.996577+00|Belm|Par|Brazil
+16369|438|3.99|2021-05-15 03:49:36.996577+00|Kitwe|Copperbelt|Zambia
+16616|569|6.99|2021-05-15 03:50:51.996577+00|Leshan|Sichuan|China
+16274|385|7.99|2021-05-15 03:52:13.996577+00|Tama|Ibaragi|Japan
+16929|124|7.99|2021-05-15 04:00:55.996577+00|Ktahya|Ktahya|Turkey
+16057|270|7.99|2021-05-15 04:03:42.996577+00|Kalisz|Wielkopolskie|Poland
+16061|272|9.99|2021-05-15 04:14:49.996577+00|Yantai|Shandong|China
+16503|506|5.99|2021-05-15 04:21:26.996577+00|Pontianak|Kalimantan Barat|Indonesia
+16324|412|6.99|2021-05-15 04:40:06.996577+00|Hoshiarpur|Punjab|India
+16826|70|7.99|2021-05-15 04:53:10.996577+00|al-Hawiya|Mekka|Saudi Arabia
+16654|594|9.99|2021-05-15 04:57:27.996577+00|Jining|Inner Mongolia|China
+17030|179|7.99|2021-05-15 05:10:56.996577+00|Kirovo-Tepetsk|Kirov|Russian Federation
+16831|72|3.99|2021-05-15 05:14:23.996577+00|Taguig|National Capital Reg|Philippines
+16797|55|3.99|2021-05-15 05:18:19.996577+00|Balaiha|Moskova|Russian Federation
+16146|312|7.99|2021-05-15 05:25:30.996577+00|Tabuk|Tabuk|Saudi Arabia
+16124|303|7.99|2021-05-15 05:29:53.996577+00|Sanaa|Sanaa|Yemen
+17153|246|7.99|2021-05-15 05:30:35.996577+00|Maring|Paran|Brazil
+16984|156|7.99|2021-05-15 05:35:29.996577+00|Ondo|Ondo & Ekiti|Nigeria
+17058|196|4.99|2021-05-15 05:41:10.996577+00|Mannheim|Baden-Wrttemberg|Germany
+16935|126|7.99|2021-05-15 06:01:51.996577+00|Po|So Paulo|Brazil
+16894|108|3.99|2021-05-15 06:15:44.996577+00|Huixquilucan|Mxico|Mexico
+16524|519|6.99|2021-05-15 06:16:33.996577+00|Isesaki|Gumma|Japan
+16930|124|6.99|2021-05-15 06:26:32.996577+00|Ktahya|Ktahya|Turkey
+16915|116|7.99|2021-05-15 06:32:43.996577+00|Pemalang|Central Java|Indonesia
+17136|241|6.99|2021-05-15 06:49:09.996577+00|Xiangfan|Hubei|China
+16617|570|10.99|2021-05-15 06:50:09.996577+00|Monclova|Coahuila de Zaragoza|Mexico
+16899|109|10.99|2021-05-15 06:56:24.996577+00|Klerksdorp|North West|South Africa
+17027|176|10.99|2021-05-15 07:06:46.996577+00|Skikda|Skikda|Algeria
+16692|7|8.99|2021-05-15 07:12:55.996577+00|Kragujevac|Central Serbia|Yugoslavia
+16410|460|7.99|2021-05-15 07:18:33.996577+00|Florencia|Caquet|Colombia
+16158|316|4.99|2021-05-15 07:23:22.996577+00|Miraj|Maharashtra|India
+16562|541|7.99|2021-05-15 07:35:59.996577+00|Livorno|Toscana|Italy
+16746|32|7.99|2021-05-15 07:40:39.996577+00|Jhansi|Uttar Pradesh|India
+16379|443|7.99|2021-05-15 08:00:41.996577+00|So Leopoldo|Rio Grande do Sul|Brazil
+17171|251|6.99|2021-05-15 08:00:57.996577+00|Halle/Saale|Anhalt Sachsen|Germany
+17108|228|3.99|2021-05-15 08:08:22.996577+00|Phnom Penh|Phnom Penh|Cambodia
+17022|174|7.99|2021-05-15 08:17:22.996577+00|Ocumare del Tuy|Miranda|Venezuela
+16062|272|3.99|2021-05-15 08:21:16.996577+00|Yantai|Shandong|China
+16967|146|7.99|2021-05-15 08:23:30.996577+00|Sterling Heights|Michigan|United States
+16492|503|7.99|2021-05-15 08:33:08.996577+00|Ueda|Nagano|Japan
+16696|9|7.99|2021-05-15 08:42:00.996577+00|Masqat|Masqat|Oman
+17085|214|5.99|2021-05-15 08:42:57.996577+00|Sunnyvale|California|United States
+16735|24|5.99|2021-05-15 08:51:20.996577+00|Crdoba|Crdoba|Argentina
+17110|230|7.99|2021-05-15 08:56:59.996577+00|Botosani|Botosani|Romania
+16147|312|9.99|2021-05-15 09:16:43.996577+00|Tabuk|Tabuk|Saudi Arabia
+17089|215|7.99|2021-05-15 09:23:52.996577+00|Stara Zagora|Haskovo|Bulgaria
+16310|404|8.99|2021-05-15 09:24:58.996577+00|Omiya|Saitama|Japan
+17131|239|8.99|2021-05-15 09:30:27.996577+00|Ciomas|West Java|Indonesia
+16595|556|6.99|2021-05-15 09:33:14.996577+00|Southport|England|United Kingdom
+16700|12|7.99|2021-05-15 09:38:43.996577+00|Yamuna Nagar|Haryana|India
+16683|5|9.99|2021-05-15 09:44:09.996577+00|Nantou|Nantou|Taiwan
+16582|549|7.99|2021-05-15 09:46:03.996577+00|Santiago de Compostela|Galicia|Spain
+17011|169|7.99|2021-05-15 09:46:34.996577+00|Pingxiang|Jiangxi|China
+16213|356|7.99|2021-05-15 10:03:39.996577+00|Satna|Madhya Pradesh|India
+16232|367|5.99|2021-05-15 10:06:55.996577+00|Adoni|Andhra Pradesh|India
+16733|23|3.99|2021-05-15 10:32:10.996577+00|Liepaja|Liepaja|Latvia
+17172|251|7.99|2021-05-15 10:39:30.996577+00|Halle/Saale|Anhalt Sachsen|Germany
+16075|278|7.99|2021-05-15 10:44:23.996577+00|Inegl|Bursa|Turkey
+17086|214|5.99|2021-05-15 11:00:52.996577+00|Sunnyvale|California|United States
+16575|547|4.99|2021-05-15 11:32:15.996577+00|Kanazawa|Ishikawa|Japan
+17175|252|3.99|2021-05-15 11:44:07.996577+00|London|England|United Kingdom
+16058|271|11.99|2021-05-15 11:59:15.996577+00|Kumbakonam|Tamil Nadu|India
+16467|491|3.99|2021-05-15 12:07:08.996577+00|Mit Ghamr|al-Daqahliya|Egypt
+16342|425|8.99|2021-05-15 12:20:14.996577+00|San Juan Bautista Tuxtepec|Oaxaca|Mexico
+16055|269|5.99|2021-05-15 12:23:14.996577+00|Salinas|California|United States
+16475|497|10.99|2021-05-15 12:31:47.996577+00|York|England|United Kingdom
+17192|260|11.99|2021-05-15 12:42:25.996577+00|Datong|Shanxi|China
+16914|115|5.99|2021-05-15 12:48:55.996577+00|Nezahualcyotl|Mxico|Mexico
+16208|353|9.99|2021-05-15 12:52:44.996577+00|Pachuca de Soto|Hidalgo|Mexico
+16418|466|5.99|2021-05-15 12:58:27.996577+00|Dongying|Shandong|China
+16739|26|5.99|2021-05-15 13:02:22.996577+00|Citt del Vaticano||Holy See (Vatican City State)
+16900|109|7.99|2021-05-15 13:05:18.996577+00|Klerksdorp|North West|South Africa
+16791|53|5.99|2021-05-15 13:32:31.996577+00|Nagareyama|Chiba|Japan
+17180|254|8.99|2021-05-15 13:33:38.996577+00|Poos de Caldas|Minas Gerais|Brazil
+16450|481|8.99|2021-05-15 13:40:41.996577+00|Mwanza|Mwanza|Tanzania
+16212|355|6.99|2021-05-15 13:51:17.996577+00|Matsue|Shimane|Japan
+16116|300|7.99|2021-05-15 13:52:45.996577+00|Parbhani|Maharashtra|India
+17087|214|3.99|2021-05-15 14:20:05.996577+00|Sunnyvale|California|United States
+16397|451|5.99|2021-05-15 14:27:10.996577+00|El Fuerte|Sinaloa|Mexico
+16917|117|3.99|2021-05-15 14:28:59.996577+00|Gandhinagar|Gujarat|India
+16901|109|5.99|2021-05-15 14:35:35.996577+00|Klerksdorp|North West|South Africa
+17185|256|3.99|2021-05-15 14:39:12.996577+00|Monywa|Sagaing|Myanmar
+17045|189|8.99|2021-05-15 14:43:57.996577+00|Oshawa|Ontario|Canada
+16513|510|7.99|2021-05-15 14:51:28.996577+00|Kamyin|Volgograd|Russian Federation
+16429|469|5.99|2021-05-15 15:02:53.996577+00|Ourense (Orense)|Galicia|Spain
+16224|361|7.99|2021-05-15 15:05:40.996577+00|Yaound|Centre|Cameroon
+16834|74|9.99|2021-05-15 15:06:02.996577+00|Rio Claro|So Paulo|Brazil
+17031|180|5.99|2021-05-15 15:07:59.996577+00|Pereira|Risaralda|Colombia
+16390|448|5.99|2021-05-15 15:17:09.996577+00|Erlangen|Baijeri|Germany
+16950|134|7.99|2021-05-15 15:18:00.996577+00|Qalyub|al-Qalyubiya|Egypt
+17116|234|7.99|2021-05-15 15:52:10.996577+00|Jalib al-Shuyukh|Hawalli|Kuwait
+16353|431|5.99|2021-05-15 15:56:11.996577+00|Sucre|Chuquisaca|Bolivia
+16279|387|6.99|2021-05-15 16:14:15.996577+00|Lubumbashi|Shaba|Congo, The Democratic Republic of the
+16143|311|9.99|2021-05-15 16:17:52.996577+00|Kursk|Kursk|Russian Federation
+16461|486|3.99|2021-05-15 16:29:14.996577+00|Acua|Coahuila de Zaragoza|Mexico
+16931|124|8.99|2021-05-15 16:42:23.996577+00|Ktahya|Ktahya|Turkey
+16939|128|5.99|2021-05-15 17:12:45.996577+00|Jastrzebie-Zdrj|Slaskie|Poland
+17071|198|7.99|2021-05-15 17:13:19.996577+00|Ikerre|Ondo & Ekiti|Nigeria
+16833|73|7.99|2021-05-15 17:40:47.996577+00|Chiayi|Chiayi|Taiwan
+17048|191|5.99|2021-05-15 17:42:41.996577+00|Novoterkassk|Rostov-na-Donu|Russian Federation
+16926|122|7.99|2021-05-15 17:43:37.996577+00|Lima|Lima|Peru
+16781|50|7.99|2021-05-15 17:48:02.996577+00|Omdurman|Khartum|Sudan
+16206|351|4.99|2021-05-15 17:48:40.996577+00|Zeleznogorsk|Krasnojarsk|Russian Federation
+16370|438|9.99|2021-05-15 17:58:53.996577+00|Kitwe|Copperbelt|Zambia
+16603|562|8.99|2021-05-15 18:03:18.996577+00|Sokoto|Sokoto & Kebbi & Zam|Nigeria
+16697|10|7.99|2021-05-15 18:04:56.996577+00|Esfahan|Esfahan|Iran
+17092|217|11.99|2021-05-15 18:10:28.996577+00|Sambhal|Uttar Pradesh|India
+16684|5|4.99|2021-05-15 18:15:04.996577+00|Nantou|Nantou|Taiwan
+17079|209|5.99|2021-05-15 18:21:29.996577+00|Bhilwara|Rajasthan|India
+16675|207|6.99|2021-05-15 18:32:36.996577+00|Nuuk|Kitaa|Greenland
+16086|284|9.99|2021-05-15 18:42:11.996577+00|Benin City|Edo & Delta|Nigeria
+17167|250|5.99|2021-05-15 19:03:11.996577+00|Oyo|Oyo & Osun|Nigeria
+17191|259|8.99|2021-05-15 19:06:18.996577+00|Halisahar|West Bengali|India
+17118|235|3.99|2021-05-15 19:07:06.996577+00|Buenaventura|Valle|Colombia
+16176|326|6.99|2021-05-15 19:31:43.996577+00|Kingstown|St George|Saint Vincent and the Grenadines
+16953|136|5.99|2021-05-15 19:48:35.996577+00|Hubli-Dharwad|Karnataka|India
+16634|581|7.99|2021-05-15 19:57:26.996577+00|Jos Azueta|Guerrero|Mexico
+17049|191|7.99|2021-05-15 20:00:43.996577+00|Novoterkassk|Rostov-na-Donu|Russian Federation
+16504|506|7.99|2021-05-15 20:05:10.996577+00|Pontianak|Kalimantan Barat|Indonesia
+16809|59|8.99|2021-05-15 20:10:35.996577+00|Mysore|Karnataka|India
+17173|251|5.99|2021-05-15 20:45:37.996577+00|Halle/Saale|Anhalt Sachsen|Germany
+16890|106|3.99|2021-05-15 21:06:00.996577+00|Ivanovo|Ivanovo|Russian Federation
+16813|61|3.99|2021-05-15 21:16:11.996577+00|Basel|Basel-Stadt|Switzerland
+17793|416|5.99|2021-05-29 21:21:59.996577+00|Dadu|Sind|Pakistan
+18173|516|7.99|2021-05-29 21:23:39.996577+00|Battambang|Battambang|Cambodia
+19399|239|7.99|2021-05-29 21:29:00.996577+00|Ciomas|West Java|Indonesia
+17273|285|10.99|2021-05-29 21:35:34.996577+00|Otsu|Shiga|Japan
+17373|310|7.99|2021-05-29 21:38:04.996577+00|Ibirit|Minas Gerais|Brazil
+18441|592|9.99|2021-05-29 21:41:12.996577+00|Szkesfehrvr|Fejr|Hungary
+18698|49|3.99|2021-05-29 21:44:52.996577+00|Jedda|Mekka|Saudi Arabia
+19498|264|6.99|2021-05-29 21:44:53.996577+00|Higashiosaka|Osaka|Japan
+18686|46|7.99|2021-05-29 21:45:29.996577+00|Moscow|Moscow (City)|Russian Federation
+17424|323|3.99|2021-05-29 21:54:24.996577+00|Cuautla|Morelos|Mexico
+18051|481|5.99|2021-05-29 22:03:35.996577+00|Mwanza|Mwanza|Tanzania
+19036|139|5.99|2021-05-29 22:11:22.996577+00|Touliu|Ynlin|Taiwan
+18456|595|5.99|2021-05-29 22:16:01.996577+00|Jinzhou|Liaoning|China
+17270|284|3.99|2021-05-29 22:18:37.996577+00|Benin City|Edo & Delta|Nigeria
+17356|306|3.99|2021-05-29 22:23:00.996577+00|Sungai Petani|Kedah|Malaysia
+19239|191|5.99|2021-05-29 22:23:12.996577+00|Novoterkassk|Rostov-na-Donu|Russian Federation
+18870|95|5.99|2021-05-29 22:41:17.996577+00|Pathankot|Punjab|India
+19265|197|5.99|2021-05-29 22:43:41.996577+00|Changzhou|Jiangsu|China
+18155|512|9.99|2021-05-29 22:57:03.996577+00|London|Ontario|United Kingdom
+19293|210|5.99|2021-05-29 23:01:30.996577+00|Aden|Aden|Yemen
+17251|279|5.99|2021-05-29 23:05:06.996577+00|Tabriz|East Azerbaidzan|Iran
+18963|119|10.99|2021-05-29 23:05:16.996577+00|Shubra al-Khayma|al-Qalyubiya|Egypt
+17854|432|8.99|2021-05-29 23:07:27.996577+00|Newcastle|KwaZulu-Natal|South Africa
+18276|546|4.99|2021-05-29 23:10:43.996577+00|Sanya|Hainan|China
+19257|196|8.99|2021-05-29 23:13:47.996577+00|Mannheim|Baden-Wrttemberg|Germany
+17447|329|5.99|2021-05-29 23:17:45.996577+00|Jamalpur|Dhaka|Bangladesh
+17310|295|8.99|2021-05-29 23:18:02.996577+00|Kolpino|Pietari|Russian Federation
+18495|1|8.99|2021-05-29 23:22:38.996577+00|Sasebo|Nagasaki|Japan
+17610|368|3.99|2021-05-29 23:25:11.996577+00|Najafabad|Esfahan|Iran
+17468|334|7.99|2021-05-29 23:27:16.996577+00|Sumqayit|Sumqayit|Azerbaijan
+19159|173|5.99|2021-05-29 23:32:33.996577+00|Graz|Steiermark|Austria
+19421|244|9.99|2021-05-29 23:32:48.996577+00|Lapu-Lapu|Central Visayas|Philippines
+17617|370|9.99|2021-05-29 23:33:58.996577+00|Gulbarga|Karnataka|India
+17294|291|5.99|2021-05-29 23:39:01.996577+00|Roanoke|Virginia|United States
+19212|186|7.99|2021-05-29 23:47:05.996577+00|Haldia|West Bengali|India
+18322|561|5.99|2021-05-29 23:52:46.996577+00|Garland|Texas|United States
+17743|402|7.99|2021-05-29 23:53:34.996577+00|Brest|Bretagne|France
+18821|84|3.99|2021-05-30 00:06:04.996577+00|Atlixco|Puebla|Mexico
+18709|52|7.99|2021-05-30 00:06:57.996577+00|A Corua (La Corua)|Galicia|Spain
+17537|349|5.99|2021-05-30 00:11:12.996577+00|Imus|Southern Tagalog|Philippines
+18078|491|5.99|2021-05-30 00:17:24.996577+00|Mit Ghamr|al-Daqahliya|Egypt
+19396|238|5.99|2021-05-30 00:27:16.996577+00|Shimoga|Karnataka|India
+18174|516|4.99|2021-05-30 00:28:17.996577+00|Battambang|Battambang|Cambodia
+19289|209|7.99|2021-05-30 00:34:54.996577+00|Bhilwara|Rajasthan|India
+17920|451|3.99|2021-05-30 00:36:30.996577+00|El Fuerte|Sinaloa|Mexico
+17927|452|7.99|2021-05-30 00:37:28.996577+00|Abu Dhabi|Abu Dhabi|United Arab Emirates
+19435|249|3.99|2021-05-30 00:50:12.996577+00|Tianjin|Tianjin|China
+17494|340|7.99|2021-05-30 00:54:22.996577+00|Hanoi|Hanoi|Vietnam
+19499|264|7.99|2021-05-30 00:55:33.996577+00|Higashiosaka|Osaka|Japan
+17841|430|3.99|2021-05-30 00:55:34.996577+00|Dzerzinsk|Nizni Novgorod|Russian Federation
+17637|376|3.99|2021-05-30 00:58:29.996577+00|Kurgan|Kurgan|Russian Federation
+19062|146|10.99|2021-05-30 00:59:38.996577+00|Sterling Heights|Michigan|United States
+17522|345|3.99|2021-05-30 01:26:17.996577+00|San Lorenzo|Central|Paraguay
+18974|122|3.99|2021-05-30 01:29:46.996577+00|Lima|Lima|Peru
+17618|371|5.99|2021-05-30 01:31:59.996577+00|Cabuyao|Southern Tagalog|Philippines
+18865|94|5.99|2021-05-30 01:42:31.996577+00|Bislig|Caraga|Philippines
+18687|46|7.99|2021-05-30 01:47:06.996577+00|Moscow|Moscow (City)|Russian Federation
+18896|102|5.99|2021-05-30 01:49:26.996577+00|Ashdod|Ha Darom|Israel
+18892|100|7.99|2021-05-30 01:52:14.996577+00|Jelets|Lipetsk|Russian Federation
+18472|203|7.99|2021-05-30 01:52:40.996577+00|Gorontalo|Sulawesi Utara|Indonesia
+17619|371|4.99|2021-05-30 01:53:10.996577+00|Cabuyao|Southern Tagalog|Philippines
+17456|330|9.99|2021-05-30 01:54:25.996577+00|Aurora|Illinois|United States
+17289|290|9.99|2021-05-30 01:54:41.996577+00|Valle de la Pascua|Gurico|Venezuela
+17746|403|7.99|2021-05-30 02:03:42.996577+00|Valparai|Tamil Nadu|India
+19144|168|7.99|2021-05-30 02:07:15.996577+00|Jinchang|Gansu|China
+18703|50|5.99|2021-05-30 02:07:19.996577+00|Omdurman|Khartum|Sudan
+17616|369|3.99|2021-05-30 02:12:51.996577+00|Jurez|Chihuahua|Mexico
+17857|434|3.99|2021-05-30 02:14:01.996577+00|Ozamis|Northern Mindanao|Philippines
+17774|409|8.99|2021-05-30 02:14:36.996577+00|Deba Habe|Bauchi & Gombe|Nigeria
+17832|428|6.99|2021-05-30 02:18:29.996577+00|Syktyvkar|Komi|Russian Federation
+17735|398|5.99|2021-05-30 02:19:02.996577+00|Bag|Rio Grande do Sul|Brazil
+18001|468|5.99|2021-05-30 02:21:39.996577+00|Bijapur|Karnataka|India
+17901|447|3.99|2021-05-30 02:32:35.996577+00|Nabereznyje Telny|Tatarstan|Russian Federation
+17343|302|5.99|2021-05-30 02:33:07.996577+00|Tiefa|Liaoning|China
+17709|391|3.99|2021-05-30 02:46:36.996577+00|Izumisano|Osaka|Japan
+18285|550|9.99|2021-05-30 02:47:03.996577+00|Zhoushan|Zhejiang|China
+18221|529|4.99|2021-05-30 02:50:18.996577+00|Bhimavaram|Andhra Pradesh|India
+19458|255|5.99|2021-05-30 02:59:54.996577+00|Hagonoy|Central Luzon|Philippines
+18756|66|5.99|2021-05-30 03:02:53.996577+00|Malm|Skne ln|Sweden
+18699|49|12.99|2021-05-30 03:12:36.996577+00|Jedda|Mekka|Saudi Arabia
+18482|205|5.99|2021-05-30 03:17:34.996577+00|Ciudad del Este|Alto Paran|Paraguay
+17889|444|3.99|2021-05-30 03:21:27.996577+00|Tartu|Tartumaa|Estonia
+18609|28|5.99|2021-05-30 03:26:33.996577+00|Munger (Monghyr)|Bihar|India
+18744|62|9.99|2021-05-30 03:28:09.996577+00|Saint Louis|Missouri|United States
+19044|141|10.99|2021-05-30 03:33:33.996577+00|Fukuyama|Hiroshima|Japan
+18911|107|5.99|2021-05-30 03:35:58.996577+00|Merlo|Buenos Aires|Argentina
+18167|515|7.99|2021-05-30 03:37:06.996577+00|Coquimbo|Coquimbo|Chile
+19373|234|6.99|2021-05-30 03:37:27.996577+00|Jalib al-Shuyukh|Hawalli|Kuwait
+17565|357|8.99|2021-05-30 03:39:45.996577+00|Bratislava|Bratislava|Slovakia
+17278|287|10.99|2021-05-30 03:45:06.996577+00|Tambaram|Tamil Nadu|India
+18271|544|4.99|2021-05-30 04:02:18.996577+00|So Bernardo do Campo|So Paulo|Brazil
+17747|403|11.99|2021-05-30 04:06:35.996577+00|Valparai|Tamil Nadu|India
+18655|38|5.99|2021-05-30 04:24:06.996577+00|Chisinau|Chisinau|Moldova
+17884|442|8.99|2021-05-30 04:27:21.996577+00|Tongliao|Inner Mongolia|China
+18848|89|11.99|2021-05-30 04:33:44.996577+00|La Plata|Buenos Aires|Argentina
+18103|498|9.99|2021-05-30 04:34:59.996577+00|Salala|Zufar|Oman
+18361|571|7.99|2021-05-30 04:39:42.996577+00|Plock|Mazowieckie|Poland
+18206|526|7.99|2021-05-30 04:42:11.996577+00|Cape Coral|Florida|United States
+18009|470|3.99|2021-05-30 04:42:23.996577+00|Hodeida|Hodeida|Yemen
+19509|267|7.99|2021-05-30 04:44:02.996577+00|Lengshuijiang|Hunan|China
+17410|320|7.99|2021-05-30 04:49:56.996577+00|Tafuna|Tutuila|American Samoa
+18354|570|7.99|2021-05-30 05:06:21.996577+00|Monclova|Coahuila de Zaragoza|Mexico
+18417|586|5.99|2021-05-30 05:10:51.996577+00|Tsaotun|Nantou|Taiwan
+18871|95|4.99|2021-05-30 05:21:23.996577+00|Pathankot|Punjab|India
+19383|236|3.99|2021-05-30 05:23:19.996577+00|Tanza|Southern Tagalog|Philippines
+18257|540|5.99|2021-05-30 05:25:05.996577+00|Ruse|Ruse|Bulgaria
+17876|439|7.99|2021-05-30 05:28:05.996577+00|Bergamo|Lombardia|Italy
+19126|163|7.99|2021-05-30 05:29:16.996577+00|Kakamigahara|Gifu|Japan
+18874|96|6.99|2021-05-30 05:40:05.996577+00|Augusta-Richmond County|Georgia|United States
+18141|509|5.99|2021-05-30 05:49:47.996577+00|Chapra|Bihar|India
+19047|142|4.99|2021-05-30 05:57:56.996577+00|Dundee|Scotland|United Kingdom
+18739|59|5.99|2021-05-30 05:58:25.996577+00|Mysore|Karnataka|India
+17724|395|3.99|2021-05-30 05:58:48.996577+00|al-Qadarif|al-Qadarif|Sudan
+18320|560|7.99|2021-05-30 06:00:50.996577+00|Avellaneda|Buenos Aires|Argentina
+19025|135|3.99|2021-05-30 06:11:24.996577+00|Pune|Maharashtra|India
+18224|530|4.99|2021-05-30 06:21:01.996577+00|Ezeiza|Buenos Aires|Argentina
+17842|430|5.99|2021-05-30 06:21:18.996577+00|Dzerzinsk|Nizni Novgorod|Russian Federation
+19310|214|7.99|2021-05-30 06:24:09.996577+00|Sunnyvale|California|United States
+17696|388|9.99|2021-05-30 06:28:39.996577+00|Cavite|Southern Tagalog|Philippines
+17986|464|7.99|2021-05-30 06:29:55.996577+00|Rancagua|OHiggins|Chile
+19240|191|3.99|2021-05-30 06:37:38.996577+00|Novoterkassk|Rostov-na-Donu|Russian Federation
+19203|183|3.99|2021-05-30 06:42:23.996577+00|Luzinia|Gois|Brazil
+19505|266|8.99|2021-05-30 06:44:32.996577+00|Salzburg|Salzburg|Austria
+18151|511|5.99|2021-05-30 06:50:05.996577+00|Suihua|Heilongjiang|China
+18254|539|6.99|2021-05-30 06:53:59.996577+00|Valencia|Carabobo|Venezuela
+18010|470|3.99|2021-05-30 06:55:56.996577+00|Hodeida|Hodeida|Yemen
+17982|463|5.99|2021-05-30 06:55:59.996577+00|Halifax|Nova Scotia|Canada
+19453|254|5.99|2021-05-30 07:01:32.996577+00|Poos de Caldas|Minas Gerais|Brazil
+19191|179|10.99|2021-05-30 07:09:39.996577+00|Kirovo-Tepetsk|Kirov|Russian Federation
+18902|104|6.99|2021-05-30 07:10:04.996577+00|Toulon|Provence-Alpes-Cte|France
+17951|456|5.99|2021-05-30 07:10:18.996577+00|Ziguinchor|Ziguinchor|Senegal
+18194|522|6.99|2021-05-30 07:12:35.996577+00|Santa Rosa|Southern Tagalog|Philippines
+18258|540|7.99|2021-05-30 07:21:10.996577+00|Ruse|Ruse|Bulgaria
+19170|176|8.99|2021-05-30 07:23:27.996577+00|Skikda|Skikda|Algeria
+19183|178|9.99|2021-05-30 07:32:18.996577+00|Santa Brbara dOeste|So Paulo|Brazil
+18992|127|7.99|2021-05-30 07:34:50.996577+00|Smolensk|Smolensk|Russian Federation
+17436|327|7.99|2021-05-30 07:37:53.996577+00|Adana|Adana|Turkey
+17910|449|7.99|2021-05-30 07:45:46.996577+00|Sirjan|Kerman|Iran
+19277|200|4.99|2021-05-30 07:52:25.996577+00|Ashgabat|Ahal|Turkmenistan
+18507|4|7.99|2021-05-30 07:59:54.996577+00|Myingyan|Mandalay|Myanmar
+17469|334|7.99|2021-05-30 08:01:19.996577+00|Sumqayit|Sumqayit|Azerbaijan
+18856|91|7.99|2021-05-30 08:03:16.996577+00|Bandar Seri Begawan|Brunei and Muara|Brunei
+19213|186|5.99|2021-05-30 08:04:45.996577+00|Haldia|West Bengali|India
+18640|33|13.99|2021-05-30 08:14:59.996577+00|Alessandria|Piemonte|Italy
+17274|285|6.99|2021-05-30 08:17:03.996577+00|Otsu|Shiga|Japan
+17602|365|4.99|2021-05-30 08:24:23.996577+00|Okinawa|Okinawa|Japan
+19412|242|7.99|2021-05-30 08:24:28.996577+00|Qinhuangdao|Hebei|China
+18527|8|5.99|2021-05-30 08:27:42.996577+00|Hamilton|Hamilton|New Zealand
+18202|524|4.99|2021-05-30 08:27:50.996577+00|Purwakarta|West Java|Indonesia
+18137|507|7.99|2021-05-30 08:34:41.996577+00|Eskisehir|Eskisehir|Turkey
+19384|236|8.99|2021-05-30 08:36:14.996577+00|Tanza|Southern Tagalog|Philippines
+19278|200|7.99|2021-05-30 08:39:15.996577+00|Ashgabat|Ahal|Turkmenistan
+18601|27|7.99|2021-05-30 08:40:08.996577+00|Davao|Southern Mindanao|Philippines
+17432|326|7.99|2021-05-30 08:40:25.996577+00|Kingstown|St George|Saint Vincent and the Grenadines
+17384|313|5.99|2021-05-30 08:44:53.996577+00|Ezhou|Hubei|China
+17905|448|8.99|2021-05-30 08:47:00.996577+00|Erlangen|Baijeri|Germany
+18250|538|8.99|2021-05-30 08:50:11.996577+00|Baicheng|Jilin|China
+17756|405|7.99|2021-05-30 08:51:34.996577+00|Tandil|Buenos Aires|Argentina
+19033|138|3.99|2021-05-30 08:54:49.996577+00|Hohhot|Inner Mongolia|China
+17390|316|7.99|2021-05-30 08:58:45.996577+00|Miraj|Maharashtra|India
+17502|341|5.99|2021-05-30 09:02:52.996577+00|Ede|Gelderland|Netherlands
+19234|190|5.99|2021-05-30 09:07:31.996577+00|Tabora|Tabora|Tanzania
+18822|84|7.99|2021-05-30 09:10:39.996577+00|Atlixco|Puebla|Mexico
+18476|204|5.99|2021-05-30 09:17:43.996577+00|Usak|Usak|Turkey
+19324|217|5.99|2021-05-30 09:23:35.996577+00|Sambhal|Uttar Pradesh|India
+19218|187|9.99|2021-05-30 09:23:43.996577+00|Sumy|Sumy|Ukraine
+17723|394|7.99|2021-05-30 09:31:11.996577+00|Gijn|Asturia|Spain
+19246|193|7.99|2021-05-30 09:31:50.996577+00|Kisumu|Nyanza|Kenya
+18281|548|4.99|2021-05-30 09:36:05.996577+00|Tarlac|Central Luzon|Philippines
+18255|539|3.99|2021-05-30 09:40:05.996577+00|Valencia|Carabobo|Venezuela
+17311|295|5.99|2021-05-30 09:51:53.996577+00|Kolpino|Pietari|Russian Federation
+17575|359|7.99|2021-05-30 09:53:32.996577+00|Almirante Brown|Buenos Aires|Argentina
+18419|587|5.99|2021-05-30 09:57:43.996577+00|Celaya|Guanajuato|Mexico
+17240|277|5.99|2021-05-30 10:02:59.996577+00|Ogbomosho|Oyo & Osun|Nigeria
+18952|116|3.99|2021-05-30 10:04:27.996577+00|Pemalang|Central Java|Indonesia
+17374|310|5.99|2021-05-30 10:05:34.996577+00|Ibirit|Minas Gerais|Brazil
+17215|269|6.99|2021-05-30 10:11:35.996577+00|Salinas|California|United States
+18752|64|3.99|2021-05-30 10:19:56.996577+00|Daxian|Sichuan|China
+17290|290|11.99|2021-05-30 10:30:00.996577+00|Valle de la Pascua|Gurico|Venezuela
+17988|465|5.99|2021-05-30 10:41:08.996577+00|Zapopan|Jalisco|Mexico
+18588|25|7.99|2021-05-30 10:46:00.996577+00|Shikarpur|Sind|Pakistan
+19121|162|7.99|2021-05-30 10:50:22.996577+00|Le Mans|Pays de la Loire|France
+18893|100|6.99|2021-05-30 10:52:41.996577+00|Jelets|Lipetsk|Russian Federation
+17519|344|6.99|2021-05-30 10:54:44.996577+00|Nukualofa|Tongatapu|Tonga
+17827|427|8.99|2021-05-30 10:54:47.996577+00|Guaruj|So Paulo|Brazil
+17794|416|7.99|2021-05-30 10:55:45.996577+00|Dadu|Sind|Pakistan
+18413|585|3.99|2021-05-30 10:58:07.996577+00|Quilmes|Buenos Aires|Argentina
+17218|270|7.99|2021-05-30 11:00:39.996577+00|Kalisz|Wielkopolskie|Poland
+18414|585|10.99|2021-05-30 11:08:18.996577+00|Quilmes|Buenos Aires|Argentina
+19235|190|5.99|2021-05-30 11:12:09.996577+00|Tabora|Tabora|Tanzania
+19258|196|5.99|2021-05-30 11:13:56.996577+00|Mannheim|Baden-Wrttemberg|Germany
+19510|267|7.99|2021-05-30 11:17:28.996577+00|Lengshuijiang|Hunan|China
+17391|316|7.99|2021-05-30 11:18:51.996577+00|Miraj|Maharashtra|India
+18060|484|6.99|2021-05-30 11:19:29.996577+00|Yinchuan|Ningxia|China
+17237|276|3.99|2021-05-30 11:26:53.996577+00|Warren|Michigan|United States
+18049|480|3.99|2021-05-30 11:42:02.996577+00|Gaziantep|Gaziantep|Turkey
+18817|83|8.99|2021-05-30 11:42:15.996577+00|Springs|Gauteng|South Africa
+18109|499|5.99|2021-05-30 11:42:25.996577+00|Brindisi|Apulia|Italy
+19297|212|3.99|2021-05-30 11:45:27.996577+00|Bellevue|Washington|United States
+18483|205|7.99|2021-05-30 11:54:49.996577+00|Ciudad del Este|Alto Paran|Paraguay
+17885|442|3.99|2021-05-30 11:57:14.996577+00|Tongliao|Inner Mongolia|China
+17553|353|5.99|2021-05-30 11:58:56.996577+00|Pachuca de Soto|Hidalgo|Mexico
+18550|14|7.99|2021-05-30 12:00:41.996577+00|Citrus Heights|California|United States
+18949|115|3.99|2021-05-30 12:06:04.996577+00|Nezahualcyotl|Mxico|Mexico
+18884|98|6.99|2021-05-30 12:21:58.996577+00|al-Ayn|Abu Dhabi|United Arab Emirates
+19266|197|3.99|2021-05-30 12:33:37.996577+00|Changzhou|Jiangsu|China
+17740|400|3.99|2021-05-30 12:33:58.996577+00|Dallas|Texas|United States
+18589|25|5.99|2021-05-30 12:38:21.996577+00|Shikarpur|Sind|Pakistan
+18382|576|7.99|2021-05-30 12:49:26.996577+00|Fengshan|Kaohsiung|Taiwan
+18866|94|7.99|2021-05-30 12:53:43.996577+00|Bislig|Caraga|Philippines
+19338|222|11.99|2021-05-30 12:56:13.996577+00|Jaroslavl|Jaroslavl|Russian Federation
+19333|221|3.99|2021-05-30 12:57:40.996577+00|Syrakusa|Sisilia|Italy
+17730|396|4.99|2021-05-30 12:59:31.996577+00|Iwatsuki|Saitama|Japan
+18079|491|7.99|2021-05-30 13:06:41.996577+00|Mit Ghamr|al-Daqahliya|Egypt
+18918|108|7.99|2021-05-30 13:14:14.996577+00|Huixquilucan|Mxico|Mexico
+18707|51|4.99|2021-05-30 13:16:30.996577+00|Fontana|California|United States
+18966|120|6.99|2021-05-30 13:18:20.996577+00|Dos Quebradas|Risaralda|Colombia
+18113|500|8.99|2021-05-30 13:23:22.996577+00|Madiun|East Java|Indonesia
+19313|215|7.99|2021-05-30 13:27:32.996577+00|Stara Zagora|Haskovo|Bulgaria
+19424|245|5.99|2021-05-30 13:30:29.996577+00|Uijongbu|Kyonggi|South Korea
+19447|253|4.99|2021-05-30 13:31:41.996577+00|Miyakonojo|Miyazaki|Japan
+19298|212|3.99|2021-05-30 13:33:36.996577+00|Bellevue|Washington|United States
+19110|158|3.99|2021-05-30 13:41:36.996577+00|Greensboro|North Carolina|United States
+17338|300|3.99|2021-05-30 13:45:47.996577+00|Parbhani|Maharashtra|India
+17947|455|4.99|2021-05-30 13:46:34.996577+00|El Alto|La Paz|Bolivia
+17648|379|11.99|2021-05-30 13:48:32.996577+00|Bhavnagar|Gujarat|India
+19413|242|7.99|2021-05-30 13:50:29.996577+00|Qinhuangdao|Hebei|China
+17731|396|7.99|2021-05-30 13:56:49.996577+00|Iwatsuki|Saitama|Japan
+17417|322|5.99|2021-05-30 14:07:24.996577+00|Baha Blanca|Buenos Aires|Argentina
+17247|278|3.99|2021-05-30 14:09:22.996577+00|Inegl|Bursa|Turkey
+18114|500|8.99|2021-05-30 14:17:07.996577+00|Madiun|East Java|Indonesia
+18017|472|7.99|2021-05-30 14:17:27.996577+00|Nam Dinh|Nam Ha|Vietnam
+19454|254|3.99|2021-05-30 14:34:55.996577+00|Poos de Caldas|Minas Gerais|Brazil
+17226|273|9.99|2021-05-30 14:39:47.996577+00|Salamanca|Guanajuato|Mexico
+17976|460|3.99|2021-05-30 14:40:53.996577+00|Florencia|Caquet|Colombia
+19178|177|5.99|2021-05-30 14:41:16.996577+00|Matamoros|Tamaulipas|Mexico
+17207|268|5.99|2021-05-30 14:45:47.996577+00|Palghat (Palakkad)|Kerala|India
+19444|252|8.99|2021-05-30 14:49:30.996577+00|London|England|United Kingdom
+18898|103|7.99|2021-05-30 14:51:04.996577+00|Ilorin|Kwara & Kogi|Nigeria
+17890|444|6.99|2021-05-30 14:53:52.996577+00|Tartu|Tartumaa|Estonia
+18215|527|5.99|2021-05-30 14:57:08.996577+00|Mogiljov|Mogiljov|Belarus
+18007|469|3.99|2021-05-30 14:58:17.996577+00|Ourense (Orense)|Galicia|Spain
+18362|571|6.99|2021-05-30 14:58:22.996577+00|Plock|Mazowieckie|Poland
+17607|366|4.99|2021-05-30 14:58:48.996577+00|Balikesir|Balikesir|Turkey
+17659|381|6.99|2021-05-30 14:59:34.996577+00|South Hill||Anguilla
+18277|546|3.99|2021-05-30 15:00:25.996577+00|Sanya|Hainan|China
+17634|375|5.99|2021-05-30 15:07:19.996577+00|Mwene-Ditu|East Kasai|Congo, The Democratic Republic of the
+19418|243|8.99|2021-05-30 15:09:52.996577+00|San Miguel de Tucumn|Tucumn|Argentina
+19274|199|7.99|2021-05-30 15:12:26.996577+00|Haiphong|Haiphong|Vietnam
+18849|89|10.99|2021-05-30 15:13:33.996577+00|La Plata|Buenos Aires|Argentina
+17732|396|9.99|2021-05-30 15:26:24.996577+00|Iwatsuki|Saitama|Japan
+17322|297|6.99|2021-05-30 15:26:38.996577+00|Ahmadnagar|Maharashtra|India
+17562|356|3.99|2021-05-30 15:28:12.996577+00|Satna|Madhya Pradesh|India
+18189|520|3.99|2021-05-30 15:34:02.996577+00|Nha Trang|Khanh Hoa|Vietnam
+19137|166|5.99|2021-05-30 15:38:14.996577+00|Lilongwe|Lilongwe|Malawi
+18875|96|10.99|2021-05-30 15:53:33.996577+00|Augusta-Richmond County|Georgia|United States
+17348|304|9.99|2021-05-30 15:54:58.996577+00|Callao|Callao|Peru
+17461|331|5.99|2021-05-30 16:00:23.996577+00|Santa F|Santa F|Argentina
+19141|167|6.99|2021-05-30 16:13:23.996577+00|Chandrapur|Maharashtra|India
+18355|570|7.99|2021-05-30 16:14:17.996577+00|Monclova|Coahuila de Zaragoza|Mexico
+18438|591|3.99|2021-05-30 16:19:53.996577+00|Juiz de Fora|Minas Gerais|Brazil
+17382|312|3.99|2021-05-30 16:23:16.996577+00|Tabuk|Tabuk|Saudi Arabia
+19459|255|9.99|2021-05-30 16:24:40.996577+00|Hagonoy|Central Luzon|Philippines
+18230|533|8.99|2021-05-30 16:25:30.996577+00|Binzhou|Shandong|China
+18496|1|3.99|2021-05-30 16:31:19.996577+00|Sasebo|Nagasaki|Japan
+18442|592|8.99|2021-05-30 16:36:38.996577+00|Szkesfehrvr|Fejr|Hungary
+19342|224|10.99|2021-05-30 16:36:40.996577+00|Jodhpur|Rajasthan|India
+18919|108|5.99|2021-05-30 16:42:12.996577+00|Huixquilucan|Mxico|Mexico
+17592|363|7.99|2021-05-30 16:44:50.996577+00|Nyeri|Central|Kenya
+18894|100|5.99|2021-05-30 16:45:54.996577+00|Jelets|Lipetsk|Russian Federation
+18405|583|6.99|2021-05-30 16:47:56.996577+00|Southampton|England|United Kingdom
+17587|362|5.99|2021-05-30 16:52:36.996577+00|Belm|Par|Brazil
+19252|194|3.99|2021-05-30 16:53:21.996577+00|Hino|Tokyo-to|Japan
+17870|438|7.99|2021-05-30 16:54:55.996577+00|Kitwe|Copperbelt|Zambia
+17489|339|6.99|2021-05-30 16:55:50.996577+00|Xinxiang|Henan|China
+18845|88|5.99|2021-05-30 16:58:26.996577+00|Cheju|Cheju|South Korea
+18272|544|13.99|2021-05-30 16:59:12.996577+00|So Bernardo do Campo|So Paulo|Brazil
+18143|510|8.99|2021-05-30 17:00:56.996577+00|Kamyin|Volgograd|Russian Federation
+18411|584|6.99|2021-05-30 17:04:06.996577+00|Banjul|Banjul|Gambia
+18876|96|3.99|2021-05-30 17:05:30.996577+00|Augusta-Richmond County|Georgia|United States
+18812|82|3.99|2021-05-30 17:07:17.996577+00|Simferopol|Krim|Ukraine
+18428|589|7.99|2021-05-30 17:13:58.996577+00|Loja|Loja|Ecuador
+18594|26|8.99|2021-05-30 17:21:40.996577+00|Citt del Vaticano||Holy See (Vatican City State)
+17891|444|4.99|2021-05-30 17:22:47.996577+00|Tartu|Tartumaa|Estonia
+18975|122|10.99|2021-05-30 17:24:00.996577+00|Lima|Lima|Peru
+17864|435|3.99|2021-05-30 17:26:17.996577+00|Junan|Shandong|China
+18256|539|7.99|2021-05-30 17:36:42.996577+00|Valencia|Carabobo|Venezuela
+18246|537|5.99|2021-05-30 17:38:33.996577+00|Aurora|Colorado|United States
+18132|506|9.99|2021-05-30 17:42:11.996577+00|Pontianak|Kalimantan Barat|Indonesia
+18012|471|7.99|2021-05-30 17:42:17.996577+00|Johannesburg|Gauteng|South Africa
+19427|246|4.99|2021-05-30 17:45:42.996577+00|Maring|Paran|Brazil
+18013|471|5.99|2021-05-30 17:47:42.996577+00|Johannesburg|Gauteng|South Africa
+17208|268|7.99|2021-05-30 17:50:34.996577+00|Palghat (Palakkad)|Kerala|India
+18561|18|8.99|2021-05-30 17:58:44.996577+00|Kaduna|Kaduna|Nigeria
+19419|243|3.99|2021-05-30 18:01:18.996577+00|San Miguel de Tucumn|Tucumn|Argentina
+17958|457|7.99|2021-05-30 18:05:05.996577+00|Rockford|Illinois|United States
+17327|298|7.99|2021-05-30 18:18:07.996577+00|Oulu|Pohjois-Pohjanmaa|Finland
+17569|358|5.99|2021-05-30 18:19:32.996577+00|Ranchi|Jharkhand|India
+18433|590|10.99|2021-05-30 18:28:37.996577+00|al-Manama|al-Manama|Bahrain
+17523|345|7.99|2021-05-30 18:34:15.996577+00|San Lorenzo|Central|Paraguay
+19184|178|9.99|2021-05-30 18:52:31.996577+00|Santa Brbara dOeste|So Paulo|Brazil
+19327|218|5.99|2021-05-30 18:54:19.996577+00|Kabul|Kabol|Afghanistan
+18338|565|7.99|2021-05-30 18:55:28.996577+00|Hunuco|Huanuco|Peru
+19319|216|9.99|2021-05-30 19:00:34.996577+00|Aparecida de Goinia|Gois|Brazil
+19219|187|7.99|2021-05-30 19:06:06.996577+00|Sumy|Sumy|Ukraine
+18352|569|9.99|2021-05-30 19:06:17.996577+00|Leshan|Sichuan|China
+17690|387|3.99|2021-05-30 19:06:40.996577+00|Lubumbashi|Shaba|Congo, The Democratic Republic of the
+17691|387|3.99|2021-05-30 19:11:34.996577+00|Lubumbashi|Shaba|Congo, The Democratic Republic of the
+17282|288|8.99|2021-05-30 19:14:30.996577+00|Valle de Santiago|Guanajuato|Mexico
+18133|506|5.99|2021-05-30 19:15:36.996577+00|Pontianak|Kalimantan Barat|Indonesia
+19360|230|6.99|2021-05-30 19:16:48.996577+00|Botosani|Botosani|Romania
+18398|580|3.99|2021-05-30 19:21:02.996577+00|Iligan|Central Mindanao|Philippines
+18537|11|9.99|2021-05-30 19:21:33.996577+00|Sagamihara|Kanagawa|Japan
+17833|428|5.99|2021-05-30 19:21:52.996577+00|Syktyvkar|Komi|Russian Federation
+17628|373|9.99|2021-05-30 19:23:21.996577+00|Tanauan|Southern Tagalog|Philippines
+19436|249|8.99|2021-05-30 19:23:46.996577+00|Tianjin|Tianjin|China
+18468|202|5.99|2021-05-30 19:24:08.996577+00|Bhusawal|Maharashtra|India
+17520|344|7.99|2021-05-30 19:36:27.996577+00|Nukualofa|Tongatapu|Tonga
+18497|1|12.99|2021-05-30 19:37:12.996577+00|Sasebo|Nagasaki|Japan
+18708|51|3.99|2021-05-30 19:39:44.996577+00|Fontana|California|United States
+17472|336|5.99|2021-05-30 19:40:39.996577+00|Rampur|Uttar Pradesh|India
+18443|592|5.99|2021-05-30 19:42:04.996577+00|Szkesfehrvr|Fejr|Hungary
+18602|27|7.99|2021-05-30 19:45:43.996577+00|Davao|Southern Mindanao|Philippines
+18987|125|5.99|2021-05-30 19:46:24.996577+00|Boksburg|Gauteng|South Africa
+18742|60|7.99|2021-05-30 19:46:42.996577+00|Jaipur|Rajasthan|India
+19414|242|7.99|2021-05-30 19:50:24.996577+00|Qinhuangdao|Hebei|China
+17411|320|6.99|2021-05-30 19:51:01.996577+00|Tafuna|Tutuila|American Samoa
+17259|281|8.99|2021-05-30 19:52:36.996577+00|Fuzhou|Fujian|China
+18745|62|3.99|2021-05-30 19:53:56.996577+00|Saint Louis|Missouri|United States
+18790|76|3.99|2021-05-30 19:56:08.996577+00|Pavlodar|Pavlodar|Kazakstan
+17560|355|3.99|2021-05-30 20:08:20.996577+00|Matsue|Shimane|Japan
+19301|213|3.99|2021-05-30 20:10:04.996577+00|Taizz|Taizz|Yemen
+18981|123|7.99|2021-05-30 20:10:43.996577+00|Varanasi (Benares)|Uttar Pradesh|India
+17556|354|3.99|2021-05-30 20:16:44.996577+00|Santo Andr|So Paulo|Brazil
+17579|360|3.99|2021-05-30 20:17:01.996577+00|Arecibo|Arecibo|Puerto Rico
+19381|235|7.99|2021-05-30 20:18:58.996577+00|Buenaventura|Valle|Colombia
+18379|575|5.99|2021-05-30 20:22:46.996577+00|Cuernavaca|Morelos|Mexico
+19168|175|3.99|2021-05-30 20:22:57.996577+00|Allappuzha (Alleppey)|Kerala|India
+17291|290|7.99|2021-05-30 20:24:24.996577+00|Valle de la Pascua|Gurico|Venezuela
+18677|44|6.99|2021-05-30 20:25:05.996577+00|Lipetsk|Lipetsk|Russian Federation
+17548|352|3.99|2021-05-30 20:26:26.996577+00|Bamenda|Nord-Ouest|Cameroon
+17635|375|8.99|2021-05-30 20:26:33.996577+00|Mwene-Ditu|East Kasai|Congo, The Democratic Republic of the
+19391|237|3.99|2021-05-30 20:29:11.996577+00|Naju|Chollanam|South Korea
+19073|148|4.99|2021-05-30 20:31:01.996577+00|Saint-Denis|Saint-Denis|Runion
+18513|5|6.99|2021-05-30 20:31:40.996577+00|Nantou|Nantou|Taiwan
+19267|197|5.99|2021-05-30 20:35:35.996577+00|Changzhou|Jiangsu|China
+17813|423|6.99|2021-05-30 20:36:32.996577+00|Sawhaj|Sawhaj|Egypt
+18323|561|5.99|2021-05-30 20:41:16.996577+00|Garland|Texas|United States
+17752|404|5.99|2021-05-30 20:48:03.996577+00|Omiya|Saitama|Japan
+19156|172|3.99|2021-05-30 20:53:52.996577+00|Batman|Batman|Turkey
+18152|511|5.99|2021-05-30 21:01:50.996577+00|Suihua|Heilongjiang|China
+19142|167|8.99|2021-05-30 21:04:19.996577+00|Chandrapur|Maharashtra|India
+17482|338|7.99|2021-05-30 21:08:00.996577+00|Paarl|Western Cape|South Africa
+17457|330|8.99|2021-05-30 21:13:32.996577+00|Aurora|Illinois|United States
+17928|452|8.99|2021-05-30 21:21:29.996577+00|Abu Dhabi|Abu Dhabi|United Arab Emirates
+17611|368|12.99|2021-05-30 21:21:56.996577+00|Najafabad|Esfahan|Iran
+17776|410|5.99|2021-05-30 21:26:00.996577+00|Richmond Hill|Ontario|Canada
+18950|115|5.99|2021-05-30 21:36:16.996577+00|Nezahualcyotl|Mxico|Mexico
+18225|530|3.99|2021-05-30 21:39:36.996577+00|Ezeiza|Buenos Aires|Argentina
+19074|148|9.99|2021-05-30 21:48:52.996577+00|Saint-Denis|Saint-Denis|Runion
+19392|237|3.99|2021-05-30 22:05:03.996577+00|Naju|Chollanam|South Korea
+19100|155|4.99|2021-05-30 22:23:53.996577+00|Bern|Bern|Switzerland
+17503|341|10.99|2021-05-30 22:25:46.996577+00|Ede|Gelderland|Netherlands
+19078|149|5.99|2021-05-30 22:27:19.996577+00|Brockton|Massachusetts|United States
+19017|133|6.99|2021-05-30 22:46:05.996577+00|Torren|Coahuila de Zaragoza|Mexico
+17538|349|3.99|2021-05-30 22:47:06.996577+00|Imus|Southern Tagalog|Philippines
+19179|177|5.99|2021-05-30 22:54:18.996577+00|Matamoros|Tamaulipas|Mexico
+17349|304|7.99|2021-05-30 22:54:33.996577+00|Callao|Callao|Peru
+18110|499|7.99|2021-05-30 22:56:17.996577+00|Brindisi|Apulia|Italy
+19225|188|5.99|2021-05-30 23:00:06.996577+00|Bayugan|Caraga|Philippines
+18928|110|11.99|2021-05-30 23:01:18.996577+00|Enshi|Hubei|China
+17588|362|5.99|2021-05-30 23:06:01.996577+00|Belm|Par|Brazil
+17714|392|9.99|2021-05-30 23:06:33.996577+00|Addis Abeba|Addis Abeba|Ethiopia
+18168|515|8.99|2021-05-30 23:09:00.996577+00|Coquimbo|Coquimbo|Chile
+17292|290|3.99|2021-05-30 23:09:57.996577+00|Valle de la Pascua|Gurico|Venezuela
+18953|116|3.99|2021-05-30 23:14:28.996577+00|Pemalang|Central Java|Indonesia
+18672|42|3.99|2021-05-30 23:17:58.996577+00|Pak Kret|Nonthaburi|Thailand
+18469|202|7.99|2021-05-30 23:20:30.996577+00|Bhusawal|Maharashtra|India
+17490|339|7.99|2021-05-30 23:20:48.996577+00|Xinxiang|Henan|China
+18450|594|8.99|2021-05-30 23:21:17.996577+00|Jining|Inner Mongolia|China
+17843|430|5.99|2021-05-30 23:34:16.996577+00|Dzerzinsk|Nizni Novgorod|Russian Federation
+17704|390|8.99|2021-05-30 23:39:51.996577+00|Nakhon Sawan|Nakhon Sawan|Thailand
+18418|586|3.99|2021-05-30 23:43:22.996577+00|Tsaotun|Nantou|Taiwan
+19229|189|3.99|2021-05-30 23:44:25.996577+00|Oshawa|Ontario|Canada
+19199|182|6.99|2021-05-30 23:48:31.996577+00|Compton|California|United States
+18610|28|7.99|2021-05-30 23:52:34.996577+00|Munger (Monghyr)|Bihar|India
+18676|43|7.99|2021-05-30 23:56:48.996577+00|Faaa|Tahiti|French Polynesia
+18335|563|7.99|2021-05-30 23:59:49.996577+00|Bucuresti|Bukarest|Romania
+18503|3|11.99|2021-05-31 00:02:31.996577+00|Athenai|Attika|Greece
+17512|343|7.99|2021-05-31 00:10:50.996577+00|Mexicali|Baja California|Mexico
+17630|374|4.99|2021-05-31 00:11:59.996577+00|Vitria de Santo Anto|Pernambuco|Brazil
+18772|69|5.99|2021-05-31 00:25:41.996577+00|Bchar|Bchar|Algeria
+17524|345|3.99|2021-05-31 00:27:01.996577+00|San Lorenzo|Central|Paraguay
+17209|268|6.99|2021-05-31 00:29:41.996577+00|Palghat (Palakkad)|Kerala|India
+18184|518|8.99|2021-05-31 00:30:03.996577+00|Sivas|Sivas|Turkey
+17795|416|3.99|2021-05-31 00:31:10.996577+00|Dadu|Sind|Pakistan
+19101|155|10.99|2021-05-31 00:45:13.996577+00|Bern|Bern|Switzerland
+19462|256|5.99|2021-05-31 00:45:33.996577+00|Monywa|Sagaing|Myanmar
+18718|54|7.99|2021-05-31 00:47:28.996577+00|Iwakuni|Yamaguchi|Japan
+17877|439|3.99|2021-05-31 00:57:01.996577+00|Bergamo|Lombardia|Italy
+18568|20|3.99|2021-05-31 01:02:19.996577+00|Mardan|Nothwest Border Prov|Pakistan
+18374|574|3.99|2021-05-31 01:03:29.996577+00|Akishima|Tokyo-to|Japan
+19400|239|7.99|2021-05-31 01:05:09.996577+00|Ciomas|West Java|Indonesia
+17847|431|5.99|2021-05-31 01:09:56.996577+00|Sucre|Chuquisaca|Bolivia
+17725|395|3.99|2021-05-31 01:14:53.996577+00|al-Qadarif|al-Qadarif|Sudan
+19492|262|5.99|2021-05-31 01:14:54.996577+00|Portoviejo|Manab|Ecuador
+17513|343|9.99|2021-05-31 01:15:33.996577+00|Mexicali|Baja California|Mexico
+18134|506|3.99|2021-05-31 01:41:35.996577+00|Pontianak|Kalimantan Barat|Indonesia
+19164|174|10.99|2021-05-31 01:41:46.996577+00|Ocumare del Tuy|Miranda|Venezuela
+17412|320|4.99|2021-05-31 01:41:56.996577+00|Tafuna|Tutuila|American Samoa
+19185|178|5.99|2021-05-31 01:42:27.996577+00|Santa Brbara dOeste|So Paulo|Brazil
+17593|363|7.99|2021-05-31 01:47:35.996577+00|Nyeri|Central|Kenya
+18813|82|3.99|2021-05-31 01:49:59.996577+00|Simferopol|Krim|Ukraine
+18719|54|5.99|2021-05-31 01:50:26.996577+00|Iwakuni|Yamaguchi|Japan
+18321|560|4.99|2021-05-31 01:51:48.996577+00|Avellaneda|Buenos Aires|Argentina
+17620|371|9.99|2021-05-31 02:00:05.996577+00|Cabuyao|Southern Tagalog|Philippines
+17352|305|7.99|2021-05-31 02:08:22.996577+00|Arlington|Texas|United States
+18518|6|6.99|2021-05-31 02:10:04.996577+00|Laredo|Texas|United States
+17886|442|11.99|2021-05-31 02:23:05.996577+00|Tongliao|Inner Mongolia|China
+17437|327|6.99|2021-05-31 02:31:54.996577+00|Adana|Adana|Turkey
+17603|365|9.99|2021-05-31 02:36:42.996577+00|Okinawa|Okinawa|Japan
+18645|35|3.99|2021-05-31 02:37:34.996577+00|Toulouse|Midi-Pyrnes|France
+18840|87|7.99|2021-05-31 02:40:51.996577+00|Sincelejo|Sucre|Colombia
+18923|109|5.99|2021-05-31 02:57:11.996577+00|Klerksdorp|North West|South Africa
+18243|536|7.99|2021-05-31 03:00:23.996577+00|Tonghae|Kang-won|South Korea
+18652|37|7.99|2021-05-31 03:12:49.996577+00|Nanyang|Henan|China
+17858|434|8.99|2021-05-31 03:19:16.996577+00|Ozamis|Northern Mindanao|Philippines
+17685|386|6.99|2021-05-31 03:19:39.996577+00|Kamjanets-Podilskyi|Hmelnytskyi|Ukraine
+19040|140|7.99|2021-05-31 03:19:44.996577+00|Clarksville|Tennessee|United States
+18746|62|3.99|2021-05-31 03:20:54.996577+00|Saint Louis|Missouri|United States
+17418|322|11.99|2021-05-31 03:21:47.996577+00|Baha Blanca|Buenos Aires|Argentina
+17301|293|12.99|2021-05-31 03:26:29.996577+00|Donostia-San Sebastin|Baskimaa|Spain
+18885|98|8.99|2021-05-31 03:40:07.996577+00|al-Ayn|Abu Dhabi|United Arab Emirates
+18818|83|8.99|2021-05-31 03:41:03.996577+00|Springs|Gauteng|South Africa
+19220|187|3.99|2021-05-31 03:43:03.996577+00|Sumy|Sumy|Ukraine
+18929|111|9.99|2021-05-31 03:43:18.996577+00|Caracas|Distrito Federal|Venezuela
+18011|470|10.99|2021-05-31 03:43:38.996577+00|Hodeida|Hodeida|Yemen
+19422|244|8.99|2021-05-31 03:52:12.996577+00|Lapu-Lapu|Central Visayas|Philippines
+17796|416|5.99|2021-05-31 03:59:24.996577+00|Dadu|Sind|Pakistan
+17855|432|5.99|2021-05-31 04:15:29.996577+00|Newcastle|KwaZulu-Natal|South Africa
+17387|314|6.99|2021-05-31 04:31:05.996577+00|Sorocaba|So Paulo|Brazil
+19314|215|7.99|2021-05-31 04:31:59.996577+00|Stara Zagora|Haskovo|Bulgaria
+19259|196|3.99|2021-05-31 04:32:38.996577+00|Mannheim|Baden-Wrttemberg|Germany
+17834|428|6.99|2021-05-31 04:39:39.996577+00|Syktyvkar|Komi|Russian Federation
+17882|441|7.99|2021-05-31 04:41:06.996577+00|Batna|Batna|Algeria
+17726|395|3.99|2021-05-31 04:42:29.996577+00|al-Qadarif|al-Qadarif|Sudan
+17223|272|7.99|2021-05-31 04:42:51.996577+00|Yantai|Shandong|China
+19268|197|11.99|2021-05-31 04:46:21.996577+00|Changzhou|Jiangsu|China
+19448|253|9.99|2021-05-31 04:46:57.996577+00|Miyakonojo|Miyazaki|Japan
+18158|513|5.99|2021-05-31 04:54:01.996577+00|Yangor||Nauru
+17686|386|5.99|2021-05-31 04:57:23.996577+00|Kamjanets-Podilskyi|Hmelnytskyi|Ukraine
+19165|174|3.99|2021-05-31 05:03:25.996577+00|Ocumare del Tuy|Miranda|Venezuela
+18236|534|7.99|2021-05-31 05:04:59.996577+00|Amroha|Uttar Pradesh|India
+17718|393|9.99|2021-05-31 05:10:01.996577+00|Korolev|Moskova|Russian Federation
+17561|355|5.99|2021-05-31 05:20:31.996577+00|Matsue|Shimane|Japan
+18370|573|7.99|2021-05-31 05:23:36.996577+00|Zhezqazghan|Qaraghandy|Kazakstan
+18073|489|6.99|2021-05-31 05:26:28.996577+00|Okayama|Okayama|Japan
+17589|362|5.99|2021-05-31 05:28:54.996577+00|Belm|Par|Brazil
+18477|204|10.99|2021-05-31 05:33:18.996577+00|Usak|Usak|Turkey
+18819|83|6.99|2021-05-31 05:34:32.996577+00|Springs|Gauteng|South Africa
+19021|134|12.99|2021-05-31 05:37:04.996577+00|Qalyub|al-Qalyubiya|Egypt
+19367|232|3.99|2021-05-31 05:42:39.996577+00|Zaria|Kaduna|Nigeria
+18324|561|7.99|2021-05-31 05:49:56.996577+00|Garland|Texas|United States
+19180|177|7.99|2021-05-31 05:52:38.996577+00|Matamoros|Tamaulipas|Mexico
+17379|311|7.99|2021-05-31 06:01:44.996577+00|Kursk|Kursk|Russian Federation
+17644|378|7.99|2021-05-31 06:17:16.996577+00|Shenzhen|Guangdong|China
+17388|314|5.99|2021-05-31 06:17:23.996577+00|Sorocaba|So Paulo|Brazil
+18660|39|8.99|2021-05-31 06:17:34.996577+00|Vila Velha|Esprito Santo|Brazil
+19478|260|6.99|2021-05-31 06:18:13.996577+00|Datong|Shanxi|China
+18002|468|11.99|2021-05-31 06:19:35.996577+00|Bijapur|Karnataka|India
+17828|427|6.99|2021-05-31 06:21:21.996577+00|Guaruj|So Paulo|Brazil
+17491|339|7.99|2021-05-31 06:22:13.996577+00|Xinxiang|Henan|China
+19003|130|5.99|2021-05-31 06:23:27.996577+00|guas Lindas de Gois|Gois|Brazil
+18514|5|5.99|2021-05-31 06:29:28.996577+00|Nantou|Nantou|Taiwan
+17404|319|5.99|2021-05-31 06:32:08.996577+00|San Felipe del Progreso|Mxico|Mexico
+18508|4|3.99|2021-05-31 06:37:06.996577+00|Myingyan|Mandalay|Myanmar
+18972|121|5.99|2021-05-31 06:44:31.996577+00|Etawah|Uttar Pradesh|India
+18341|566|8.99|2021-05-31 06:55:22.996577+00|Tokat|Tokat|Turkey
+18375|574|8.99|2021-05-31 06:57:20.996577+00|Akishima|Tokyo-to|Japan
+19299|212|5.99|2021-05-31 06:58:24.996577+00|Bellevue|Washington|United States
+19195|181|5.99|2021-05-31 07:01:02.996577+00|Memphis|Tennessee|United States
+17913|450|7.99|2021-05-31 07:02:05.996577+00|Surakarta|Central Java|Indonesia
+18833|86|7.99|2021-05-31 07:04:05.996577+00|Songkhla|Songkhla|Thailand
+19474|259|10.99|2021-05-31 07:14:52.996577+00|Halisahar|West Bengali|India
+17279|287|5.99|2021-05-31 07:22:41.996577+00|Tambaram|Tamil Nadu|India
+18061|484|6.99|2021-05-31 07:24:01.996577+00|Yinchuan|Ningxia|China
+18458|596|4.99|2021-05-31 07:26:44.996577+00|Patras|West Greece|Greece
+19374|234|3.99|2021-05-31 07:38:32.996577+00|Jalib al-Shuyukh|Hawalli|Kuwait
+19009|131|12.99|2021-05-31 07:41:19.996577+00|Mukateve|Taka-Karpatia|Ukraine
+17937|454|7.99|2021-05-31 07:43:24.996577+00|Uruapan|Michoacn de Ocampo|Mexico
+17829|427|8.99|2021-05-31 07:45:33.996577+00|Guaruj|So Paulo|Brazil
+17549|352|7.99|2021-05-31 07:48:59.996577+00|Bamenda|Nord-Ouest|Cameroon
+17331|299|11.99|2021-05-31 07:51:46.996577+00|Hiroshima|Hiroshima|Japan
+18203|524|7.99|2021-05-31 07:53:04.996577+00|Purwakarta|West Java|Indonesia
+18231|533|3.99|2021-05-31 08:00:03.996577+00|Binzhou|Shandong|China
+18179|517|7.99|2021-05-31 08:03:11.996577+00|Chungho|Taipei|Taiwan
+17534|348|5.99|2021-05-31 08:11:14.996577+00|Hsichuh|Taipei|Taiwan
+18071|488|6.99|2021-05-31 08:20:05.996577+00|La Paz|Baja California Sur|Mexico
+18625|31|7.99|2021-05-31 08:34:06.996577+00|Kamarhati|West Bengali|India
+19290|209|7.99|2021-05-31 08:35:15.996577+00|Bhilwara|Rajasthan|India
+18347|568|7.99|2021-05-31 08:35:36.996577+00|Barcelona|Anzotegui|Venezuela
+17319|296|7.99|2021-05-31 08:40:12.996577+00|Patiala|Punjab|India
+19397|238|7.99|2021-05-31 08:41:21.996577+00|Shimoga|Karnataka|India
+18140|508|7.99|2021-05-31 08:41:23.996577+00|Vijayawada|Andhra Pradesh|India
+17645|378|8.99|2021-05-31 08:42:01.996577+00|Shenzhen|Guangdong|China
+19214|186|5.99|2021-05-31 08:42:41.996577+00|Haldia|West Bengali|India
+19320|216|3.99|2021-05-31 08:43:46.996577+00|Aparecida de Goinia|Gois|Brazil
+18077|490|6.99|2021-05-31 08:44:28.996577+00|Sogamoso|Boyac|Colombia
+18308|557|3.99|2021-05-31 08:45:45.996577+00|Vilnius|Vilna|Lithuania
+17464|333|5.99|2021-05-31 08:47:25.996577+00|Baku|Baki|Azerbaijan
+18353|569|8.99|2021-05-31 08:48:18.996577+00|Leshan|Sichuan|China
+18779|73|3.99|2021-05-31 08:48:46.996577+00|Chiayi|Chiayi|Taiwan
+17442|328|5.99|2021-05-31 08:54:59.996577+00|Ciparay|West Java|Indonesia
+19026|135|4.99|2021-05-31 08:58:48.996577+00|Pune|Maharashtra|India
+19321|216|6.99|2021-05-31 09:06:00.996577+00|Aparecida de Goinia|Gois|Brazil
+18237|534|5.99|2021-05-31 09:08:43.996577+00|Amroha|Uttar Pradesh|India
+19375|234|5.99|2021-05-31 09:25:26.996577+00|Jalib al-Shuyukh|Hawalli|Kuwait
+17621|371|8.99|2021-05-31 09:33:13.996577+00|Cabuyao|Southern Tagalog|Philippines
+19149|171|3.99|2021-05-31 09:34:35.996577+00|Ipoh|Perak|Malaysia
+19241|191|5.99|2021-05-31 09:35:37.996577+00|Novoterkassk|Rostov-na-Donu|Russian Federation
+17550|352|7.99|2021-05-31 09:36:54.996577+00|Bamenda|Nord-Ouest|Cameroon
+19348|227|5.99|2021-05-31 09:39:27.996577+00|Saarbrcken|Saarland|Germany
+18008|469|12.99|2021-05-31 09:45:48.996577+00|Ourense (Orense)|Galicia|Spain
+19460|255|5.99|2021-05-31 10:06:43.996577+00|Hagonoy|Central Luzon|Philippines
+18029|476|6.99|2021-05-31 10:22:51.996577+00|Gatineau|Qubec|Canada
+18093|494|5.99|2021-05-31 10:23:21.996577+00|Robamba|Chimborazo|Ecuador
+18064|485|5.99|2021-05-31 10:26:00.996577+00|Shaoguan|Guangdong|China
+18827|85|4.99|2021-05-31 10:35:23.996577+00|Bradford|England|United Kingdom
+18222|529|3.99|2021-05-31 10:36:46.996577+00|Bhimavaram|Andhra Pradesh|India
+19041|140|5.99|2021-05-31 10:37:46.996577+00|Clarksville|Tennessee|United States
+18700|49|3.99|2021-05-31 10:39:46.996577+00|Jedda|Mekka|Saudi Arabia
+18696|48|12.99|2021-05-31 10:47:07.996577+00|Niznekamsk|Tatarstan|Russian Federation
+17276|286|11.99|2021-05-31 10:52:44.996577+00|Effon-Alaiye|Oyo & Osun|Nigeria
+18085|492|4.99|2021-05-31 10:52:54.996577+00|Kanchrapara|West Bengali|India
+18161|514|7.99|2021-05-31 10:58:45.996577+00|Zaoyang|Hubei|China
+17806|421|7.99|2021-05-31 11:08:17.996577+00|Pudukkottai|Tamil Nadu|India
+18228|532|7.99|2021-05-31 11:08:49.996577+00|Cam Ranh|Khanh Hoa|Vietnam
+19114|159|3.99|2021-05-31 11:08:54.996577+00|Linz|North Austria|Austria
+18120|502|10.99|2021-05-31 11:18:27.996577+00|Siliguri (Shiliguri)|West Bengali|India
+17495|340|6.99|2021-05-31 11:23:46.996577+00|Hanoi|Hanoi|Vietnam
+17769|407|5.99|2021-05-31 11:33:08.996577+00|Rustenburg|North West|South Africa
+18603|27|5.99|2021-05-31 11:33:35.996577+00|Davao|Southern Mindanao|Philippines
+17952|456|3.99|2021-05-31 11:46:49.996577+00|Ziguinchor|Ziguinchor|Senegal
+17389|315|5.99|2021-05-31 11:47:14.996577+00|Bat Yam|Tel Aviv|Israel
+19415|242|7.99|2021-05-31 11:49:31.996577+00|Qinhuangdao|Hebei|China
+18429|589|7.99|2021-05-31 11:57:10.996577+00|Loja|Loja|Ecuador
+18072|488|8.99|2021-05-31 12:14:22.996577+00|La Paz|Baja California Sur|Mexico
+18337|564|5.99|2021-05-31 12:28:08.996577+00|Xintai|Shandong|China
+18595|26|7.99|2021-05-31 12:29:28.996577+00|Citt del Vaticano||Holy See (Vatican City State)
+18509|4|5.99|2021-05-31 12:29:53.996577+00|Myingyan|Mandalay|Myanmar
+18037|478|3.99|2021-05-31 12:37:10.996577+00|Ashqelon|Ha Darom|Israel
+17822|426|9.99|2021-05-31 12:38:41.996577+00|Purnea (Purnia)|Jharkhand|India
+18796|77|7.99|2021-05-31 12:39:50.996577+00|Araatuba|So Paulo|Brazil
+17529|347|11.99|2021-05-31 12:40:18.996577+00|Daugavpils|Daugavpils|Latvia
+18241|535|7.99|2021-05-31 12:53:35.996577+00|NDjamna|Chari-Baguirmi|Chad
+19132|164|7.99|2021-05-31 12:56:59.996577+00|Tarsus|Adana|Turkey
+18033|477|9.99|2021-05-31 12:58:25.996577+00|Stockport|England|United Kingdom
+18473|203|5.99|2021-05-31 13:05:38.996577+00|Gorontalo|Sulawesi Utara|Indonesia
+18583|24|5.99|2021-05-31 13:07:57.996577+00|Crdoba|Crdoba|Argentina
+17241|277|5.99|2021-05-31 13:15:42.996577+00|Ogbomosho|Oyo & Osun|Nigeria
+18175|516|13.99|2021-05-31 13:20:28.996577+00|Battambang|Battambang|Cambodia
+18402|582|5.99|2021-05-31 13:24:19.996577+00|Huejutla de Reyes|Hidalgo|Mexico
+18266|543|7.99|2021-05-31 13:28:40.996577+00|Beni-Mellal|Tadla-Azilal|Morocco
+18065|485|11.99|2021-05-31 13:30:02.996577+00|Shaoguan|Guangdong|China
+17597|364|5.99|2021-05-31 13:41:18.996577+00|Guadalajara|Jalisco|Mexico
+19475|259|10.99|2021-05-31 13:42:44.996577+00|Halisahar|West Bengali|India
+19063|146|4.99|2021-05-31 13:44:09.996577+00|Sterling Heights|Michigan|United States
+18498|1|7.99|2021-05-31 13:47:23.996577+00|Sasebo|Nagasaki|Japan
+18504|3|9.99|2021-05-31 13:47:36.996577+00|Athenai|Attika|Greece
+17959|457|3.99|2021-05-31 13:50:13.996577+00|Rockford|Illinois|United States
+18740|59|6.99|2021-05-31 13:57:55.996577+00|Mysore|Karnataka|India
+18198|523|9.99|2021-05-31 13:58:13.996577+00|Vinh|Nghe An|Vietnam
+17705|390|5.99|2021-05-31 13:58:27.996577+00|Nakhon Sawan|Nakhon Sawan|Thailand
+17521|344|3.99|2021-05-31 14:00:38.996577+00|Nukualofa|Tongatapu|Tonga
+18997|129|3.99|2021-05-31 14:03:07.996577+00|Liaocheng|Shandong|China
+18050|480|3.99|2021-05-31 14:05:33.996577+00|Gaziantep|Gaziantep|Turkey
+18867|94|6.99|2021-05-31 14:17:56.996577+00|Bislig|Caraga|Philippines
+18510|4|3.99|2021-05-31 14:20:18.996577+00|Myingyan|Mandalay|Myanmar
+19037|139|5.99|2021-05-31 14:20:58.996577+00|Touliu|Ynlin|Taiwan
+17997|467|11.99|2021-05-31 14:28:10.996577+00|Cuauhtmoc|Chihuahua|Mexico
+19181|177|3.99|2021-05-31 14:35:53.996577+00|Matamoros|Tamaulipas|Mexico
+17914|450|3.99|2021-05-31 14:38:04.996577+00|Surakarta|Central Java|Indonesia
+17427|324|3.99|2021-05-31 14:57:26.996577+00|Yuzhou|Henan|China
+19171|176|10.99|2021-05-31 15:00:03.996577+00|Skikda|Skikda|Algeria
+18383|576|5.99|2021-05-31 15:06:14.996577+00|Fengshan|Kaohsiung|Taiwan
+19471|258|5.99|2021-05-31 15:06:36.996577+00|Santiago de los Caballeros|Santiago|Dominican Republic
+19361|230|7.99|2021-05-31 15:08:24.996577+00|Botosani|Botosani|Romania
+19186|178|6.99|2021-05-31 15:09:42.996577+00|Santa Brbara dOeste|So Paulo|Brazil
+17682|385|5.99|2021-05-31 15:09:45.996577+00|Tama|Ibaragi|Japan
+17227|273|9.99|2021-05-31 15:21:59.996577+00|Salamanca|Guanajuato|Mexico
+18023|473|3.99|2021-05-31 15:22:29.996577+00|Lhokseumawe|Aceh|Indonesia
+17265|283|3.99|2021-05-31 15:24:26.996577+00|Korla|Xinxiang|China
+17415|321|8.99|2021-05-31 15:26:02.996577+00|Birgunj|Central|Nepal
+18982|123|3.99|2021-05-31 15:28:40.996577+00|Varanasi (Benares)|Uttar Pradesh|India
+18540|12|8.99|2021-05-31 15:31:21.996577+00|Yamuna Nagar|Haryana|India
+19437|249|5.99|2021-05-31 15:36:43.996577+00|Tianjin|Tianjin|China
+18590|25|9.99|2021-05-31 15:41:49.996577+00|Shikarpur|Sind|Pakistan
+18958|117|5.99|2021-05-31 15:47:10.996577+00|Gandhinagar|Gujarat|India
+18363|571|7.99|2021-05-31 15:50:59.996577+00|Plock|Mazowieckie|Poland
+18144|510|3.99|2021-05-31 16:00:50.996577+00|Kamyin|Volgograd|Russian Federation
+18027|474|11.99|2021-05-31 16:08:05.996577+00|Emmen|Drenthe|Netherlands
+17844|430|9.99|2021-05-31 16:15:03.996577+00|Dzerzinsk|Nizni Novgorod|Russian Federation
+19486|261|5.99|2021-05-31 16:17:03.996577+00|Tuguegarao|Cagayan Valley|Philippines
+18192|521|3.99|2021-05-31 16:18:23.996577+00|Yingkou|Liaoning|China
+18954|116|7.99|2021-05-31 16:18:45.996577+00|Pemalang|Central Java|Indonesia
+17701|389|7.99|2021-05-31 16:19:27.996577+00|Emeishan|Sichuan|China
+17715|392|5.99|2021-05-31 16:20:20.996577+00|Addis Abeba|Addis Abeba|Ethiopia
+17228|273|7.99|2021-05-31 16:24:36.996577+00|Salamanca|Guanajuato|Mexico
+18960|118|7.99|2021-05-31 16:28:03.996577+00|Grand Prairie|Texas|United States
+18484|205|3.99|2021-05-31 16:30:02.996577+00|Ciudad del Este|Alto Paran|Paraguay
+19010|131|7.99|2021-05-31 16:30:32.996577+00|Mukateve|Taka-Karpatia|Ukraine
+17733|397|8.99|2021-05-31 16:36:14.996577+00|Atinsk|Krasnojarsk|Russian Federation
+17576|359|4.99|2021-05-31 16:36:21.996577+00|Almirante Brown|Buenos Aires|Argentina
+17797|416|3.99|2021-05-31 16:40:43.996577+00|Dadu|Sind|Pakistan
+18205|525|5.99|2021-05-31 16:41:20.996577+00|Udine|Friuli-Venezia Giuli|Italy
+17979|462|8.99|2021-05-31 16:42:09.996577+00|Usolje-Sibirskoje|Irkutsk|Russian Federation
+17887|442|5.99|2021-05-31 16:56:18.996577+00|Tongliao|Inner Mongolia|China
+18983|123|7.99|2021-05-31 16:56:45.996577+00|Varanasi (Benares)|Uttar Pradesh|India
+18018|472|9.99|2021-05-31 17:15:24.996577+00|Nam Dinh|Nam Ha|Vietnam
+18701|49|9.99|2021-05-31 17:20:38.996577+00|Jedda|Mekka|Saudi Arabia
+17504|341|4.99|2021-05-31 17:23:14.996577+00|Ede|Gelderland|Netherlands
+17871|438|3.99|2021-05-31 17:23:37.996577+00|Kitwe|Copperbelt|Zambia
+17551|352|7.99|2021-05-31 17:40:11.996577+00|Bamenda|Nord-Ouest|Cameroon
+17837|429|8.99|2021-05-31 17:48:50.996577+00|Tsuyama|Okayama|Japan
+18104|498|5.99|2021-05-31 17:49:38.996577+00|Salala|Zufar|Oman
+18562|18|7.99|2021-05-31 17:51:49.996577+00|Kaduna|Kaduna|Nigeria
+19022|134|3.99|2021-05-31 17:53:58.996577+00|Qalyub|al-Qalyubiya|Egypt
+18704|50|7.99|2021-05-31 17:55:38.996577+00|Omdurman|Khartum|Sudan
+17425|323|5.99|2021-05-31 17:59:20.996577+00|Cuautla|Morelos|Mexico
+18278|546|6.99|2021-05-31 17:59:25.996577+00|Sanya|Hainan|China
+17566|357|4.99|2021-05-31 18:15:44.996577+00|Bratislava|Bratislava|Slovakia
+18906|105|6.99|2021-05-31 18:17:44.996577+00|Funafuti|Funafuti|Tuvalu
+19111|158|7.99|2021-05-31 18:27:06.996577+00|Greensboro|North Carolina|United States
+18791|76|9.99|2021-05-31 18:32:54.996577+00|Pavlodar|Pavlodar|Kazakstan
+17545|351|8.99|2021-05-31 18:33:16.996577+00|Zeleznogorsk|Krasnojarsk|Russian Federation
+19362|230|3.99|2021-05-31 18:35:53.996577+00|Botosani|Botosani|Romania
+17929|452|6.99|2021-05-31 18:37:03.996577+00|Abu Dhabi|Abu Dhabi|United Arab Emirates
+18727|56|9.99|2021-05-31 18:37:27.996577+00|Papeete|Tahiti|French Polynesia
+17266|283|5.99|2021-05-31 18:39:09.996577+00|Korla|Xinxiang|China
+17233|275|6.99|2021-05-31 18:41:29.996577+00|Peoria|Illinois|United States
+17838|429|5.99|2021-05-31 18:44:41.996577+00|Tsuyama|Okayama|Japan
+18128|505|8.99|2021-05-31 18:45:46.996577+00|Talavera|Central Luzon|Philippines
+19079|149|5.99|2021-05-31 18:47:12.996577+00|Brockton|Massachusetts|United States
+18532|10|7.99|2021-05-31 18:50:19.996577+00|Esfahan|Esfahan|Iran
+17948|455|4.99|2021-05-31 18:51:56.996577+00|El Alto|La Paz|Bolivia
+18993|127|5.99|2021-05-31 19:01:13.996577+00|Smolensk|Smolensk|Russian Federation
+18356|570|5.99|2021-05-31 19:01:41.996577+00|Monclova|Coahuila de Zaragoza|Mexico
+18490|208|3.99|2021-05-31 19:04:26.996577+00|Balurghat|West Bengali|India
+18681|45|7.99|2021-05-31 19:10:23.996577+00|Antofagasta|Antofagasta|Chile
+17483|338|8.99|2021-05-31 19:27:25.996577+00|Paarl|Western Cape|South Africa
+17992|466|10.99|2021-05-31 19:28:01.996577+00|Dongying|Shandong|China
+18180|517|11.99|2021-05-31 19:28:46.996577+00|Chungho|Taipei|Taiwan
+18522|7|3.99|2021-05-31 19:34:26.996577+00|Kragujevac|Central Serbia|Yugoslavia
+19382|235|3.99|2021-05-31 19:34:46.996577+00|Buenaventura|Valle|Colombia
+18653|37|4.99|2021-05-31 19:37:12.996577+00|Nanyang|Henan|China
+19476|259|5.99|2021-05-31 19:39:26.996577+00|Halisahar|West Bengali|India
+19054|144|8.99|2021-05-31 19:43:48.996577+00|Molodetno|Minsk|Belarus
+18823|84|3.99|2021-05-31 19:44:33.996577+00|Atlixco|Puebla|Mexico
+18451|594|7.99|2021-05-31 19:49:07.996577+00|Jining|Inner Mongolia|China
+18376|574|3.99|2021-05-31 19:49:18.996577+00|Akishima|Tokyo-to|Japan
+18751|63|3.99|2021-05-31 19:59:00.996577+00|Lincoln|Nebraska|United States
+17687|386|8.99|2021-05-31 20:01:16.996577+00|Kamjanets-Podilskyi|Hmelnytskyi|Ukraine
+18967|120|7.99|2021-05-31 20:03:16.996577+00|Dos Quebradas|Risaralda|Colombia
+18003|468|5.99|2021-05-31 20:11:15.996577+00|Bijapur|Karnataka|India
+18834|86|3.99|2021-05-31 20:12:11.996577+00|Songkhla|Songkhla|Thailand
+17906|448|10.99|2021-05-31 20:16:42.996577+00|Erlangen|Baijeri|Germany
+18380|575|5.99|2021-05-31 20:19:30.996577+00|Cuernavaca|Morelos|Mexico
+18722|55|5.99|2021-05-31 20:21:31.996577+00|Balaiha|Moskova|Russian Federation
+18392|578|9.99|2021-05-31 20:22:18.996577+00|Carmen|Campeche|Mexico
+17814|423|3.99|2021-05-31 20:23:06.996577+00|Sawhaj|Sawhaj|Egypt
+18767|68|8.99|2021-05-31 20:33:00.996577+00|Shivapuri|Madhya Pradesh|India
+17302|293|8.99|2021-05-31 20:42:47.996577+00|Donostia-San Sebastin|Baskimaa|Spain
+18111|499|7.99|2021-05-31 20:47:09.996577+00|Brindisi|Apulia|Italy
+17669|383|10.99|2021-05-31 20:50:43.996577+00|Namibe|Namibe|Angola
+19332|220|3.99|2021-05-31 21:03:46.996577+00|Zanzibar|Zanzibar West|Tanzania
+18973|121|4.99|2021-05-31 21:13:29.996577+00|Etawah|Uttar Pradesh|India
+19230|189|3.99|2021-05-31 21:17:34.996577+00|Oshawa|Ontario|Canada
+18935|112|7.99|2021-05-31 21:34:02.996577+00|Lancaster|California|United States
+19172|176|9.99|2021-05-31 21:41:31.996577+00|Skikda|Skikda|Algeria
+17369|309|7.99|2021-05-31 21:44:41.996577+00|Brescia|Lombardia|Italy
+18626|31|4.99|2021-05-31 21:48:42.996577+00|Kamarhati|West Bengali|India
+19340|223|8.99|2021-05-31 21:50:48.996577+00|Mandi Bahauddin|Punjab|Pakistan
+17753|404|7.99|2021-05-31 22:08:00.996577+00|Omiya|Saitama|Japan
+18519|6|5.99|2021-05-31 22:12:39.996577+00|Laredo|Texas|United States
+17823|426|10.99|2021-05-31 22:14:25.996577+00|Purnea (Purnia)|Jharkhand|India
+19011|132|3.99|2021-05-31 22:22:08.996577+00|Botshabelo|Free State|South Africa
+17938|454|10.99|2021-05-31 22:22:19.996577+00|Uruapan|Michoacn de Ocampo|Mexico
+19315|215|7.99|2021-05-31 22:24:37.996577+00|Stara Zagora|Haskovo|Bulgaria
+17809|422|3.99|2021-05-31 22:31:10.996577+00|Laohekou|Hubei|China
+17594|363|7.99|2021-05-31 22:33:48.996577+00|Nyeri|Central|Kenya
+18207|526|3.99|2021-05-31 22:35:33.996577+00|Cape Coral|Florida|United States
+17505|341|10.99|2021-05-31 22:41:45.996577+00|Ede|Gelderland|Netherlands
+18181|517|7.99|2021-05-31 23:00:01.996577+00|Chungho|Taipei|Taiwan
+17921|451|3.99|2021-05-31 23:00:52.996577+00|El Fuerte|Sinaloa|Mexico
+17222|271|5.99|2021-05-31 23:06:46.996577+00|Kumbakonam|Tamil Nadu|India
+17340|301|3.99|2021-05-31 23:08:20.996577+00|Kaliningrad|Kaliningrad|Russian Federation
+18654|37|6.99|2021-05-31 23:12:23.996577+00|Nanyang|Henan|China
+18086|492|7.99|2021-05-31 23:23:24.996577+00|Kanchrapara|West Bengali|India
+19119|161|5.99|2021-05-31 23:30:26.996577+00|Tel Aviv-Jaffa|Tel Aviv|Israel
+17830|427|4.99|2021-05-31 23:41:24.996577+00|Guaruj|So Paulo|Brazil
+18890|99|7.99|2021-05-31 23:41:37.996577+00|Kimchon|Kyongsangbuk|South Korea
+18232|533|3.99|2021-05-31 23:42:04.996577+00|Binzhou|Shandong|China
+17303|293|7.99|2021-05-31 23:45:38.996577+00|Donostia-San Sebastin|Baskimaa|Spain
+17939|454|4.99|2021-05-31 23:45:57.996577+00|Uruapan|Michoacn de Ocampo|Mexico
+18295|553|6.99|2021-05-31 23:57:56.996577+00|Novi Sad|Vojvodina|Yugoslavia
+18286|550|6.99|2021-06-01 00:00:12.996577+00|Zhoushan|Zhejiang|China
+19004|130|5.99|2021-06-01 00:08:13.996577+00|guas Lindas de Gois|Gois|Brazil
+18208|526|10.99|2021-06-01 00:18:02.996577+00|Cape Coral|Florida|United States
+18381|575|7.99|2021-06-01 00:21:45.996577+00|Cuernavaca|Morelos|Mexico
+17791|415|7.99|2021-06-01 00:30:03.996577+00|Amersfoort|Utrecht|Netherlands
+17651|380|6.99|2021-06-01 00:31:48.996577+00|Tychy|Slaskie|Poland
+17546|351|3.99|2021-06-01 00:36:26.996577+00|Zeleznogorsk|Krasnojarsk|Russian Federation
+19242|191|5.99|2021-06-01 00:53:02.996577+00|Novoterkassk|Rostov-na-Donu|Russian Federation
+18478|204|7.99|2021-06-01 00:53:38.996577+00|Usak|Usak|Turkey
+18486|206|3.99|2021-06-01 00:55:29.996577+00|Blumenau|Santa Catarina|Brazil
+18775|71|5.99|2021-06-01 01:06:54.996577+00|Baybay|Eastern Visayas|Philippines
+18621|30|4.99|2021-06-01 01:07:46.996577+00|Lungtan|Taipei|Taiwan
+18219|528|5.99|2021-06-01 01:13:36.996577+00|Benguela|Benguela|Angola
+17969|459|3.99|2021-06-01 01:19:17.996577+00|Qomsheh|Esfahan|Iran
+19487|261|8.99|2021-06-01 01:22:42.996577+00|Tuguegarao|Cagayan Valley|Philippines
+17660|381|4.99|2021-06-01 01:23:58.996577+00|South Hill||Anguilla
+17514|343|3.99|2021-06-01 01:26:00.996577+00|Mexicali|Baja California|Mexico
+17283|289|7.99|2021-06-01 01:37:25.996577+00|Kowloon and New Kowloon|Kowloon and New Kowl|Hong Kong
+19023|134|3.99|2021-06-01 01:38:22.996577+00|Qalyub|al-Qalyubiya|Egypt
+18693|47|7.99|2021-06-01 01:45:47.996577+00|Juazeiro do Norte|Cear|Brazil
+18287|550|7.99|2021-06-01 01:47:17.996577+00|Zhoushan|Zhejiang|China
+17353|305|3.99|2021-06-01 01:47:46.996577+00|Arlington|Texas|United States
+18423|588|5.99|2021-06-01 02:04:25.996577+00|Weifang|Shandong|China
+18129|505|7.99|2021-06-01 02:04:28.996577+00|Talavera|Central Luzon|Philippines
+18636|32|9.99|2021-06-01 02:21:44.996577+00|Jhansi|Uttar Pradesh|India
+17757|405|3.99|2021-06-01 02:27:02.996577+00|Tandil|Buenos Aires|Argentina
+18367|572|13.99|2021-06-01 02:33:38.996577+00|Czestochowa|Slaskie|Poland
+17902|447|5.99|2021-06-01 02:34:39.996577+00|Nabereznyje Telny|Tatarstan|Russian Federation
+18924|109|6.99|2021-06-01 02:45:10.996577+00|Klerksdorp|North West|South Africa
+17405|319|7.99|2021-06-01 02:45:59.996577+00|San Felipe del Progreso|Mxico|Mexico
+17706|390|5.99|2021-06-01 02:47:03.996577+00|Nakhon Sawan|Nakhon Sawan|Thailand
+18479|204|10.99|2021-06-01 02:47:14.996577+00|Usak|Usak|Turkey
+18622|30|5.99|2021-06-01 02:53:38.996577+00|Lungtan|Taipei|Taiwan
+17219|270|9.99|2021-06-01 02:54:12.996577+00|Kalisz|Wielkopolskie|Poland
+17810|422|7.99|2021-06-01 02:54:49.996577+00|Laohekou|Hubei|China
+19049|143|4.99|2021-06-01 02:56:37.996577+00|Kilis|Kilis|Turkey
+19279|200|9.99|2021-06-01 02:57:41.996577+00|Ashgabat|Ahal|Turkmenistan
+18642|34|7.99|2021-06-01 02:58:24.996577+00|Kurashiki|Okayama|Japan
+17297|292|6.99|2021-06-01 03:03:45.996577+00|Sharja|Sharja|United Arab Emirates
+18043|479|5.99|2021-06-01 03:04:18.996577+00|Akron|Ohio|United States
+18424|588|9.99|2021-06-01 03:05:46.996577+00|Weifang|Shandong|China
+18841|87|5.99|2021-06-01 03:14:07.996577+00|Sincelejo|Sucre|Colombia
+18661|39|7.99|2021-06-01 03:20:09.996577+00|Vila Velha|Esprito Santo|Brazil
+17949|455|5.99|2021-06-01 03:22:01.996577+00|El Alto|La Paz|Bolivia
+18757|66|5.99|2021-06-01 03:36:53.996577+00|Malm|Skne ln|Sweden
+17570|358|3.99|2021-06-01 03:39:02.996577+00|Ranchi|Jharkhand|India
+17216|269|5.99|2021-06-01 03:39:30.996577+00|Salinas|California|United States
+19275|199|5.99|2021-06-01 03:39:53.996577+00|Haiphong|Haiphong|Vietnam
+18505|3|9.99|2021-06-01 03:43:41.996577+00|Athenai|Attika|Greece
+18251|538|7.99|2021-06-01 03:46:58.996577+00|Baicheng|Jilin|China
+18955|116|7.99|2021-06-01 03:48:13.996577+00|Pemalang|Central Java|Indonesia
+17915|450|5.99|2021-06-01 03:54:20.996577+00|Surakarta|Central Java|Indonesia
+17719|393|4.99|2021-06-01 03:56:54.996577+00|Korolev|Moskova|Russian Federation
+17839|429|10.99|2021-06-01 03:58:25.996577+00|Tsuyama|Okayama|Japan
+17741|400|6.99|2021-06-01 04:04:33.996577+00|Dallas|Texas|United States
+17375|310|6.99|2021-06-01 04:08:40.996577+00|Ibirit|Minas Gerais|Brazil
+19269|197|7.99|2021-06-01 04:09:18.996577+00|Changzhou|Jiangsu|China
+18785|75|7.99|2021-06-01 04:28:49.996577+00|Changhwa|Changhwa|Taiwan
+17798|417|6.99|2021-06-01 04:32:42.996577+00|al-Qatif|al-Sharqiya|Saudi Arabia
+17515|343|3.99|2021-06-01 04:32:51.996577+00|Mexicali|Baja California|Mexico
+17742|400|9.99|2021-06-01 04:34:36.996577+00|Dallas|Texas|United States
+18835|86|5.99|2021-06-01 04:42:00.996577+00|Songkhla|Songkhla|Thailand
+18145|510|3.99|2021-06-01 04:45:13.996577+00|Kamyin|Volgograd|Russian Federation
+17980|462|12.99|2021-06-01 04:52:56.996577+00|Usolje-Sibirskoje|Irkutsk|Russian Federation
+19226|188|3.99|2021-06-01 05:16:45.996577+00|Bayugan|Caraga|Philippines
+17554|353|10.99|2021-06-01 05:16:57.996577+00|Pachuca de Soto|Hidalgo|Mexico
+17438|327|9.99|2021-06-01 05:17:56.996577+00|Adana|Adana|Turkey
+18936|112|5.99|2021-06-01 05:19:12.996577+00|Lancaster|California|United States
+17710|391|3.99|2021-06-01 05:20:22.996577+00|Izumisano|Osaka|Japan
+18968|120|5.99|2021-06-01 05:23:07.996577+00|Dos Quebradas|Risaralda|Colombia
+18546|13|5.99|2021-06-01 05:23:08.996577+00|Osmaniye|Osmaniye|Turkey
+18554|16|9.99|2021-06-01 05:33:23.996577+00|Southend-on-Sea|England|United Kingdom
+17312|295|5.99|2021-06-01 05:42:41.996577+00|Kolpino|Pietari|Russian Federation
+19302|213|7.99|2021-06-01 05:44:07.996577+00|Taizz|Taizz|Yemen
+17683|385|3.99|2021-06-01 05:45:12.996577+00|Tama|Ibaragi|Japan
+17940|454|7.99|2021-06-01 05:47:02.996577+00|Uruapan|Michoacn de Ocampo|Mexico
+18538|11|10.99|2021-06-01 05:55:11.996577+00|Sagamihara|Kanagawa|Japan
+17922|451|9.99|2021-06-01 06:10:48.996577+00|El Fuerte|Sinaloa|Mexico
+18186|519|5.99|2021-06-01 06:11:11.996577+00|Isesaki|Gumma|Japan
+19050|143|7.99|2021-06-01 06:12:05.996577+00|Kilis|Kilis|Turkey
+19055|144|3.99|2021-06-01 06:17:43.996577+00|Molodetno|Minsk|Belarus
+18555|16|10.99|2021-06-01 06:19:19.996577+00|Southend-on-Sea|England|United Kingdom
+18489|207|6.99|2021-06-01 06:19:52.996577+00|Nuuk|Kitaa|Greenland
+17702|389|7.99|2021-06-01 06:27:05.996577+00|Emeishan|Sichuan|China
+18044|479|6.99|2021-06-01 06:30:46.996577+00|Akron|Ohio|United States
+18850|89|7.99|2021-06-01 06:35:19.996577+00|La Plata|Buenos Aires|Argentina
+18491|208|8.99|2021-06-01 06:47:48.996577+00|Balurghat|West Bengali|India
+18452|594|5.99|2021-06-01 06:55:18.996577+00|Jining|Inner Mongolia|China
+18984|123|3.99|2021-06-01 06:59:01.996577+00|Varanasi (Benares)|Uttar Pradesh|India
+17484|338|7.99|2021-06-01 07:01:28.996577+00|Paarl|Western Cape|South Africa
+17758|405|8.99|2021-06-01 07:03:23.996577+00|Tandil|Buenos Aires|Argentina
+18233|533|5.99|2021-06-01 07:06:21.996577+00|Binzhou|Shandong|China
+17380|311|3.99|2021-06-01 07:08:48.996577+00|Kursk|Kursk|Russian Federation
+18087|492|7.99|2021-06-01 07:11:58.996577+00|Kanchrapara|West Bengali|India
+18768|68|11.99|2021-06-01 07:19:24.996577+00|Shivapuri|Madhya Pradesh|India
+18399|581|6.99|2021-06-01 07:20:27.996577+00|Jos Azueta|Guerrero|Mexico
+18298|554|7.99|2021-06-01 07:22:36.996577+00|Rajkot|Gujarat|India
+18604|27|6.99|2021-06-01 07:28:23.996577+00|Davao|Southern Mindanao|Philippines
+17675|384|3.99|2021-06-01 07:31:24.996577+00|Huaian|Jiangsu|China
+18244|536|5.99|2021-06-01 07:37:24.996577+00|Tonghae|Kang-won|South Korea
+19097|154|3.99|2021-06-01 07:37:57.996577+00|Yuncheng|Shanxi|China
+18713|53|3.99|2021-06-01 07:38:35.996577+00|Nagareyama|Chiba|Japan
+19463|256|3.99|2021-06-01 07:46:05.996577+00|Monywa|Sagaing|Myanmar
+18520|6|3.99|2021-06-01 07:48:11.996577+00|Laredo|Texas|United States
+18311|558|7.99|2021-06-01 07:48:18.996577+00|Wroclaw|Dolnoslaskie|Poland
+19428|246|5.99|2021-06-01 07:49:02.996577+00|Maring|Paran|Brazil
+17480|337|7.99|2021-06-01 07:50:48.996577+00|Onomichi|Hiroshima|Japan
+17344|303|7.99|2021-06-01 07:51:42.996577+00|Sanaa|Sanaa|Yemen
+17567|357|4.99|2021-06-01 07:52:25.996577+00|Bratislava|Bratislava|Slovakia
+18209|526|5.99|2021-06-01 07:54:15.996577+00|Cape Coral|Florida|United States
+19464|256|7.99|2021-06-01 07:54:41.996577+00|Monywa|Sagaing|Myanmar
+18930|111|5.99|2021-06-01 07:58:31.996577+00|Caracas|Distrito Federal|Venezuela
+18004|468|5.99|2021-06-01 08:00:36.996577+00|Bijapur|Karnataka|India
+19207|184|5.99|2021-06-01 08:06:34.996577+00|s-Hertogenbosch|Noord-Brabant|Netherlands
+17970|459|5.99|2021-06-01 08:06:48.996577+00|Qomsheh|Esfahan|Iran
+17248|278|5.99|2021-06-01 08:11:00.996577+00|Inegl|Bursa|Turkey
+18682|45|5.99|2021-06-01 08:13:56.996577+00|Antofagasta|Antofagasta|Chile
+17443|328|9.99|2021-06-01 08:16:31.996577+00|Ciparay|West Java|Indonesia
+18210|526|5.99|2021-06-01 08:32:00.996577+00|Cape Coral|Florida|United States
+18342|566|7.99|2021-06-01 08:40:41.996577+00|Tokat|Tokat|Turkey
+17604|365|7.99|2021-06-01 08:50:39.996577+00|Okinawa|Okinawa|Japan
+17652|380|5.99|2021-06-01 08:53:54.996577+00|Tychy|Slaskie|Poland
+17782|411|3.99|2021-06-01 09:00:03.996577+00|Cianjur|West Java|Indonesia
+18262|541|5.99|2021-06-01 09:03:25.996577+00|Livorno|Toscana|Italy
+18045|479|5.99|2021-06-01 09:09:02.996577+00|Akron|Ohio|United States
+19488|261|11.99|2021-06-01 09:11:00.996577+00|Tuguegarao|Cagayan Valley|Philippines
+18646|35|5.99|2021-06-01 09:15:50.996577+00|Toulouse|Midi-Pyrnes|France
+18364|571|7.99|2021-06-01 09:17:10.996577+00|Plock|Mazowieckie|Poland
+18907|105|6.99|2021-06-01 09:17:49.996577+00|Funafuti|Funafuti|Tuvalu
+19369|233|5.99|2021-06-01 09:27:19.996577+00|Idfu|Qina|Egypt
+19376|234|8.99|2021-06-01 09:27:50.996577+00|Jalib al-Shuyukh|Hawalli|Kuwait
+17526|346|8.99|2021-06-01 09:35:32.996577+00|Maikop|Adygea|Russian Federation
+18533|10|7.99|2021-06-01 09:39:40.996577+00|Esfahan|Esfahan|Iran
+19080|149|9.99|2021-06-01 09:46:11.996577+00|Brockton|Massachusetts|United States
+17783|411|5.99|2021-06-01 09:48:09.996577+00|Cianjur|West Java|Indonesia
+18331|562|6.99|2021-06-01 09:53:23.996577+00|Sokoto|Sokoto & Kebbi & Zam|Nigeria
+18931|111|4.99|2021-06-01 09:58:34.996577+00|Caracas|Distrito Federal|Venezuela
+19127|163|5.99|2021-06-01 10:00:56.996577+00|Kakamigahara|Gifu|Japan
+19479|260|5.99|2021-06-01 10:03:35.996577+00|Datong|Shanxi|China
+18162|514|6.99|2021-06-01 10:08:24.996577+00|Zaoyang|Hubei|China
+18169|515|7.99|2021-06-01 10:09:01.996577+00|Coquimbo|Coquimbo|Chile
+19150|171|7.99|2021-06-01 10:12:04.996577+00|Ipoh|Perak|Malaysia
+19377|234|7.99|2021-06-01 10:13:20.996577+00|Jalib al-Shuyukh|Hawalli|Kuwait
+19316|215|5.99|2021-06-01 10:15:29.996577+00|Stara Zagora|Haskovo|Bulgaria
+18368|572|3.99|2021-06-01 10:15:43.996577+00|Czestochowa|Slaskie|Poland
+18357|570|8.99|2021-06-01 10:16:31.996577+00|Monclova|Coahuila de Zaragoza|Mexico
+18964|119|5.99|2021-06-01 10:16:57.996577+00|Shubra al-Khayma|al-Qalyubiya|Egypt
+17448|329|8.99|2021-06-01 10:22:41.996577+00|Jamalpur|Dhaka|Bangladesh
+17541|350|6.99|2021-06-01 10:24:35.996577+00|Teboksary|Tuvassia|Russian Federation
+18824|84|8.99|2021-06-01 10:25:41.996577+00|Atlixco|Puebla|Mexico
+19135|165|6.99|2021-06-01 10:31:27.996577+00|Hami|Xinxiang|China
+17481|337|8.99|2021-06-01 10:31:54.996577+00|Onomichi|Hiroshima|Japan
+18062|484|7.99|2021-06-01 10:44:55.996577+00|Yinchuan|Ningxia|China
+17261|282|5.99|2021-06-01 10:47:02.996577+00|Ponce|Ponce|Puerto Rico
+18176|516|3.99|2021-06-01 11:01:56.996577+00|Battambang|Battambang|Cambodia
+17653|380|6.99|2021-06-01 11:04:24.996577+00|Tychy|Slaskie|Poland
+18220|528|7.99|2021-06-01 11:07:10.996577+00|Benguela|Benguela|Angola
+17676|384|3.99|2021-06-01 11:08:16.996577+00|Huaian|Jiangsu|China
+17406|319|6.99|2021-06-01 11:09:44.996577+00|San Felipe del Progreso|Mxico|Mexico
+18280|547|11.99|2021-06-01 11:13:05.996577+00|Kanazawa|Ishikawa|Japan
+19145|169|7.99|2021-06-01 11:21:24.996577+00|Pingxiang|Jiangxi|China
+17449|329|3.99|2021-06-01 11:29:17.996577+00|Jamalpur|Dhaka|Bangladesh
+17903|447|7.99|2021-06-01 11:32:26.996577+00|Nabereznyje Telny|Tatarstan|Russian Federation
+18080|491|7.99|2021-06-01 11:34:04.996577+00|Mit Ghamr|al-Daqahliya|Egypt
+19502|265|10.99|2021-06-01 11:35:22.996577+00|Olomouc|Severn Morava|Czech Republic
+19102|155|10.99|2021-06-01 11:36:34.996577+00|Bern|Bern|Switzerland
+18156|512|7.99|2021-06-01 11:39:25.996577+00|London|Ontario|United Kingdom
+17960|457|3.99|2021-06-01 11:41:53.996577+00|Rockford|Illinois|United States
+18358|570|9.99|2021-06-01 11:42:29.996577+00|Monclova|Coahuila de Zaragoza|Mexico
+17392|316|7.99|2021-06-01 11:52:33.996577+00|Miraj|Maharashtra|India
+18853|90|3.99|2021-06-01 11:53:09.996577+00|Meixian|Guangdong|China
+18420|587|7.99|2021-06-01 11:55:42.996577+00|Celaya|Guanajuato|Mexico
+19112|158|9.99|2021-06-01 12:13:35.996577+00|Greensboro|North Carolina|United States
+18066|486|7.99|2021-06-01 12:15:18.996577+00|Acua|Coahuila de Zaragoza|Mexico
+17364|308|3.99|2021-06-01 12:22:46.996577+00|Kansas City|Missouri|United States
+19034|138|3.99|2021-06-01 12:29:17.996577+00|Hohhot|Inner Mongolia|China
+17350|304|6.99|2021-06-01 12:32:09.996577+00|Callao|Callao|Peru
+19480|260|5.99|2021-06-01 12:47:03.996577+00|Datong|Shanxi|China
+17535|348|11.99|2021-06-01 12:47:26.996577+00|Hsichuh|Taipei|Taiwan
+18825|84|3.99|2021-06-01 12:59:28.996577+00|Atlixco|Puebla|Mexico
+18511|4|3.99|2021-06-01 12:59:38.996577+00|Myingyan|Mandalay|Myanmar
+18063|484|8.99|2021-06-01 13:06:23.996577+00|Yinchuan|Ningxia|China
+17711|391|5.99|2021-06-01 13:06:37.996577+00|Izumisano|Osaka|Japan
+17631|374|4.99|2021-06-01 13:08:16.996577+00|Vitria de Santo Anto|Pernambuco|Brazil
+19284|201|4.99|2021-06-01 13:09:24.996577+00|Witten|Nordrhein-Westfalen|Germany
+17941|454|8.99|2021-06-01 13:23:55.996577+00|Uruapan|Michoacn de Ocampo|Mexico
+19200|182|5.99|2021-06-01 13:27:02.996577+00|Compton|California|United States
+18284|549|5.99|2021-06-01 13:35:56.996577+00|Santiago de Compostela|Galicia|Spain
