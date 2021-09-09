@@ -9,7 +9,9 @@ import boto3
 import pyspark.sql.functions as F
 from ec2_metadata import ec2_metadata
 from pyspark.sql import SparkSession
-from pyspark.sql.types import StructField, StructType, IntegerType, StringType, TimestampType
+from pyspark.sql.types import StructField, StructType, IntegerType, \
+    StringType, TimestampType
+from pyspark.sql.window import Window
 
 topic_input = "pagila.sales.spark.streaming.out"
 
@@ -60,6 +62,8 @@ def read_from_kafka(spark, params):
             "software.amazon.msk.auth.iam.IAMClientCallbackHandler"
     }
 
+    window = Window.partitionBy("country").orderBy(F.col("timestamp").desc())
+
     df_sales = spark.read \
         .format("kafka") \
         .options(**options_read) \
@@ -67,13 +71,10 @@ def read_from_kafka(spark, params):
         .selectExpr("CAST(value AS STRING)", "timestamp") \
         .select(F.from_json("value", schema=schema).alias("data"), "timestamp") \
         .select("data.*", "timestamp") \
-        .groupBy("country") \
-        .agg(F.max(F.col("sales").cast("float")).alias("sales"),
-             F.max(F.col("orders")).alias("orders")) \
-        .orderBy(F.col("sales").cast("float").desc()) \
-        .select("country",
-                F.format_number(F.col("sales"), 2).alias("sales"),
-                "orders")
+        .withColumn("row", F.row_number().over(window)) \
+        .where(F.col("row") == 1).drop("row") \
+        .select("country", "sales", "orders") \
+        .orderBy(F.regexp_replace("sales", ",", "").cast("float"), ascending=False)
 
     return df_sales
 
