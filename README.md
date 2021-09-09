@@ -1,7 +1,10 @@
-# Hydrating a Data Lake using Query-based CDC with Apache Kafka Connect and Kubernetes on AWS
+# Exploring Apache Kafka on AWS
 
 Source code for the
-posts, [Hydrating a Data Lake using Query-based CDC with Apache Kafka Connect and Kubernetes on AWS](https://itnext.io/hydrating-a-data-lake-using-query-based-cdc-with-apache-kafka-connect-and-kubernetes-on-aws-cd4725b58c2e) and [Hydrating a Data Lake using Log-based Change Data Capture (CDC) with Debezium, Apicurio, and Kafka Connect on AWS](https://garystafford.medium.com/hydrating-a-data-lake-using-log-based-change-data-capture-cdc-with-debezium-apicurio-and-kafka-799671e0012f).
+posts:  
+* [Hydrating a Data Lake using Query-based CDC with Apache Kafka Connect and Kubernetes on AWS](https://itnext.io/hydrating-a-data-lake-using-query-based-cdc-with-apache-kafka-connect-and-kubernetes-on-aws-cd4725b58c2e)
+* [Hydrating a Data Lake using Log-based Change Data Capture (CDC) with Debezium, Apicurio, and Kafka Connect on AWS](https://garystafford.medium.com/hydrating-a-data-lake-using-log-based-change-data-capture-cdc-with-debezium-apicurio-and-kafka-799671e0012f)
+* [Getting Started with Spark Structured Streaming and Kafka on AWS using Amazon MSK and Amazon EMR](https://garystafford.medium.com/getting-started-with-spark-structured-streaming-and-kafka-on-aws-using-amazon-msk-and-amazon-emr-91b1f2ef0162)
 
 ## Architecture
 
