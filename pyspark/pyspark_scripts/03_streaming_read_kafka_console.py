@@ -1,4 +1,4 @@
-# Purpose: Streaming read from Kafka topic and summarize top 25
+# Purpose: Streaming read from Kafka topic and aggregate top 25
 #          all-time total sales by country to the console every minute
 # Author:  Gary A. Stafford
 # Date: 2021-09-08

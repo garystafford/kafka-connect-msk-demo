@@ -1,7 +1,7 @@
-# Purpose: Batch read Kafka topic and summarize sales and orders by country,
+# Purpose: Batch read Kafka topic and aggregate sales and orders by country,
 #          to console and Amazon S3 as CSV
 # Author:  Gary A. Stafford
-# Date: 2021-09-04
+# Date: 2021-09-09
 
 import os
 
@@ -27,8 +27,6 @@ def main():
         .builder \
         .appName("kafka-batch-sales") \
         .getOrCreate()
-
-    # spark.sparkContext.setLogLevel("DEBUG")
 
     df_sales = read_from_kafka(spark, params)
 
@@ -76,22 +74,19 @@ def summarize_sales(params, df_sales):
         StructField("country", StringType(), False),
     ])
 
-    window_spec = Window.partitionBy("country").orderBy("amount")
-    window_spec_agg = Window.partitionBy("country")
+    window = Window.partitionBy("country").orderBy("amount")
+    window_agg = Window.partitionBy("country")
 
     df_output = df_sales \
         .selectExpr("CAST(value AS STRING)") \
         .select(F.from_json("value", schema=schema).alias("data")) \
         .select("data.*") \
-        .withColumn("row",
-                    F.row_number().over(window_spec)) \
-        .withColumn("orders",
-                    F.count(F.col("amount")).over(window_spec_agg)) \
-        .withColumn("sales",
-                    F.sum(F.col("amount")).over(window_spec_agg)) \
-        .where(F.col("row") == 1) \
-        .orderBy("sales", ascending=False) \
+        .withColumn("row", F.row_number().over(window)) \
+        .withColumn("orders", F.count(F.col("amount")).over(window_agg)) \
+        .withColumn("sales", F.sum(F.col("amount")).over(window_agg)) \
+        .where(F.col("row") == 1).drop("row") \
         .select("country", (F.format_number(F.col("sales"), 2)).alias("sales"), "orders") \
+        .orderBy(F.col("sales").desc()) \
         .coalesce(1)
 
     df_output \
