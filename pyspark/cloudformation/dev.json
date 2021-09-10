@@ -13,7 +13,7 @@
   },
   {
     "ParameterKey": "ProjectBucketName",
-    "ParameterValue": "<your-bucket-111222333444-us-east-1>"
+    "ParameterValue": "<your-s3-bucket>"
   },
   {
     "ParameterKey": "PublicSubnet",
