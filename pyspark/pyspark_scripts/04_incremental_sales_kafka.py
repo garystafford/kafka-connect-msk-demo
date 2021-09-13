@@ -7,13 +7,14 @@ import os
 import time
 
 import boto3
+import pyspark.sql.functions as F
 from ec2_metadata import ec2_metadata
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructField, StructType, IntegerType, StringType, FloatType
 
 sales_data = "sales_incremental_large.csv"
 topic_output = "pagila.sales.spark.streaming"
-time_between_messages = .5  # 1800 messages * .5 seconds = ~15 minutes
+time_between_messages = 0.5  # 1800 messages * .5 seconds = ~15 minutes
 
 os.environ['AWS_DEFAULT_REGION'] = ec2_metadata.region
 ssm_client = boto3.client("ssm")
@@ -75,6 +76,10 @@ def write_to_kafka(spark, params, df_sales, schema):
         row = df_sales.collect()[r]
         df_message = spark.createDataFrame([row], schema)
 
+        df_message = df_message \
+            .drop("payment_date") \
+            .withColumn("payment_date", F.current_timestamp())
+
         df_message \
             .selectExpr("CAST(payment_id AS STRING) AS key",
                         "to_json(struct(*)) AS value") \
@@ -82,6 +87,8 @@ def write_to_kafka(spark, params, df_sales, schema):
             .format("kafka") \
             .options(**options_write) \
             .save()
+
+        df_message.show(1)
 
         time.sleep(time_between_messages)
 

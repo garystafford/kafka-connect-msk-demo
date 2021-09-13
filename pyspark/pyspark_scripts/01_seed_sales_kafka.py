@@ -1,14 +1,16 @@
 # Purpose: Batch write initial sales data from S3 to a new Kafka topic
 # Author:  Gary A. Stafford
-# Date: 2021-09-03
+# Date: 2021-09-12
 
 import os
 
 import boto3
+import pyspark.sql.functions as F
 from ec2_metadata import ec2_metadata
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructField, StructType, IntegerType, \
     StringType, FloatType
+from pyspark.sql.window import Window
 
 sales_data = "sales_seed.csv"
 topic_output = "pagila.sales.spark.streaming"
@@ -44,6 +46,15 @@ def read_from_csv(spark, params):
     df_sales = spark.read \
         .csv(path=f"s3a://{params['kafka_demo_bucket']}/spark/{sales_data}",
              schema=schema, header=True, sep="|")
+
+    window = Window.orderBy("payment_id")
+
+    df_sales = df_sales \
+        .drop("payment_date") \
+        .withColumn("index", F.row_number().over(window)) \
+        .withColumn("payment_date",
+                    (F.unix_timestamp(F.current_timestamp()) - (250 - F.col("index"))).cast("timestamp")) \
+        .drop("index")
 
     return df_sales
 
