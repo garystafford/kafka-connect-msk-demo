@@ -74,6 +74,7 @@ def read_from_kafka(spark, params):
         .withColumn("row", F.row_number().over(window)) \
         .where(F.col("row") == 1).drop("row") \
         .select("country", "sales", "orders") \
+        .coalesce(1) \
         .orderBy(F.regexp_replace("sales", ",", "").cast("float"), ascending=False)
 
     return df_sales

@@ -86,8 +86,8 @@ def summarize_sales(params, df_sales):
         .withColumn("sales", F.sum(F.col("amount")).over(window_agg)) \
         .where(F.col("row") == 1).drop("row") \
         .select("country", (F.format_number(F.col("sales"), 2)).alias("sales"), "orders") \
-        .orderBy(F.col("sales").desc()) \
-        .coalesce(1)
+        .coalesce(1) \
+        .orderBy(F.regexp_replace("sales", ",", "").cast("float"), ascending=False)
 
     df_output \
         .write \
