@@ -1,6 +1,6 @@
 # Purpose: Batch write initial sales data from S3 to a new Kafka topic
 # Author:  Gary A. Stafford
-# Date: 2021-09-12
+# Date: 2021-09-22
 
 import os
 
