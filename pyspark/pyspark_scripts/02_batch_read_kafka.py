@@ -1,7 +1,7 @@
 # Purpose: Batch read Kafka topic, aggregate sales and orders by country,
 #          and output to console and Amazon S3 as CSV
 # Author:  Gary A. Stafford
-# Date: 2021-09-09
+# Date: 2021-09-22
 
 import os
 
@@ -14,7 +14,6 @@ from pyspark.sql.types import StructField, StructType, IntegerType, \
 from pyspark.sql.window import Window
 
 topic_input = "pagila.sales.spark.streaming"
-csv_output = "sales_by_country.csv"
 
 os.environ['AWS_DEFAULT_REGION'] = ec2_metadata.region
 ssm_client = boto3.client("ssm")
@@ -98,7 +97,7 @@ def summarize_sales(params, df_sales):
 
     df_output \
         .write \
-        .csv(path=f"s3a://{params['kafka_demo_bucket']}/spark_output/{csv_output}",
+        .csv(path=f"s3a://{params['kafka_demo_bucket']}/spark_output/sales_by_country",
              header=True, sep="|") \
         .mode("overwrite")
 
