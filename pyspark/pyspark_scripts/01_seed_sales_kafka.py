@@ -47,14 +47,8 @@ def read_from_csv(spark, params):
         .csv(path=f"s3a://{params['kafka_demo_bucket']}/spark/{sales_data}",
              schema=schema, header=True, sep="|")
 
-    window = Window.orderBy("payment_id")
-
-    df_sales = df_sales \
-        .drop("payment_date") \
-        .withColumn("index", F.row_number().over(window)) \
-        .withColumn("payment_date",
-                    (F.unix_timestamp(F.current_timestamp()) - (250 - F.col("index"))).cast("timestamp")) \
-        .drop("index")
+    # optional
+    df_sales = update_payment_date(df_sales)
 
     return df_sales
 
@@ -84,6 +78,22 @@ def write_to_kafka(params, df_sales):
         .format("kafka") \
         .options(**options_write) \
         .save()
+
+
+def update_payment_date(df):
+    """Update existing payment date to a current timestamp for streaming simulation"""
+
+    record_count = 250
+    window = Window.orderBy("payment_id")
+    df = df \
+        .drop("payment_date") \
+        .withColumn("index", F.row_number().over(window)) \
+        .withColumn("payment_date",
+                    (F.unix_timestamp(F.current_timestamp()) -
+                     (record_count - F.col("index"))).cast(IntegerType())) \
+        .drop("index")
+
+    return df
 
 
 def get_parameters():
