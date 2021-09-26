@@ -41,7 +41,7 @@ def main():
     df_sales = read_from_csv(spark, params, schema)
     df_sales.cache()
 
-    write_to_kafka(spark, params, df_sales, schema)
+    write_to_kafka(spark, params, df_sales)
 
 
 def read_from_csv(spark, params, schema):
@@ -52,7 +52,7 @@ def read_from_csv(spark, params, schema):
     return df_sales
 
 
-def write_to_kafka(spark, params, df_sales, schema):
+def write_to_kafka(spark, params, df_sales):
     options_write = {
         "kafka.bootstrap.servers":
             params["kafka_servers"],
@@ -74,13 +74,11 @@ def write_to_kafka(spark, params, df_sales, schema):
 
     for r in range(0, sales_count):
         row = df_sales.collect()[r]
-        df_message = spark.createDataFrame([row], schema)
+        df_message = spark.createDataFrame([row], df_sales.schema)
 
         df_message = df_message \
             .drop("payment_date") \
-            .withColumn("payment_date", F.current_timestamp())
-
-        df_message \
+            .withColumn("payment_date", F.current_timestamp()) \
             .selectExpr("CAST(payment_id AS STRING) AS key",
                         "to_json(struct(*)) AS value") \
             .write \

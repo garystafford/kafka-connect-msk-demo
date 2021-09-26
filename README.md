@@ -130,6 +130,12 @@ bin/kafka-topics.sh --delete \
   --bootstrap-server $BBROKERS \
   --command-config config/client-iam.properties
 
+# delete topics with wildcard
+bin/kafka-topics.sh --delete \
+  --topic pagila.sales.* \
+  --bootstrap-server $BBROKERS \
+  --command-config config/client-iam.properties
+
 # get topic size
 bin/kafka-log-dirs.sh --describe \
   --bootstrap-server $BBROKERS \
