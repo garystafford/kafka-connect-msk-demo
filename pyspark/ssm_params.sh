@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# Purpose: Create SSM parameters for demo
-# Author:  Gary A. Stafford (2021-08-28)
+# Purpose: Create SSM parameters for spark/kafka demo
+# Author:  Gary A. Stafford
+# Date: 2021-09-28
 
 aws ssm put-parameter \
   --name /kafka_spark_demo/kafka_servers \
@@ -17,6 +18,7 @@ aws ssm put-parameter \
   --description "Amazon S3 bucket" \
   --overwrite
 
+# added for avro/schema registry demo
 aws ssm put-parameter \
   --name /kafka_spark_demo/schema_resistry_url_int \
   --type String \
