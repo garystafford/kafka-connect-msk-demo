@@ -10,8 +10,7 @@ import pyspark.sql.functions as F
 import requests
 from ec2_metadata import ec2_metadata
 from pyspark.sql import SparkSession
-from pyspark.sql.avro.functions import from_avro
-from pyspark.sql.avro.functions import to_avro
+from pyspark.sql.avro.functions import from_avro, to_avro
 from pyspark.sql.types import IntegerType, FloatType, LongType
 
 source_topic = "pagila.sales.avro"
