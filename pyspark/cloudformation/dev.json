@@ -41,10 +41,10 @@
   },
   {
     "ParameterKey": "ReleaseLabel",
-    "ParameterValue": "emr-6.3.0"
+    "ParameterValue": "emr-6.4.0"
   },
   {
     "ParameterKey": "EbsRootVolumeSize",
-    "ParameterValue": "32"
+    "ParameterValue": "64"
   }
 ]
