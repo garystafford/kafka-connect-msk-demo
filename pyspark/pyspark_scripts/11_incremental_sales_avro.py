@@ -1,6 +1,5 @@
-# Purpose: Write sales data from CSV to a new Kafka
-#          topic in AVRO format. Use a delay between each message to
-#          simulate an event stream of sales data.
+# Purpose: Write sales data from CSV to a new Kafka topic in Avro format.
+#          Use a delay between each message to simulate an event stream of sales data.
 # Author:  Gary A. Stafford
 # Date: 2021-09-28
 
@@ -16,7 +15,7 @@ from pyspark.sql.avro.functions import to_avro
 from pyspark.sql.types import LongType
 
 sink_topic = "pagila.sales.avro"
-delay_between_messages = 0.333  # 1800 messages * .333 second delay = ~10 minutes
+delay_between_messages = 0.333  # 1800 messages * .333 second delay = ~10 minutes added latency
 params = {}
 
 os.environ['AWS_DEFAULT_REGION'] = ec2_metadata.region
@@ -94,7 +93,7 @@ def read_from_csv(spark, source_data, schema, sep):
 
 
 def struct_from_json(spark, json_format_schema):
-    """Bit of a hack to get json schema back as a pyspark.sql.types.StructType"""
+    """Returns a schema as a pyspark.sql.types.StructType from Avro schema"""
 
     df = spark \
         .read \
@@ -108,7 +107,7 @@ def struct_from_json(spark, json_format_schema):
 
 
 def get_schema(artifact_id):
-    """Get AVRO schema from Apicurio Registry"""
+    """Get Avro schema from Apicurio Registry"""
 
     response = requests.get(
         f"{params['schema_registry_url']}/apis/registry/v2/groups/default/artifacts/{artifact_id}")

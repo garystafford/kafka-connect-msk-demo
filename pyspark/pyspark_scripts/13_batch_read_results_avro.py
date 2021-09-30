@@ -1,4 +1,4 @@
-# Purpose: Batch read of sales totals written to Kafka in Avro format
+# Purpose: Batch read and display sales totals from Kafka in Avro format.
 # Author:  Gary A. Stafford
 # Date: 2021-09-28
 
@@ -44,8 +44,6 @@ def read_from_kafka():
             source_topic,
         "startingOffsets":
             "earliest",
-        "failOnDataLoss":
-            "false",
         "kafka.ssl.truststore.location":
             "/tmp/kafka.client.truststore.jks",
         "kafka.security.protocol":
@@ -83,7 +81,7 @@ def read_from_kafka():
 # ***** utility methods *****
 
 def get_schema(artifact_id):
-    """Get AVRO schema from Apicurio Registry"""
+    """Get Avro schema from Apicurio Registry"""
 
     response = requests.get(
         f"{params['schema_registry_url']}/apis/registry/v2/groups/default/artifacts/{artifact_id}")

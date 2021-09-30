@@ -1,5 +1,5 @@
 # Purpose: Streaming read from Kafka topic in Avro format. Enrich and aggregate
-#          current sales by sales region to second Kafka topic every two minutes
+#          current sales by sales region to second Kafka topic every n minutes.
 # Author:  Gary A. Stafford
 # Date: 2021-09-28
 
@@ -52,8 +52,6 @@ def read_from_kafka(spark):
             source_topic,
         "startingOffsets":
             "earliest",
-        "failOnDataLoss":
-            "false",
         "kafka.ssl.truststore.location":
             "/tmp/kafka.client.truststore.jks",
         "kafka.security.protocol":
@@ -137,7 +135,7 @@ def read_from_csv(spark, source_data, schema, sep):
 
 
 def struct_from_json(spark, json_format_schema):
-    """Bit of a hack to get json schema back as a pyspark.sql.types.StructType"""
+    """Returns a schema as a pyspark.sql.types.StructType from Avro schema"""
 
     df = spark \
         .read \
@@ -151,7 +149,7 @@ def struct_from_json(spark, json_format_schema):
 
 
 def get_schema(artifact_id):
-    """Get AVRO schema from Apicurio Registry"""
+    """Get Avro schema from Apicurio Registry"""
 
     response = requests.get(
         f"{params['schema_registry_url']}/apis/registry/v2/groups/default/artifacts/{artifact_id}")

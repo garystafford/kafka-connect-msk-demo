@@ -1,4 +1,4 @@
-# Purpose: Create (6) schemas in Apicurio Registry.
+# Purpose: Create Avro schemas in Apicurio Registry.
 # Author:  Gary A. Stafford
 # Date: 2021-09-28
 
@@ -75,7 +75,7 @@ def main():
 
 
 def create_schema(artifact_id, data):
-    """Delete existing schema, create new schema, and retrieve schema"""
+    """Delete existing Avro schema, create new schema, and retrieve the schema"""
 
     delete_schema(artifact_id)
     print(json.dumps(json.loads(post_schema(artifact_id, data)), indent=4))
@@ -83,7 +83,7 @@ def create_schema(artifact_id, data):
 
 
 def post_schema(artifact_id, data):
-    """Post AVRO schema to Apicurio Registry"""
+    """Post Avro schema to Apicurio Registry"""
 
     response = requests.post(
         url=f"{params['schema_registry_url']}/apis/registry/v2/groups/default/artifacts",
@@ -96,7 +96,7 @@ def post_schema(artifact_id, data):
 
 
 def get_schema(artifact_id):
-    """Get AVRO schema from Apicurio Registry"""
+    """Get Avro schema from Apicurio Registry"""
 
     response = requests.get(
         f"{params['schema_registry_url']}/apis/registry/v2/groups/default/artifacts/{artifact_id}")
@@ -107,7 +107,7 @@ def get_schema(artifact_id):
 
 
 def delete_schema(artifact_id):
-    """Delete AVRO schema from Apicurio Registry"""
+    """Delete Avro schema from Apicurio Registry"""
 
     try:
         response = requests.delete(
