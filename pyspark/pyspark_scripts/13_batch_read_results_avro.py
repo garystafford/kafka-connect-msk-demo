@@ -68,8 +68,9 @@ def read_from_kafka():
         .select("timestamp", "key", "data.*") \
         .withColumn("row", F.row_number().over(window)) \
         .where(F.col("row") == 1).drop("row") \
-        .select("region",
-                F.format_number("sales", 2).alias("sales"), "orders",
+        .select(F.col("region").alias("sales_region"),
+                F.format_number("sales", 2).alias("sales"),
+                F.format_number("orders", 0).alias("orders"),
                 F.from_unixtime("window_start", format="yyyy-MM-dd HH:mm").alias("window_start"),
                 F.from_unixtime("window_end", format="yyyy-MM-dd HH:mm").alias("window_end")) \
         .orderBy(F.col("window_start").desc(), F.regexp_replace("sales", ",", "").cast("float").desc())
