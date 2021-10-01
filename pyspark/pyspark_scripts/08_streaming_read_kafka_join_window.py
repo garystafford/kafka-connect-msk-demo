@@ -97,10 +97,11 @@ def summarize_sales(df_sales, df_regions):
         .groupBy("region", F.window("timestamp", "10 minutes", "5 minutes")) \
         .agg(F.count("amount"), F.sum("amount")) \
         .orderBy(F.col("window").desc(), F.col("sum(amount)").desc()) \
-        .select(F.col("region").alias("sales_region"),
-                (F.format_number(F.col("sum(amount)"), 2)).alias("sales"),
-                F.col("count(amount)").alias("orders"),
-                "window.start", "window.end") \
+        .select("region",
+                F.format_number("sales", 2).alias("sales"),
+                F.format_number("orders", 0).alias("orders"),
+                F.from_unixtime("window_start", format="yyyy-MM-dd HH:mm").alias("window_start"),
+                F.from_unixtime("window_end", format="yyyy-MM-dd HH:mm").alias("window_end")) \
         .coalesce(1) \
         .writeStream \
         .queryName("streaming_regional_sales") \
