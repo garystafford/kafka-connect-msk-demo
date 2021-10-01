@@ -75,11 +75,11 @@ def summarize_sales(df_sales):
         .select(F.from_json("value", schema=schema).alias("data")) \
         .select("data.*") \
         .groupBy("country") \
-        .agg(F.count("amount"), F.sum("amount")) \
+        .agg(F.sum("amount"), F.count("amount")) \
         .orderBy(F.col("sum(amount)").desc()) \
         .select("country",
-                (F.format_number(F.col("sum(amount)"), 2)).alias("sales"),
-                F.col("count(amount)").alias("orders")) \
+                F.format_number("sum(amount)", 2).alias("sales"),
+                F.format_number("count(amount)", 0).alias("orders")) \
         .coalesce(1) \
         .writeStream \
         .queryName("streaming_to_console") \

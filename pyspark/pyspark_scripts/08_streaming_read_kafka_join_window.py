@@ -98,7 +98,7 @@ def summarize_sales(df_sales, df_regions):
         .agg(F.count("amount"), F.sum("amount")) \
         .orderBy(F.col("window").desc(), F.col("sum(amount)").desc()) \
         .select(F.col("region").alias("sales_region"),
-                F.format_number(F.col("sum(amount)"), 2).alias("sales"),
+                F.format_number("sum(amount)", 2).alias("sales"),
                 F.col("count(amount)").alias("orders"),
                 F.from_unixtime("window_start", format="yyyy-MM-dd HH:mm").alias("window_start"),
                 F.from_unixtime("window_end", format="yyyy-MM-dd HH:mm").alias("window_end")) \
