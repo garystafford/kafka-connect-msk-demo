@@ -93,7 +93,7 @@ def summarize_sales(params, df_sales):
         .select(F.from_json("value", schema=schema).alias("data")) \
         .select("data.*") \
         .groupBy("country") \
-        .agg(F.count("amount"), F.sum("amount")) \
+        .agg(F.sum("amount"), F.count("amount")) \
         .orderBy(F.col("sum(amount)").desc()) \
         .select(F.sha1("country").alias("id"),
                 "country",

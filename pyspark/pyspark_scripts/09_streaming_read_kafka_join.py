@@ -94,7 +94,7 @@ def summarize_sales(df_sales, df_regions):
         .join(df_regions, on=["country"], how="leftOuter") \
         .na.fill("Unassigned") \
         .groupBy("region") \
-        .agg(F.count("amount"), F.sum("amount")) \
+        .agg(F.sum("amount"), F.count("amount")) \
         .select(F.col("region").alias("sales_region"),
                 F.format_number("sum(amount)", 2).alias("sales"),
                 F.format_number("count(amount)", 0).alias("orders")) \

@@ -99,7 +99,7 @@ def summarize_sales(df_sales, df_regions):
         .na.fill("Unassigned") \
         .withWatermark("timestamp", "10 minutes") \
         .groupBy("region", F.window("timestamp", "10 minutes", "5 minutes")) \
-        .agg(F.count("amount"), F.sum("amount")) \
+        .agg(F.sum("amount"), F.count("amount")) \
         .orderBy(F.col("window").desc(), F.col("sum(amount)").desc()) \
         .select("region",
                 F.col("sum(amount)").cast(FloatType()).alias("sales"),

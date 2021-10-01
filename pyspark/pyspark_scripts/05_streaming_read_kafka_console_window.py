@@ -77,7 +77,7 @@ def summarize_sales(df_sales):
         .withWatermark("timestamp", "10 minutes") \
         .groupBy("country",
                  F.window("timestamp", "10 minutes", "5 minutes")) \
-        .agg(F.count("amount"), F.sum("amount")) \
+        .agg(F.sum("amount"), F.count("amount")) \
         .orderBy(F.col("window").desc(),
                  F.col("sum(amount)").desc()) \
         .select("country",
