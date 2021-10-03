@@ -67,7 +67,7 @@ def read_from_kafka():
                 from_avro("value", sales_summary_value).alias("data")) \
         .select("timestamp", "key", "data.*") \
         .withColumn("row", F.row_number().over(window)) \
-        .where(F.col("row") == 1).drop("row") \
+        .filter(F.col("row") == 1).drop("row") \
         .select(F.col("region").alias("sales_region"),
                 F.format_number("sales", 2).alias("sales"),
                 F.format_number("orders", 0).alias("orders"),

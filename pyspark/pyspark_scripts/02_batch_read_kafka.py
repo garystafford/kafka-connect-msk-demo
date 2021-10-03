@@ -83,7 +83,7 @@ def summarize_sales(params, df_sales):
         .withColumn("row", F.row_number().over(window)) \
         .withColumn("orders", F.count(F.col("amount")).over(window_agg)) \
         .withColumn("sales", F.sum(F.col("amount")).over(window_agg)) \
-        .where(F.col("row") == 1).drop("row") \
+        .filter(F.col("row") == 1).drop("row") \
         .select("country",
                 F.format_number("sales", 2).alias("sales"),
                 F.format_number("orders", 0).alias("orders")) \
