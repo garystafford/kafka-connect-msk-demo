@@ -30,8 +30,8 @@ def main():
         .appName("kafka-streaming-sales") \
         .getOrCreate()
 
-    json_format_schema = get_schema("pagila.sales.regions.csv")
-    schema = struct_from_json(spark, json_format_schema)
+    csv_sales_regions_schema = get_schema("pagila.sales.regions.csv")
+    schema = struct_from_json(spark, csv_sales_regions_schema)
     df_regions = read_from_csv(spark, "sales_regions.csv", schema, ",")
     df_regions.cache()
     df_regions.show(5, truncate=False)

@@ -31,8 +31,8 @@ def main():
         .appName("kafka-incremental-sales") \
         .getOrCreate()
 
-    json_format_schema = get_schema("pagila.sales.csv")
-    schema = struct_from_json(spark, json_format_schema)
+    csv_sales_schema = get_schema("pagila.sales.csv")
+    schema = struct_from_json(spark, csv_sales_schema)
     df_sales = read_from_csv(spark, "sales_incremental_large.csv", schema, "|")
     df_sales.show(5, truncate=False)
 
