@@ -2,7 +2,7 @@ serviceAccountName: kafka-connect-msk-iam-serviceaccount
 replicaCount: 1
 image:
   imageKafka: garystafford/kafka-connect-msk:1.1.0
-  imageApicurio: apicurio/apicurio-registry-sql:2.0.1.Final
+  imageApicurio: apicurio/apicurio-registry-sql:2.1.0.Final
   pullPolicy: IfNotPresent
   registryDatasourceUrl: jdbc:postgresql://your-pagila-database-url.us-east-1.rds.amazonaws.com:5432/apicurio-registry
   registryDatasourceUsername: apicurio_registry

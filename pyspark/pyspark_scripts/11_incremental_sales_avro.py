@@ -15,7 +15,10 @@ from pyspark.sql.avro.functions import to_avro
 from pyspark.sql.types import LongType
 
 sink_topic = "pagila.sales.avro"
-delay_between_messages = 0.333  # 1800 messages * .333 second delay = ~10 minutes added latency
+
+# 1800 messages * .75 second delay = ~22.5 minutes added latency
+delay_between_messages = 0.75
+
 params = {}
 
 os.environ['AWS_DEFAULT_REGION'] = ec2_metadata.region
