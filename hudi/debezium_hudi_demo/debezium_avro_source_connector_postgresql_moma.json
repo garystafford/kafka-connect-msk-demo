@@ -1,6 +1,6 @@
 {
     "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
-    "database.hostname": "pagila-instance.cxauxtdppqiu.us-east-1.rds.amazonaws.com",
+    "database.hostname": "<your_database_ip_or_dns_address>",
     "database.port": "5432",
     "database.user": "<your_username>",
     "database.password": "<your_password>",
