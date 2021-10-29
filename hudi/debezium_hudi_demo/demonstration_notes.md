@@ -14,7 +14,7 @@ export EMR_KEY="~/.ssh/<your_ssh_key>.pem"
 export DATA_LAKE_BUCKET="<your_data_lake_bucket>"
 ```
 
-Install Hudi DeltaStreamer dependencies
+Install Hudi DeltaStreamer Dependencies
 
 ```shell
 aws s3 cp base.properties "s3://${DATA_LAKE_BUCKET}/hudi/"
@@ -22,7 +22,7 @@ aws s3 cp deltastreamer_s3.properties "s3://${DATA_LAKE_BUCKET}/hudi/"
 aws s3 cp moma.public.artists-value.avsc "s3://${DATA_LAKE_BUCKET}/hudi/"
 ```
 
-Shell into Kafka Connect container
+Shell into Kafka Connect EKS Container
 
 ```shell
 export KAFKA_CONTAINER=$(
@@ -50,6 +50,7 @@ Drop Hive database using EMR Master Node
 
 ```hiveql
 SHOW DATABASES;
+USE moma;
 DROP TABLE artists_ro;
 DROP TABLE artists_rt;
 DROP DATABASE moma;
@@ -84,7 +85,7 @@ bin/kafka-topics.sh \
     --command-config config/client-iam.properties
 ```
 
-Start Kafka Connect as background process
+Start Kafka Connect as Background Process
 
 ```shell
 bin/connect-distributed.sh config/connect-distributed.properties > /dev/null 2>&1 &
@@ -132,7 +133,7 @@ bin/kafka-console-consumer.sh \
   --consumer.config config/client-iam.properties
 ```
 
-Show Avro file
+Show Avro file (locally)
 
 ```shell
 java -jar avro-tools-1.10.2.jar count moma.public.artists+0+0000000000.avro
@@ -141,7 +142,7 @@ java -jar avro-tools-1.10.2.jar tojson \
   --pretty --head 2 moma.public.artists+0+0000000000.avro | jq
 ```
 
-Run Hudi DeltaStreamer continuously
+Run Hudi DeltaStreamer Continuously
 
 ```shell
 export DATA_LAKE_BUCKET="<your_data_lake_bucket>"
@@ -160,7 +161,7 @@ spark-submit --jars /usr/lib/spark/jars/spark-avro.jar,/usr/lib/hudi/hudi-utilit
     --op UPSERT
 ```
 
-Preview Hive database/table/rows
+Preview Hive Database
 
 ```hiveql
 SHOW databases;
@@ -188,7 +189,7 @@ WHERE artist_id = (
 Make SQL changes to Artists table
 
 ```sql
---upserts
+--updates (upserts)
 UPDATE public.artists
 SET nationality = 'Japanese',
     gender      = 'Male'
