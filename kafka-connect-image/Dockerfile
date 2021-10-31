@@ -1,6 +1,6 @@
 # purpose: Kafka Connect for Amazon MSK
 # author: Gary A. Stafford
-# date: 2021-08-07
+# date: 2021-10-28
 
 FROM openjdk:17-alpine3.14
 
@@ -10,15 +10,14 @@ ENV BBROKERS=$BBROKERS
 
 ENV KAFKA_PLUGINS="/usr/local/share/kafka/plugins"
 
-ENV KAFKA_VERSION="2.8.0"
-ENV KAFKA_PACKAGE="kafka_2.13-2.8.0"
-ENV AWS_MSK_IAM_AUTH="1.1.0"
-ENV CONNECT_JDBC="10.2.1"
-ENV CONNECT_S3="10.0.1"
-ENV CONNECT_SOURCE_S3="1.4.6"
-ENV APICURIO="2.0.1.Final"
-ENV CONFLUENT_KAFKA="6.2.0"
-ENV CONNECT_DEBEZIUM="1.6.1"
+ENV KAFKA_VERSION="2.8.1"
+ENV KAFKA_PACKAGE="kafka_2.13-2.8.1"
+ENV AWS_MSK_IAM_AUTH="1.1.1"
+ENV CONNECT_JDBC="10.2.5"
+ENV CONNECT_S3="10.0.3"
+ENV APICURIO="2.1.1.Final"
+ENV CONFLUENT_KAFKA="6.2.1"
+ENV CONNECT_DEBEZIUM="1.7.0.Final"
 #################
 
 RUN apk add --no-cache curl wget tar bash jq vim
@@ -35,12 +34,13 @@ RUN wget https://downloads.apache.org/kafka/$KAFKA_VERSION/$KAFKA_PACKAGE.tgz \
 RUN mkdir -p $KAFKA_PLUGINS
 
 ## fix 'Failed to load class "org.slf4j.impl.StaticLoggerBinder"' error
-#RUN rm libs slf4j-log4j12-1.7.30.jar \
-#    && wget https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.31/slf4j-simple-1.7.31.jar \
-#    && mv slf4j-simple-1.7.31.jar /$KAFKA_PACKAGE/libs/
+#RUN rm libs/slf4j-log4j12-1.7.30.jar \
+#    && wget https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar \
+#    && mv slf4j-simple-1.7.32.jar /$KAFKA_PACKAGE/libs/
 
 # install aws-msk-iam-auth jar for kafka and kafka connect CLIs
-RUN wget https://github.com/aws/aws-msk-iam-auth/releases/download/$AWS_MSK_IAM_AUTH/aws-msk-iam-auth-$AWS_MSK_IAM_AUTH-all.jar \
+# https://github.com/aws/aws-msk-iam-auth/releases/download/v1.1.1/aws-msk-iam-auth-1.1.1-all.jar
+RUN wget https://github.com/aws/aws-msk-iam-auth/releases/download/v$AWS_MSK_IAM_AUTH/aws-msk-iam-auth-$AWS_MSK_IAM_AUTH-all.jar \
     && cp aws-msk-iam-auth-$AWS_MSK_IAM_AUTH-all.jar $KAFKA_PLUGINS/ \
     && mv aws-msk-iam-auth-$AWS_MSK_IAM_AUTH-all.jar /$KAFKA_PACKAGE/libs/
 
@@ -64,9 +64,9 @@ RUN wget https://repo1.maven.org/maven2/io/apicurio/apicurio-registry-distro-con
     && rm -rf apicurio-registry-distro-connect-converter-$APICURIO.tar.gz
 
 # https://debezium.io/documentation/reference/1.6/connectors/postgresql.html
-RUN wget https://repo1.maven.org/maven2/io/debezium/debezium-connector-postgres/$CONNECT_DEBEZIUM.Final/debezium-connector-postgres-$CONNECT_DEBEZIUM.Final-plugin.tar.gz \
-    && tar -xzf debezium-connector-postgres-$CONNECT_DEBEZIUM.Final-plugin.tar.gz \
-    && rm -rf debezium-connector-postgres-$CONNECT_DEBEZIUM.Final-plugin.tar.gz \
+RUN wget https://repo1.maven.org/maven2/io/debezium/debezium-connector-postgres/$CONNECT_DEBEZIUM/debezium-connector-postgres-$CONNECT_DEBEZIUM-plugin.tar.gz \
+    && tar -xzf debezium-connector-postgres-$CONNECT_DEBEZIUM-plugin.tar.gz \
+    && rm -rf debezium-connector-postgres-$CONNECT_DEBEZIUM-plugin.tar.gz \
     && mv debezium-connector-postgres $KAFKA_PLUGINS/
 
 # install additional connector dependencies for avro format with schema registry

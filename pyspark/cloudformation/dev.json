@@ -1,15 +1,19 @@
 [
   {
     "ParameterKey": "ProjectName",
-    "ParameterValue": "Spark Structured Streaming with Kafka"
+    "ParameterValue": "Open Data Lakes on AWS"
   },
   {
     "ParameterKey": "EnvironmentName",
     "ParameterValue": "Development"
   },
   {
+    "ParameterKey": "ClusterName",
+    "ParameterValue": "emr-demo-cluster"
+  },
+  {
     "ParameterKey": "EC2SSHKey",
-    "ParameterValue": "<your-ssk-key>"
+    "ParameterValue": "<your-ssh-key>"
   },
   {
     "ParameterKey": "ProjectBucketName",
@@ -45,6 +49,6 @@
   },
   {
     "ParameterKey": "EbsRootVolumeSize",
-    "ParameterValue": "64"
+    "ParameterValue": "32"
   }
 ]

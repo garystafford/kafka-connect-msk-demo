@@ -1,12 +1,15 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: >
-  Stack for Spark Structured Streaming with Kafka on EMR Demo. Deploys an EMR cluster.
+  Stack for demonstrating Open Data Lakes on AWS. Deploys an EMR cluster.
 Parameters:
   ProjectName:
     Description: Project name that is prefixed to resource names
     Type: String
   EnvironmentName:
     Description: Environment name (e.g., Development, Test, Production)
+    Type: String
+  ClusterName:
+    Description: Name of EMR Cluster
     Type: String
   PublicSubnet:
     Description: The public subnet
@@ -44,15 +47,21 @@ Resources:
     Properties:
       Applications:
         - Name: 'Hadoop'
-        - Name: 'Spark'
+        - Name: 'Hive'
         - Name: 'JupyterEnterpriseGateway'
         - Name: 'Livy'
+        - Name: 'Presto'
+        - Name: 'Spark'
       BootstrapActions:
         - Name: bootstrap-script
           ScriptBootstrapAction:
             Path: !Join [ '', [ 's3://', !Ref ProjectBucketName, '/spark/bootstrap_actions.sh' ] ]
             Args:
               - !Ref ProjectBucketName
+      Configurations:
+        - Classification: spark
+          ConfigurationProperties:
+            spark.hadoop.fs.s3a.fast.upload.buffer: 'bytebuffer'
       EbsRootVolumeSize: !Ref EbsRootVolumeSize
       Instances:
         Ec2KeyName: !Ref EC2SSHKey
@@ -68,15 +77,22 @@ Resources:
           Name: CORE
         TerminationProtected: !Ref TerminationProtected
         Ec2SubnetId: !Ref PublicSubnet
-      Name: 'demo-cluster-cloudformation'
+      Name: !Ref ClusterName
       JobFlowRole: EMR_EC2_DefaultRole
       ServiceRole: EMR_DefaultRole
       ReleaseLabel: !Ref ReleaseLabel
       StepConcurrencyLevel: 5
       VisibleToAllUsers: true
       LogUri: !Sub s3n://${ProjectBucketName}/emr/logs/
+      Steps:
+        - ActionOnFailure: 'CANCEL_AND_WAIT'
+          HadoopJarStep:
+            Args:
+              - 'state-pusher-script'
+            Jar: 'command-runner.jar'
+          Name: 'Setup Hadoop Debugging'
       Tags:
-        - Key: Name
-          Value: !Sub ${ProjectName} Cluster
-        - Key: Environment
+        - Key: 'Name'
+          Value: !Ref ProjectName
+        - Key: 'Environment'
           Value: !Ref EnvironmentName
