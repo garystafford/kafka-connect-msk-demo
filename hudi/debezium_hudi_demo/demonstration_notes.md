@@ -2,6 +2,52 @@
 
 The following commands were used during the demonstration.
 
+Can't create partitions based on nationality or classification where they contain a word space (e.g., 'South African')
+
+```sql
+SELECT DISTINCT nationality FROM artists ORDER BY nationality;
+
+UPDATE artists
+SET nationality = REPLACE(nationality, ' ', '_')
+WHERE nationality LIKE '% %';
+
+UPDATE artists
+SET nationality = 'Nationality_Unknown'
+WHERE nationality = 'Nationality_unknown';
+
+UPDATE artists
+SET nationality = 'Nationality_Unknown'
+WHERE nationality = 'nationality_Unknown';
+
+UPDATE artists
+SET  gender = NULLIF(gender, '')
+WHERE gender = '';
+
+SELECT DISTINCT classification FROM artworks ORDER BY classification;
+
+UPDATE artworks
+SET classification = 'Not_Assigned'
+WHERE classification = '';
+
+UPDATE artworks
+SET classification = 'Not_Assigned'
+WHERE classification = '(not assigned)';
+
+UPDATE artworks
+SET classification = 'Film_Object'
+WHERE classification = 'Film (object)';
+
+UPDATE artworks
+SET classification = REPLACE(classification, ' ', '_')
+WHERE classification LIKE '% %';
+
+UPDATE artworks
+SET classification = REPLACE(classification, '/', '_')
+WHERE classification LIKE '%/%';
+
+VACUUM FULL VERBOSE ANALYZE;
+```
+
 Set-up variables
 
 ```shell
@@ -55,7 +101,15 @@ DROP TABLE artists_ro;
 DROP TABLE artists_rt;
 DROP DATABASE moma;
 SHOW DATABASES;
+exit;
 ```
+
+Alternative
+
+```shell
+hive -e "SHOW DATABASES;"
+hive -e "USE moma;DROP TABLE artists_ro;DROP TABLE artists_rt;DROP DATABASE moma;SHOW DATABASES;"
+````
 
 Delete Existing Kafka Connect and CDC Kafka topics
 
@@ -140,21 +194,41 @@ java -jar avro-tools-1.10.2.jar count moma.public.artists+0+0000000000.avro
 
 java -jar avro-tools-1.10.2.jar tojson \
   --pretty --head 2 moma.public.artists+0+0000000000.avro | jq
+
+java -jar avro-tools-1.10.2.jar getschema \
+  moma.public.artists+0+0000000000.avro > moma.public.artists-value.avsc
 ```
 
 Run Hudi DeltaStreamer Continuously
 
 ```shell
+# HoodieDeltaStreamer - Artists
 export DATA_LAKE_BUCKET="<your_data_lake_bucket>"
 spark-submit --jars /usr/lib/spark/jars/spark-avro.jar,/usr/lib/hudi/hudi-utilities-bundle.jar \
     --conf spark.sql.catalogImplementation=hive \
     --class org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamer /usr/lib/hudi/hudi-utilities-bundle.jar \
     --table-type MERGE_ON_READ \
     --source-ordering-field __source_ts_ms \
-    --props "s3://${DATA_LAKE_BUCKET}/hudi/deltastreamer_s3.properties" \
+    --props "s3://${DATA_LAKE_BUCKET}/hudi/deltastreamer_0_8_0_artists.properties" \
     --source-class org.apache.hudi.utilities.sources.AvroDFSSource \
     --target-base-path "s3://${DATA_LAKE_BUCKET}/moma/artists/" \
     --target-table moma.artists \
+    --schemaprovider-class org.apache.hudi.utilities.schema.FilebasedSchemaProvider \
+    --enable-sync \
+    --continuous \
+    --op UPSERT
+
+# HoodieDeltaStreamer - Artworks
+export DATA_LAKE_BUCKET="<your_data_lake_bucket>"
+spark-submit --jars /usr/lib/spark/jars/spark-avro.jar,/usr/lib/hudi/hudi-utilities-bundle.jar \
+    --conf spark.sql.catalogImplementation=hive \
+    --class org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamer /usr/lib/hudi/hudi-utilities-bundle.jar \
+    --table-type MERGE_ON_READ \
+    --source-ordering-field __source_ts_ms \
+    --props "s3://${DATA_LAKE_BUCKET}/hudi/deltastreamer_0_8_0_artworks.properties" \
+    --source-class org.apache.hudi.utilities.sources.AvroDFSSource \
+    --target-base-path "s3://${DATA_LAKE_BUCKET}/moma/artworks/" \
+    --target-table moma.artworks \
     --schemaprovider-class org.apache.hudi.utilities.schema.FilebasedSchemaProvider \
     --enable-sync \
     --continuous \

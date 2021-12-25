@@ -6,7 +6,7 @@
     "database.password": "<your_password>",
     "database.dbname": "moma",
     "database.server.name": "moma",
-    "table.include.list": "public.artists",
+    "table.include.list": "public.artists,public.artworks",
     "plugin.name": "pgoutput",
     "key.converter": "io.apicurio.registry.utils.converter.AvroConverter",
     "key.converter.apicurio.registry.url": "http://localhost:8080/apis/registry/v2",
