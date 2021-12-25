@@ -209,7 +209,7 @@ spark-submit --jars /usr/lib/spark/jars/spark-avro.jar,/usr/lib/hudi/hudi-utilit
     --class org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamer /usr/lib/hudi/hudi-utilities-bundle.jar \
     --table-type MERGE_ON_READ \
     --source-ordering-field __source_ts_ms \
-    --props "s3://${DATA_LAKE_BUCKET}/hudi/deltastreamer_0_8_0_artists.properties" \
+    --props "s3://${DATA_LAKE_BUCKET}/hudi/deltastreamer_artists.properties" \
     --source-class org.apache.hudi.utilities.sources.AvroDFSSource \
     --target-base-path "s3://${DATA_LAKE_BUCKET}/moma/artists/" \
     --target-table moma.artists \
@@ -225,7 +225,7 @@ spark-submit --jars /usr/lib/spark/jars/spark-avro.jar,/usr/lib/hudi/hudi-utilit
     --class org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamer /usr/lib/hudi/hudi-utilities-bundle.jar \
     --table-type MERGE_ON_READ \
     --source-ordering-field __source_ts_ms \
-    --props "s3://${DATA_LAKE_BUCKET}/hudi/deltastreamer_0_8_0_artworks.properties" \
+    --props "s3://${DATA_LAKE_BUCKET}/hudi/deltastreamer_artworks.properties" \
     --source-class org.apache.hudi.utilities.sources.AvroDFSSource \
     --target-base-path "s3://${DATA_LAKE_BUCKET}/moma/artworks/" \
     --target-table moma.artworks \
