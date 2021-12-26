@@ -2,52 +2,6 @@
 
 The following commands were used during the demonstration.
 
-Can't create partitions based on nationality or classification where they contain a word space (e.g., 'South African')
-
-```sql
-SELECT DISTINCT nationality FROM artists ORDER BY nationality;
-
-UPDATE artists
-SET nationality = REPLACE(nationality, ' ', '_')
-WHERE nationality LIKE '% %';
-
-UPDATE artists
-SET nationality = 'Nationality_Unknown'
-WHERE nationality = 'Nationality_unknown';
-
-UPDATE artists
-SET nationality = 'Nationality_Unknown'
-WHERE nationality = 'nationality_Unknown';
-
-UPDATE artists
-SET  gender = NULLIF(gender, '')
-WHERE gender = '';
-
-SELECT DISTINCT classification FROM artworks ORDER BY classification;
-
-UPDATE artworks
-SET classification = 'Not_Assigned'
-WHERE classification = '';
-
-UPDATE artworks
-SET classification = 'Not_Assigned'
-WHERE classification = '(not assigned)';
-
-UPDATE artworks
-SET classification = 'Film_Object'
-WHERE classification = 'Film (object)';
-
-UPDATE artworks
-SET classification = REPLACE(classification, ' ', '_')
-WHERE classification LIKE '% %';
-
-UPDATE artworks
-SET classification = REPLACE(classification, '/', '_')
-WHERE classification LIKE '%/%';
-
-VACUUM FULL VERBOSE ANALYZE;
-```
-
 Set-up variables
 
 ```shell
@@ -64,8 +18,10 @@ Install Hudi DeltaStreamer Dependencies
 
 ```shell
 aws s3 cp base.properties "s3://${DATA_LAKE_BUCKET}/hudi/"
-aws s3 cp deltastreamer_s3.properties "s3://${DATA_LAKE_BUCKET}/hudi/"
+aws s3 cp deltastreamer_artists.properties "s3://${DATA_LAKE_BUCKET}/hudi/"
+aws s3 cp deltastreamer_artworks.properties "s3://${DATA_LAKE_BUCKET}/hudi/"
 aws s3 cp moma.public.artists-value.avsc "s3://${DATA_LAKE_BUCKET}/hudi/"
+aws s3 cp moma.public.artworks-value.avsc "s3://${DATA_LAKE_BUCKET}/hudi/"
 ```
 
 Shell into Kafka Connect EKS Container
@@ -82,6 +38,14 @@ Log into EMR Master Node
 
 ```shell
 ssh -i ${EMR_KEY} hadoop@${EMR_MASTER}
+```
+
+Hide these files (causes errors as of 2021-12-20)
+
+```shell
+mkdir _moved
+sudo mv /usr/lib/spark/jars/spark-tags_2.13-3.2.0.jar ./_moved
+sudo mv /usr/share/aws/emr/emrfs/lib/slf4j-log4j12-1.7.12.jar ./_moved
 ```
 
 Prerequisites for Apache Hudi (see AWS EMR/Hudi docs)
@@ -149,21 +113,21 @@ tail -f logs/connect.log
 Deploy Source and Sink Connectors
 
 ```shell
-curl -s -d @"config/debezium_avro_source_connector_postgresql_moma.json" \
+curl -s -d @"config/source_connector_moma_postgres_kafka.json" \
   -H "Content-Type: application/json" \
-  -X PUT http://localhost:8083/connectors/debezium_avro_source_connector_postgresql_moma/config | jq
+  -X PUT http://localhost:8083/connectors/source_connector_moma_postgres_kafka/config | jq
 
-curl -s -d @"config/s3_sink_connector_debezium_avro_moma.json" \
+curl -s -d @"config/sink_connector_moma_kafka_s3.json" \
   -H "Content-Type: application/json" \
-  -X PUT http://localhost:8083/connectors/s3_sink_connector_debezium_avro_moma/config | jq
+  -X PUT http://localhost:8083/connectors/sink_connector_moma_kafka_s3/config | jq
 
 curl -s -X GET http://localhost:8083/connectors | jq
 
 curl -s -H "Content-Type: application/json" \
-    -X GET http://localhost:8083/connectors/debezium_avro_source_connector_postgresql_moma/status | jq
+    -X GET http://localhost:8083/connectors/source_connector_moma_postgres_kafka/status | jq
 
 curl -s -H "Content-Type: application/json" \
-    -X GET http://localhost:8083/connectors/s3_sink_connector_debezium_avro_moma/status | jq
+    -X GET http://localhost:8083/connectors/sink_connector_moma_kafka_s3/status | jq
 ```
 
 Show Kafka Topics
