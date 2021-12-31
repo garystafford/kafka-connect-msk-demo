@@ -1,0 +1,54 @@
+[
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "Open Data Lakes on AWS"
+  },
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "Development"
+  },
+  {
+    "ParameterKey": "ClusterName",
+    "ParameterValue": "emr-demo-cluster"
+  },
+  {
+    "ParameterKey": "EC2SSHKey",
+    "ParameterValue": "<your-ssh-key>"
+  },
+  {
+    "ParameterKey": "ProjectBucketName",
+    "ParameterValue": "<your-s3-bucket>"
+  },
+  {
+    "ParameterKey": "PublicSubnet",
+    "ParameterValue": "<your-subnet>"
+  },
+  {
+    "ParameterKey": "TerminationProtected",
+    "ParameterValue": "false"
+  },
+  {
+    "ParameterKey": "MasterInstanceCount",
+    "ParameterValue": "1"
+  },
+  {
+    "ParameterKey": "MasterInstanceType",
+    "ParameterValue": "r5.2xlarge"
+  },
+  {
+    "ParameterKey": "CoreInstanceCount",
+    "ParameterValue": "2"
+  },
+  {
+    "ParameterKey": "CoreInstanceType",
+    "ParameterValue": "r5.2xlarge"
+  },
+  {
+    "ParameterKey": "ReleaseLabel",
+    "ParameterValue": "emr-6.5.0"
+  },
+  {
+    "ParameterKey": "EbsRootVolumeSize",
+    "ParameterValue": "32"
+  }
+]
