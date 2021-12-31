@@ -1,8 +1,12 @@
-export DATA_LAKE_BUCKET="open-data-lake-demo-us-east-1"
+export DATA_LAKE_BUCKET="<your_data_lake_bucket>"
+
+# drop previous copies of databases in Hive
+hive -e "DROP DATABASE moma_cow CASCADE;DROP DATABASE moma_mor CASCADE;" || echo "Databases do not exist"
 
 # Artists - CoW
+echo "Starting Bulk Insert Artists - Hudi CoW..."
 spark-submit \
-    --name "Upsert Artists - Hudi CoW" \
+    --name "Bulk Insert Artists - Hudi CoW" \
     --jars /usr/lib/spark/jars/spark-avro.jar,/usr/lib/hudi/hudi-utilities-bundle.jar \
     --conf spark.sql.catalogImplementation=hive \
     --class org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamer /usr/lib/hudi/hudi-utilities-bundle.jar \
@@ -14,13 +18,14 @@ spark-submit \
     --target-table moma_cow.artists \
     --schemaprovider-class org.apache.hudi.utilities.schema.SchemaRegistryProvider \
     --enable-sync \
-    --continuous \
-    --op UPSERT \
-> /dev/null 2>&1 &
+    --op BULK_INSERT \
+    --filter-dupes \
+> deltastreamer_artists_cow.log 2>&1 &
 
 # Artworks - CoW
+echo "Starting Bulk Insert Artworks - Hudi CoW..."
 spark-submit \
-    --name "Upsert Artworks - Hudi CoW" \
+    --name "Bulk Insert Artworks - Hudi CoW" \
     --jars /usr/lib/spark/jars/spark-avro.jar,/usr/lib/hudi/hudi-utilities-bundle.jar \
     --conf spark.sql.catalogImplementation=hive \
     --class org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamer /usr/lib/hudi/hudi-utilities-bundle.jar \
@@ -32,13 +37,14 @@ spark-submit \
     --target-table moma_cow.artworks \
     --schemaprovider-class org.apache.hudi.utilities.schema.SchemaRegistryProvider \
     --enable-sync \
-    --continuous \
-    --op UPSERT \
-> /dev/null 2>&1 &
+    --op BULK_INSERT \
+    --filter-dupes \
+> deltastreamer_artworks_cow.log 2>&1 &
 
 # Artists - MoR
+echo "Starting Bulk Insert Artists - Hudi MoR..."
 spark-submit \
-    --name "Upsert Artworks - Hudi MoR" \
+    --name "Bulk Insert Artists - Hudi MoR" \
     --jars /usr/lib/spark/jars/spark-avro.jar,/usr/lib/hudi/hudi-utilities-bundle.jar \
     --conf spark.sql.catalogImplementation=hive \
     --class org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamer /usr/lib/hudi/hudi-utilities-bundle.jar \
@@ -50,13 +56,14 @@ spark-submit \
     --target-table moma_mor.artists \
     --schemaprovider-class org.apache.hudi.utilities.schema.SchemaRegistryProvider \
     --enable-sync \
-    --continuous \
-    --op UPSERT \
-> /dev/null 2>&1 &
+    --op BULK_INSERT \
+    --filter-dupes \
+> deltastreamer_artists_mor.log 2>&1 &
 
 # Artworks - MoR
+echo "Starting Bulk Insert Artworks - Hudi MoR..."
 spark-submit \
-    --name "Upsert Artworks - Hudi MoR" \
+    --name "Bulk Insert Artworks - Hudi MoR" \
     --jars /usr/lib/spark/jars/spark-avro.jar,/usr/lib/hudi/hudi-utilities-bundle.jar \
     --conf spark.sql.catalogImplementation=hive \
     --class org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamer /usr/lib/hudi/hudi-utilities-bundle.jar \
@@ -68,17 +75,17 @@ spark-submit \
     --target-table moma_mor.artworks \
     --schemaprovider-class org.apache.hudi.utilities.schema.SchemaRegistryProvider \
     --enable-sync \
-    --continuous \
-    --op UPSERT \
-> /dev/null 2>&1 &
+    --op BULK_INSERT \
+    --filter-dupes \
+> deltastreamer_artworks_mor.log 2>&1 &
 
-sleep 2
+sleep 5
 
 # list running processes
 ps
 
 # wait for them to fully start
-sleep 30
+sleep 45
 
 # list running YARN applications
 yarn application -list -appStates RUNNING -appTypes SPARK
