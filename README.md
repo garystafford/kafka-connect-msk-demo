@@ -1,4 +1,4 @@
-# Exploring Apache Kafka on AWS
+# Exploring Data Lakes CDC, Apache Kafka, and Apache Hudi on AWS
 
 Source code for the following series of blog posts:  
 * [Hydrating a Data Lake using Query-based CDC with Apache Kafka Connect and Kubernetes on AWS](https://itnext.io/hydrating-a-data-lake-using-query-based-cdc-with-apache-kafka-connect-and-kubernetes-on-aws-cd4725b58c2e)
@@ -7,10 +7,7 @@ Source code for the following series of blog posts:
 * [Stream Processing with Apache Spark, Kafka, Avro, and Apicurio Registry on Amazon EMR and Amazon MSK](https://itnext.io/stream-processing-with-apache-spark-kafka-avro-and-apicurio-registry-on-amazon-emr-and-amazon-13080defa3be)
 * [Working with Apache Avro files in Amazon S3](https://garystafford.medium.com/previewing-apache-avro-files-in-amazon-s3-98f41e98f656)
 * [Building Open Data Lakes: Debezium, Apache Kafka, Hudi, Spark, and Hive on AWS](https://youtu.be/E1N0RuK1PLc)
-
-## Architecture
-
-![Architecture](diagrams/Kafka%20Connect%20Diagram%20v8.png)
+* [The Art of Building Open Data Lakes with Apache Hudi, Kafka, Hive, and Debezium](https://garystafford.medium.com/the-art-of-building-open-data-lakes-with-apache-hudi-kafka-hive-and-debezium-3d2f71c5981f)
 
 ---
 
