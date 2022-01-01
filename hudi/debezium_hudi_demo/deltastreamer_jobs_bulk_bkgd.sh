@@ -84,7 +84,7 @@ sleep 5
 # list running processes
 ps
 
-# wait for them to fully start
+# wait for the Spark jobs to fully start
 sleep 45
 
 # list running YARN applications
