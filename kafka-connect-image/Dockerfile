@@ -1,6 +1,6 @@
 # purpose: Kafka Connect for Amazon MSK
 # author: Gary A. Stafford
-# date: 2021-10-28
+# date: 2021-12-31
 
 FROM openjdk:17-alpine3.14
 
@@ -10,14 +10,14 @@ ENV BBROKERS=$BBROKERS
 
 ENV KAFKA_PLUGINS="/usr/local/share/kafka/plugins"
 
-ENV KAFKA_VERSION="2.8.1"
-ENV KAFKA_PACKAGE="kafka_2.13-2.8.1"
+ENV KAFKA_VERSION="3.0.0"
+ENV KAFKA_PACKAGE="kafka_2.13-3.0.0"
 ENV AWS_MSK_IAM_AUTH="1.1.1"
-ENV CONNECT_JDBC="10.2.5"
-ENV CONNECT_S3="10.0.3"
-ENV APICURIO="2.1.1.Final"
-ENV CONFLUENT_KAFKA="6.2.1"
-ENV CONNECT_DEBEZIUM="1.7.0.Final"
+ENV CONNECT_JDBC="10.2.6"
+ENV CONNECT_S3="10.0.4"
+ENV APICURIO="2.1.5.Final"
+ENV CONFLUENT_KAFKA="7.0.1"
+ENV CONNECT_DEBEZIUM="1.8.0.Final"
 #################
 
 RUN apk add --no-cache curl wget tar bash jq vim
