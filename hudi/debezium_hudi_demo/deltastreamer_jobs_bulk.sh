@@ -72,9 +72,8 @@ spark-submit \
     --filter-dupes
 
 # confirm results in Hive
-hive -e "SHOW DATABASES;use moma_cow;SHOW TABLES;use moma_mor;SHOW TABLES;"
+hive -e "SHOW DATABASES;USE moma_cow;SHOW TABLES;USE moma_mor;SHOW TABLES;"
 
 # update Hive Partitions
-hive -e "MSCK REPAIR TABLE moma_mor.artists_ro;MSCK REPAIR TABLE moma_mor.artists_rt;"
-hive -e "MSCK REPAIR TABLE moma_mor.artworks_ro;MSCK REPAIR TABLE moma_mor.artworks_rt;"
-hive -e "MSCK REPAIR TABLE moma_cow.artists;MSCK REPAIR TABLE moma_cow.artworks;"
+hive -e "MSCK REPAIR TABLE moma_cow.artists;MSCK REPAIR TABLE moma_mor.artists_ro;MSCK REPAIR TABLE moma_mor.artists_rt;"
+hive -e "MSCK REPAIR TABLE moma_cow.artworks;MSCK REPAIR TABLE moma_mor.artworks_ro;MSCK REPAIR TABLE moma_mor.artworks_rt;"
